@@ -70,6 +70,12 @@
         git pull origin master submit-questions
         ```
 
+    - 切换到用于提交问题的分支
+
+        ```bash
+        git checkout submit-questions
+        ```
+
 3. **运行程序**:
 
     1. 在文件夹中打开终端 (Git Bash 或 Windows Terminal 均可), 切换到 `questions` 目录
