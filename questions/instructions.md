@@ -67,7 +67,13 @@
     - 拉取到本地. 在这一步, 你可能需要输入你的 GitHub 用户名和密码. 或者你可能需要输入其他凭据, 请根据实际情况进行.
     
         ```bash
-        git pull origin master submit-questions
+        git fetch origin
+        ```
+
+    - 切换到用于提交问题的分支
+
+        ```bash
+        git checkout submit-questions
         ```
 
 3. **运行程序**:
