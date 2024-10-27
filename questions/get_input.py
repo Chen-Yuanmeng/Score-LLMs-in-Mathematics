@@ -94,7 +94,7 @@ def main():
         if not yes_or_no('还要继续输入题目吗?'):
             break
 
-    with open(f'output-{str(int(time.time()))}.json', 'w', encoding='UTF-8') as g:
+    with open(f'output/output-{getpass.getuser()}-{time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())}.json', 'w', encoding='UTF-8') as g:
         json.dump(pool, g, indent=4, ensure_ascii=False)
 
 
