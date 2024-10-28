@@ -108,8 +108,14 @@
         cd ./output
         ```
 
+    2. 从 GitHub 拉取目前的最新分支.
 
-    2. 用 Git 提交你的更改.
+        ```bash
+        git pull origin submit-questions
+        ```
+
+
+    3. 用 Git 提交你的更改.
 
         如, 假设你生成的问题文件为 `output-Example_1.json` 和 `output-Example_2.json`, 那么你可以输入如下命令:
 
@@ -121,12 +127,8 @@
 
         其中, Commit Message 的内容严格为 `Add questions by [你的GitHub用户名] the [1st/2rd/...] time`. 请谨慎, 提交信息在提交之后就没法改了, 只能整个提交删除, 很麻烦, 所以最好别输错.
 
-    3. 推送给远程分支.
+    4. 推送给远程分支.
     
-        注意要先拉后推, 以防远程分支有未同步的更改导致推送失败.
-
         ```bash
-        git pull origin submit-questions
-
         git push origin submit-questions
         ```
