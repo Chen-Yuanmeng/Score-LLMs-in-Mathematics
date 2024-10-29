@@ -35,6 +35,8 @@
 
         注意每句话后面要有合适的标点 (如问号或), 否则一些模型可能输出错误.
 
+3. 建议在本地维护一个表格/Word文档, 只需要记录 `Category` `Sub-category` `Question in Chinese` `Question in English` `Answer` 五个字段的信息就可以, 这样方便储存和更改. 如下图: ![Example of Excel document for backup](./assets/Excel_example.png)
+
 
 ## 提交软件使用说明
 
@@ -114,6 +116,7 @@
         git pull origin submit-questions
         ```
 
+        *注意: 如果这一步触发了 merge 操作, 可能会触发输入 MERGE_MSG (Merge message) 操作, 见下面的标号v.*
 
     3. 用 Git 提交你的更改.
 
@@ -132,3 +135,21 @@
         ```bash
         git push origin submit-questions
         ```
+
+    5. Git Merge Message 如何填写
+
+        虽然上面的操作步骤已经可以最大程度避免触发 Git Merge, 但是有时两个人提交时间过于接近仍会触发这一情况, 故在此说明.
+
+        触发这一情况时, Git 会自动根据你的设置 (在安装时的设置) 调用某个文本编辑器 (默认是VIM) 来填写 Merge Message.
+
+        若为VIM (如下图所示), 只需输入以下内容 (注意一定不要少输前面的冒号):
+
+        ```vim
+        :q
+        ```
+
+        ![VIM Merge Message](./assets/VIM_merge_msg.png)
+
+        如果不是 VIM 而是其他的文本编辑器 (如 VSCode 等), 直接关闭打开的窗口就可以.
+
+        这样, 此次合并就会以默认信息提交成功. 提交之后不要忘了执行上面的第4条 (推送到远程分支).
