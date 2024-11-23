@@ -1,8 +1,8 @@
-# Custom Handlers for LLMs
+# Custom Handlers for Endpoints
 
 Files in this folder are custom handlers for the respective models, enabling them to be able to be run on [Inference Endpoints](https://ui.endpoints.huggingface.co/) under `Custom` task mode.
 
-### Aspects these custom handlers do instead of default action
+### What these custom handlers do instead of default action
 
 - These handlers will record the time spent generating responses and calculate the speed (tokens/s)
 - These handlers provide specially-designed prompts
