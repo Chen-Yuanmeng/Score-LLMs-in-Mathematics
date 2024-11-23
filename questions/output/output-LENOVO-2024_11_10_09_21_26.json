@@ -3,7 +3,7 @@
         "Unique ID": "LENOVO.1731201372",
         "Category": "MP",
         "Sub-category": "MS",
-        "Question in Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计",
+        "Question in Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
         "Question in English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
         "Answer": "X(1)  (各X中的最小值)"
     },
@@ -11,7 +11,7 @@
         "Unique ID": "LENOVO.1731201439",
         "Category": "MP",
         "Sub-category": "MS",
-        "Question in Chinese": "令$X$服从自由度为$n\\,(n\\ge 2)$的t分布，求$X$的期望$EX$",
+        "Question in Chinese": "令$X$服从自由度为$n\\,(n\\ge 2)$的t分布，求$X$的期望$EX$。",
         "Question in English": "Let $X$ obey the t-distribution with degrees of freedom $n\\,(n\\ge 2)$ and find the expectation $EX$ of $X$.",
         "Answer": "0"
     },
@@ -19,23 +19,23 @@
         "Unique ID": "LENOVO.1731201481",
         "Category": "PP",
         "Sub-category": "PM",
-        "Question in Chinese": "为什么普通光源难以产生干涉条纹",
-        "Question in English": "Why it is difficult to produce interference fringes with ordinary light sources",
+        "Question in Chinese": "为什么普通光源难以产生干涉条纹？",
+        "Question in English": "Why it is difficult to produce interference fringes with ordinary light sources?",
         "Answer": "发光有间隙性，发光初相位、振幅、偏振方向独立随机"
     },
     {
         "Unique ID": "LENOVO.1731201520",
         "Category": "PP",
         "Sub-category": "PM",
-        "Question in Chinese": "从流体粘滞阻力角度解释为什么鸟类翅膀为流线型，飞虫不是",
-        "Question in English": "Explain, in terms of fluid viscous drag, why bird wings are streamlined and flying insects are not",
+        "Question in Chinese": "从流体粘滞阻力角度解释为什么鸟类翅膀为流线型，飞虫不是。",
+        "Question in English": "Explain, in terms of fluid viscous drag, why bird wings are streamlined and flying insects are not.",
         "Answer": "鸟类飞行速度高，以压差阻力为主，取流线型，而飞虫飞行速度低，以粘滞阻力为主"
     },
     {
         "Unique ID": "LENOVO.1731201571",
         "Category": "PP",
         "Sub-category": "PM",
-        "Question in Chinese": "解释为什么悬浮在等密度水溶液中的小油滴呈球形",
+        "Question in Chinese": "解释为什么悬浮在等密度水溶液中的小油滴呈球形。",
         "Question in English": "Explain why small oil droplets suspended in an aqueous solution of equal density are spherical in shape.",
         "Answer": "球形状态下表面积最小，表面自由能最低"
     },
@@ -43,16 +43,16 @@
         "Unique ID": "LENOVO.1731201604",
         "Category": "PP",
         "Sub-category": "PM",
-        "Question in Chinese": "解释近场扫描光学显微镜涉及的光波场",
-        "Question in English": "Explain the light wave fields involved in near-field scanning optical microscopy",
+        "Question in Chinese": "解释近场扫描光学显微镜涉及的光波场。",
+        "Question in English": "Explain the light wave fields involved in near-field scanning optical microscopy.",
         "Answer": "过临界角的透射隐失场，超精细结构的衍射隐失场"
     },
     {
         "Unique ID": "LENOVO.1731201646",
         "Category": "PP",
         "Sub-category": "PM",
-        "Question in Chinese": "解释什么是电极化现象",
-        "Question in English": "Explain what the phenomenon of electric polarisation is",
+        "Question in Chinese": "解释什么是电极化现象。",
+        "Question in English": "Explain what the phenomenon of electric polarisation is.",
         "Answer": "当给电介质施加一个电场时，由于电介质内部正负电荷的相对位移，会产生电偶极矩"
     }
 ]
