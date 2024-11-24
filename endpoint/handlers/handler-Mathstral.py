@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 class EndpointHandler:
     """
-    Custom handler for `mistralai/Mathstral-7B-v0.1`.
+    Custom handler for `Qwen/Qwen2.5-Math-7B-Instruct`.
     """
     def __init__(self, path=""):
         """
@@ -42,7 +42,6 @@ class EndpointHandler:
         tokenized_prompt = self.tokenizer.apply_chat_template(
             messages,
             add_generation_prompt=True,
-            return_dict=True,
             return_tensors="pt"
         ).to("cuda")
 
@@ -50,7 +49,7 @@ class EndpointHandler:
 
         time_start = time.time()
         out = self.model.generate(
-            **tokenized_prompt,
+            tokenized_prompt,
             max_new_tokens=max_new_tokens,
             temperature=1.0,
             do_sample=True,
@@ -59,7 +58,7 @@ class EndpointHandler:
         )
         time_end = time.time()
 
-        response = self.tokenizer.decode(out[0])
+        response = self.tokenizer.decode(out[0][len(tokenized_prompt[0]):])
 
         num_new_tokens = len(out[0]) - len(tokenized_prompt[0])
 
