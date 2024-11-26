@@ -4,7 +4,7 @@
         "Category": "MP",
         "Sub-category": "DE",
         "Question in Chinese": "计算微分方程的通解${y}^{(5)} -{y}^{(4)} =0$.",
-        "Question in English": "",
+        "Question in English": "Calculate the general solution of the differential equation ${y}^{(5)} -{y}^{(4)} =0$.",
         "Answer": "y为关于x的任意5次及以下的多项式函数"
     },
     {
@@ -12,7 +12,7 @@
         "Category": "MP",
         "Sub-category": "DE",
         "Question in Chinese": "计算微分方程的通解$y\\log_{e}{y} \\mathrm{d}x+  \\left ( x- \\log_{e}{y}  \\right ) \\mathrm{d}y =0$.",
-        "Question in English": "",
+        "Question in English": "Calculate the general solution of the differential equation $y\\log_{e}{y} \\mathrm{d}x+  \\left ( x- \\log_{e}{y}  \\right ) \\mathrm{d}y =0$.",
         "Answer": "x=0.5 lny+C/lny"
     },
     {
@@ -20,7 +20,7 @@
         "Category": "MP",
         "Sub-category": "DE",
         "Question in Chinese": "计算微分方程的通解${y}'' -3{y}' +2y=xe^{2x} $.",
-        "Question in English": "",
+        "Question in English": "Calculate the general solution of the differential equation ${y}'' -3{y}' +2y=xe^{2x} $.",
         "Answer": "y=Ce^x + De^2x +x(0.5x-1)e^2x"
     },
     {
@@ -28,7 +28,7 @@
         "Category": "MP",
         "Sub-category": "DE",
         "Question in Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
-        "Question in English": "",
+        "Question in English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
         "Answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C"
     },
     {
@@ -36,7 +36,7 @@
         "Category": "MP",
         "Sub-category": "DE",
         "Question in Chinese": "计算微分方程${s}'' =-0.2$的通解.",
-        "Question in English": "",
+        "Question in English": "Calculate the general solution of the differential equation ${s}'' =-0.2$.",
         "Answer": "s=-0.1x^2+Cx+D"
     }
 ]
