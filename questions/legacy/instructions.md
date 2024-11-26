@@ -15,11 +15,11 @@
 
 1. 关于字段的说明
     - `Unique ID`: 每个问题有自己的唯一标识符, 理论上不会重复. 此标识符由程序自动生成, 不需要手动操作.
-    - `Category`: 问题所属大类.
-    - `Sub-category`: 问题所属小类. 未分小类则写 `null`.
-    - `Question in Chinese`: 中文写成的问题内容. 默认使用这个版本的问题.
-    - `Question in English`: 英文写成的问题内容. 为没有中文能力的大模型准备, 请尽量保证翻译准确.
-    - `Answer`: 问题答案. 此内容只给人看, 供之后人工核对使用.
+    - `Category`: 问题所属大类. 均为 `Mathematics`.
+    - `Sub-category`: 问题所属小类.
+    - `Question in Chinese`: 中文写成的问题内容. 仅供人工核对使用, 
+    - `Question in English`: 英文写成的问题内容. 默认使用这个版本的问题, 请务必保证问题准确.
+    - `Answer`: 问题答案. 此内容只给人看, 供模型生成输出之后人工核对使用.
 
 2. 关于问题输入格式的说明:
 
@@ -33,7 +33,7 @@
 
     2. 标点
 
-        注意每句话后面要有合适的标点 (如问号或), 否则一些模型可能输出错误.
+        注意每句话后面要有合适的标点 (如问号或句点), 否则一些模型可能输出错误.
 
 3. 建议在本地维护一个表格/Word文档, 只需要记录 `Category` `Sub-category` `Question in Chinese` `Question in English` `Answer` 五个字段的信息就可以, 这样方便储存和更改. 如下图: ![Example of Excel document for backup](./assets/Excel_example.png)
 

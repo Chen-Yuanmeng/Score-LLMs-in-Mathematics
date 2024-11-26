@@ -1,0 +1,42 @@
+[
+    {
+        "Unique ID": "asus.1732078720",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "计算矩阵的特征值$\\begin{bmatrix}7& -2 & 0\\\\-2 & 6 & 2\\\\0& 2 &5\\end{bmatrix}$.",
+        "Question in English": "Calculate the eigenvalues of a matrix $\\begin{bmatrix}7& -2 & 0\\\\-2 & 6 & 2\\\\0& 2 &5\\end{bmatrix}$.",
+        "Answer": "1,2/3,1/3"
+    },
+    {
+        "Unique ID": "asus.1732078752",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知a,b为实数，求矩阵$\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$的特征向量.",
+        "Question in English": "Given that a and b are real numbers, find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$. ",
+        "Answer": "[1,-i],[1,i],不唯一"
+    },
+    {
+        "Unique ID": "asus.1732078795",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "计算$\\begin{bmatrix} 4 & 0 & 5\\\\ -1 & 3 &2\\end{bmatrix}+\\begin{bmatrix}  1&1  &1 \\\\ 1 & 1 &1\\end{bmatrix}$.",
+        "Question in English": "Calculate $\\begin{bmatrix} 4 & 0 & 5\\\\ -1 & 3 &2\\end{bmatrix}+\\begin{bmatrix}  1&1  &1 \\\\ 1 & 1 &1\\end{bmatrix}$.",
+        "Answer": "[5,1,6\\\\0,4,3],两行三列"
+    },
+    {
+        "Unique ID": "asus.1732078873",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "求$\\begin{bmatrix} 3 &4 \\\\5  &6\\end{bmatrix}$的逆矩阵.",
+        "Question in English": "Find the inverse matrix $\\begin{bmatrix} 3 &4 \\\\5  &6\\end{bmatrix}$.",
+        "Answer": "[-3,2\\\\5/2,-3/2]"
+    },
+    {
+        "Unique ID": "asus.1732079073",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "计算行列式$\\begin{vmatrix} 1 & 5 & 0\\\\ 2 &  4& -1\\\\ 0 & -2 &0\\end{vmatrix}$.",
+        "Question in English": "Calculate the determinant $\\begin{vmatrix} 1 & 5 & 0\\\\ 2 &  4& -1\\\\ 0 & -2 &0\\end{vmatrix}$.",
+        "Answer": "-2"
+    }
+]
