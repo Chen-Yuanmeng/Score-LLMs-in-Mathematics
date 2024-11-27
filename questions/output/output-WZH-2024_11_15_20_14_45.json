@@ -1,0 +1,162 @@
+[
+    {
+        "Unique ID": "WZH.1731672139",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "两直线平行，它们的同位角有什么关系？",
+        "Question in English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "Answer": "equal"
+    },
+    {
+        "Unique ID": "WZH.1731672182",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "凸八边形的内角和是多少度？",
+        "Question in English": "What is the sum of the inside angles of a convex octagon？",
+        "Answer": "1080"
+    },
+    {
+        "Unique ID": "WZH.1731672224",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "一个直角三角形，它的两条直角边长分别为3和4，求其斜边长。",
+        "Question in English": "A right-angled triangle with two right-angled sides of 3 and 4 lengths respectively, find the length of its hypotenuse.",
+        "Answer": "5"
+    },
+    {
+        "Unique ID": "WZH.1731672263",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "已知三角形ABC，D为AB中点，E为AC中点，BC的长为6，求DE的长。",
+        "Question in English": "Given the triangle ABC, D is the midpoint of AB, E is the midpoint of AC, the length of BC is 6, find the length of DE.",
+        "Answer": "3"
+    },
+    {
+        "Unique ID": "WZH.1731672301",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "圆O的半径为2，其面积是多少？",
+        "Question in English": "The radius of the circle O is 2, what is its area?",
+        "Answer": "4pi"
+    },
+    {
+        "Unique ID": "WZH.1731672342",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "一个三角形的三边长为7、24、25，求其面积。",
+        "Question in English": "The three sides of a triangle are 7, 24, 25 in length, find its area.",
+        "Answer": "84"
+    },
+    {
+        "Unique ID": "WZH.1731672385",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "3条直线最多将平面分成几个区域？",
+        "Question in English": "How many areas does 3 lines divide the plane into at most?",
+        "Answer": "7"
+    },
+    {
+        "Unique ID": "WZH.1731672418",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "三角形ABC中，a=b=c，求角A的大小。",
+        "Question in English": "In triangle ABC, a=b=c, find the magnitude of the angle A.",
+        "Answer": "60"
+    },
+    {
+        "Unique ID": "WZH.1731672449",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "椭圆的长轴为4，短轴为2，求其面积。",
+        "Question in English": "The major axis of the ellipse is 4 and the minor axis is 2, find its area.",
+        "Answer": "2pi"
+    },
+    {
+        "Unique ID": "WZH.1731672489",
+        "Category": "MP",
+        "Sub-category": "G",
+        "Question in Chinese": "一个三角形的三边长为6，8，10，求其外接圆半径。",
+        "Question in English": "The three sides of a triangle are 6, 8, 10 long, and find the radius of its circumscribed circle.",
+        "Answer": "5"
+    },
+    {
+        "Unique ID": "WZH.1731672524",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知向量w=(1, 2, 3)，求3w.",
+        "Question in English": "Given the vector w=(1, 2, 3), find 3w.",
+        "Answer": "(3, 6, 9)"
+    },
+    {
+        "Unique ID": "WZH.1731672561",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知矩阵$ A=\\begin{pmatrix}0 & 1\\\\1 & 0\\end{pmatrix}, B=\\begin{pmatrix}1 & 0\\\\0 & 1\\end{pmatrix} $，计算A+B.",
+        "Question in English": "Given the matrices $ A=\\begin{pmatrix}0 & 1\\\\1 & 0\\end{pmatrix}, B=\\begin{pmatrix}1 & 0\\\\0 & 1\\end{pmatrix} $, calculate A+B.",
+        "Answer": "all 1"
+    },
+    {
+        "Unique ID": "WZH.1731672598",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知矩阵$ A=\\begin{pmatrix}1 & 0\\\\0 & 1\\end{pmatrix} $，求A的逆矩阵。",
+        "Question in English": "Given the matrices $ A=\\begin{pmatrix}1 & 0\\\\0 & 1\\end{pmatrix} $, find the inverse matrix of A.",
+        "Answer": "just A"
+    },
+    {
+        "Unique ID": "WZH.1731672633",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知矩阵$ A=\\begin{pmatrix}1 & 0\\\\0 & 1\\end{pmatrix}, B=\\begin{pmatrix}2 & 3\\\\4 & 5\\end{pmatrix} $，计算AB。",
+        "Question in English": "Given the matrices $ A=\\begin{pmatrix}1 & 0\\\\0 & 1\\end{pmatrix}, B=\\begin{pmatrix}2 & 3\\\\4 & 5\\end{pmatrix} $, calculate AB.",
+        "Answer": "just B"
+    },
+    {
+        "Unique ID": "WZH.1731672667",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知向量w=(1, 2, 2)，计算w的模长。",
+        "Question in English": "Given the vector w = (1, 2, 2), calculate the modulus length of w.",
+        "Answer": "3"
+    },
+    {
+        "Unique ID": "WZH.1731672713",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知矩阵$ A=\\begin{pmatrix}1 & 2\\\\2 & 4\\end{pmatrix} $，求A的秩",
+        "Question in English": "Given the matrices $ A=\\begin{pmatrix}1 & 2\\\\2 & 4\\end{pmatrix} $, find the rank of A.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "WZH.1731672751",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知矩阵$ A=\\begin{pmatrix}1 & 2\\\\2 & 4\\end{pmatrix} $，求矩阵A的迹。",
+        "Question in English": "Given the matrices $ A=\\begin{pmatrix}1 & 2\\\\2 & 4\\end{pmatrix} $, find the trace of A.",
+        "Answer": "5"
+    },
+    {
+        "Unique ID": "WZH.1731672785",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知向量a=(1, 2, 3), b=(4, 5, 6)，计算a与b的外积。",
+        "Question in English": "Given the vectors a=(1, 2, 3), b=(4, 5, 6), calculate the outer product of a and b.",
+        "Answer": "(-3, 6, -3)"
+    },
+    {
+        "Unique ID": "WZH.1731672826",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "已知向量a=(7, 23), b=(4, 0)，求a在b上的投影向量。",
+        "Question in English": "Given the vectors a=(7, 23), b=(4, 0), find the projection vector of a on b.",
+        "Answer": "(7, 0)"
+    },
+    {
+        "Unique ID": "WZH.1731672858",
+        "Category": "MP",
+        "Sub-category": "LA",
+        "Question in Chinese": "计算范特蒙行列式的值。",
+        "Question in English": "Calculate the value of the Vantmont determinant.",
+        "Answer": "na"
+    }
+]

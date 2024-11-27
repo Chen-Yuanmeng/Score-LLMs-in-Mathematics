@@ -1,0 +1,122 @@
+[
+    {
+        "Unique ID": "WZH.1731162787",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给定一个整数数组 A 和一个整数目标值 B，请你在该数组中找出和为目标B的那两个整数，并返回它们的数组下标。你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。你可以按任意顺序返回答案。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given an array of integers A and an integer target value B, find the two integers in the array that can add up to the target value and return their array subscripts. You can assume that each input will only correspond to one answer, and that you can't use the same element twice. You can return answers in any order.",
+        "Answer": "NA"
+    },
+    {
+        "Unique ID": "WZH.1731162877",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段C语言代码，它能够打印一个30*30的五子棋棋盘。",
+        "Question in English": "Write a piece of C code that is capable of printing a 30*30 backgammon board.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731162920",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段C语言代码，从键盘读取输入的日期（由年、月、日组成），并输出该日期是星期几。",
+        "Question in English": "Write a piece of C code. It can read the entered date (consisting of year, month, and day) from the keyboard, and output the day of the week for that date.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731162957",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码，实现将给定的罗马数字转换为整数，注意用类封装。",
+        "Question in English": "Write a piece of python3 code that is able to convert a given Roman numeral to an integer. You should encapsulate your code with a class.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731162998",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码，实现求出给定的一组数据的回归直线的斜率，注意用类封装。",
+        "Question in English": "Write a piece of python3 code to find the slope of a regression line for a given set of data. You should encapsulate your code with a class.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163034",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码，判断一个给定整数是否为回文数，注意用类封装。",
+        "Question in English": "Write a piece of python3 code to determine whether a given integer is a palindrome number. You should encapsulate your code with a class.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163067",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given a sorted array and a target value, find the target value in the array and return its index. If the target value does not exist in the array, return the position where it will be inserted sequentially.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163116",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给你一个字符串，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中最后一个单词的长度。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given a string of words separated by some space characters, return the length of the last word in the string.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163164",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给定两个二进制字符串 a 和 b ，以二进制字符串的形式返回它们的和。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given two binary strings, a and b, return their sum as binary strings.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163203",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给定一个整数，返回它在excel表中对应列的名称。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given an integer, return the name of its corresponding column in the excel sheet.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163241",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码，判断两个给定的字符串是否是同构的，注意用类封装。",
+        "Question in English": "Write a piece of python3 code to determine if two given strings are isomorphic. You should encapsulate your code with a class.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163276",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码，判断一个给定整数是否为2的幂次，注意用类封装。",
+        "Question in English": "Write a piece of python3 code to determine whether a given integer is a power of 2. You should encapsulate your code with a class.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163309",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给定一个非负整数，反复将各个位上的数字相加，直到结果为一位数。返回这个结果。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given a non-negative integer, add the digits on each bit repeatedly until the result is a single digit. Return the result.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163347",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码实现如下需求，并用类封装：给定一个包含 [0, n] 中 n 个数的数组，找出 [0, n] 这个范围内没有出现在数组中的那个数。",
+        "Question in English": "Write a piece of python3 code to implement the following requirements, and encapsulate it with a class. Given an array of n numbers in [0, n], find the number in the range [0, n] that does not appear in the array.",
+        "Answer": "na"
+    },
+    {
+        "Unique ID": "WZH.1731163382",
+        "Category": "CO",
+        "Sub-category": "null",
+        "Question in Chinese": "写一段python3代码，将一个数组中所有0移动到数组末尾，并保持所有非零元素的相对顺序，注意用类封装。",
+        "Question in English": "Write a piece of python3 code that moves all zeros in an array to the end of the array, and keeps the relative order of all non-zero elements. You should encapsulate your code with a class.",
+        "Answer": "na"
+    }
+]
