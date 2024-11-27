@@ -1,0 +1,218 @@
+[
+    {
+        "Unique ID": "LENOVO.1731199974",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算: $\\lim_{n \\to \\infty} (1-\\frac{1}{n} )^{\\frac{1}{n} } $。",
+        "Question in English": "Calculate: $\\lim_{n \\to \\infty} (1-\\frac{1}{n} )^{\\frac{1}{n} } $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731200072",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算: $\\sum_{n=1}^{\\infty } \\frac{2n-1}{2^n} $。",
+        "Question in English": "Calculate: $\\sum_{n=1}^{\\infty } \\frac{2n-1}{2^n} $.",
+        "Answer": "3"
+    },
+    {
+        "Unique ID": "LENOVO.1731200116",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算: $\\lim_{x \\to 0} \\frac{\\sqrt{1-\\cos (x^2)} }{1-\\cos x}  $。",
+        "Question in English": "Calculate: $\\lim_{x \\to 0} \\frac{\\sqrt{1-\\cos (x^2)} }{1-\\cos x}  $.",
+        "Answer": "根号2"
+    },
+    {
+        "Unique ID": "LENOVO.1731200167",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求导: $\\frac{\\mathrm{d} }{\\mathrm{d} x} \\tan x  $。",
+        "Question in English": "Calculate the derivative of a function: $\\frac{\\mathrm{d} }{\\mathrm{d} x} \\tan x  $.",
+        "Answer": "(sec x)^2"
+    },
+    {
+        "Unique ID": "LENOVO.1731200231",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算: $\\lim_{x \\to \\infty} \\frac{\\frac{\\pi }{2} -\\arctan x}{\\sin \\frac{1}{x} }   $。",
+        "Question in English": "Calculate: $\\lim_{x \\to \\infty} \\frac{\\frac{\\pi }{2} -\\arctan x}{\\sin \\frac{1}{x} }   $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731200274",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求函数的渐近线: $ f(x)=\\frac{1}{x} +\\ln{(e^{x} +1 )}  $。",
+        "Question in English": "Find the asymptote of the function: $ f(x)=\\frac{1}{x} +\\ln{(e^{x} +1 )}  $.",
+        "Answer": "y=x"
+    },
+    {
+        "Unique ID": "LENOVO.1731200317",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算: $ \\int_{0}^{1} e^{\\sqrt{x}} \\,dx $。",
+        "Question in English": "Calculate: $ \\int_{0}^{1} e^{\\sqrt{x}} \\,dx $.",
+        "Answer": "2"
+    },
+    {
+        "Unique ID": "LENOVO.1731200397",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求幂级数的和函数: $ \\sum_{n=1}^{\\infty } \\frac{(-1)^n \\cdot x^{2n+1}}{2n+1} $。",
+        "Question in English": "Find the sum function of a power series:$ \\sum_{n=1}^{\\infty } \\frac{(-1)^n \\cdot x^{2n+1}}{2n+1} $.",
+        "Answer": "arctanx-x"
+    },
+    {
+        "Unique ID": "LENOVO.1731200433",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算函数$f(x,y)=x^y $在点(1,4)处的二阶混合偏导值: $  \\frac{\\partial^2 f}{\\partial x\\partial y}  $。",
+        "Question in English": "Calculate the second-order mixed partial derivative of the function $f(x,y)=x^y $ at the point (1,4): $  \\frac{\\partial^2 f}{\\partial x\\partial y}  $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731200476",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求曲线:$ 2(x^3+y^3)-9xy=0  $在点(2,1)处的切线方程。",
+        "Question in English": "Find the equation of the tangent line to the curve:$ 2(x^3+y^3)-9xy=0  $ at the point (2,1).",
+        "Answer": "5x-4y-6=0"
+    },
+    {
+        "Unique ID": "LENOVO.1731200520",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算: $\\lim_{a \\to 0} \\int_{a}^{a+1}\\frac{ \\,dx}{1+x^2+a^2}  $。",
+        "Question in English": "Calculate: $\\lim_{a \\to 0} \\int_{a}^{a+1}\\frac{ \\,dx}{1+x^2+a^2}  $.",
+        "Answer": "π/4"
+    },
+    {
+        "Unique ID": "LENOVO.1731200562",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算区域$D:[0,1]\\times [-1,0]$上的面积分: $\\iint_{D} xe^{xy} \\,dxdy $。",
+        "Question in English": "Compute the multiple integral over the region $D:[0,1]\\times [-1,0]$:$\\iint_{D} xe^{xy} \\,dxdy $.",
+        "Answer": "1/e"
+    },
+    {
+        "Unique ID": "LENOVO.1731200611",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算沿回路$L:(x-1)^2+(y-1)^2=4$逆时针方向的积分: $\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $。",
+        "Question in English": "Calculate the integral along the loop $L:(x-1)^2+(y-1)^2=4$ counterclockwise:$\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $.",
+        "Answer": "2π"
+    },
+    {
+        "Unique ID": "LENOVO.1731200649",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算多重积分:$\\iiint_{V} xyz\\mathrm{d}V ,V=\\left \\{ (x,y,z):x^2+y^2+z^2\\le 1,x\\ge 0,y\\ge 0,z\\ge 0 \\right \\}   $。",
+        "Question in English": "Compute the multiple integral:$\\iiint_{V} xyz\\mathrm{d}V ,V=\\left \\{ (x,y,z):x^2+y^2+z^2\\le 1,x\\ge 0,y\\ge 0,z\\ge 0 \\right \\}   $.",
+        "Answer": "1/48"
+    },
+    {
+        "Unique ID": "LENOVO.1731200696",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算逆时针方向的回路积分:$\\oint_{C} (2y+z)\\mathrm{d}x+(x-z)\\mathrm{d}y+(y-x)\\mathrm{d}z $ 其中$C$表示平面$x+y+z=1$分别与平面$x=0$,$y=0$,$z=0$的交线围成的三角形。",
+        "Question in English": "Calculate the loop integral $\\oint_{C} (2y+z)\\mathrm{d}x+(x-z)\\mathrm{d}y+(y-x)\\mathrm{d}z $ in the counterclockwise direction where $C$ denotes the plane $x+y+z=1$ the triangle formed by the lines of intersection with the planes $x=0$,$y=0$,$z=0$, respectively.",
+        "Answer": "1.5"
+    },
+    {
+        "Unique ID": "LENOVO.1731669120",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算:$\\sum_{n=1}^{\\infty } \\frac{1}{2^n} $。",
+        "Question in English": "Calculate:$\\sum_{n=1}^{\\infty } \\frac{1}{2^n} $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731669191",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算:$\\lim_{n \\to \\infty} (1+\\frac{1}{n} )^n $。",
+        "Question in English": "Calculate:$\\lim_{n \\to \\infty} (1+\\frac{1}{n} )^n $.",
+        "Answer": "e"
+    },
+    {
+        "Unique ID": "LENOVO.1731669234",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "判断级数$\\sum_{n=1}^{\\infty } \\frac{(-1)^n}{n}  $是否收敛。",
+        "Question in English": "Determine if the series $\\sum_{n=1}^{\\infty }\\frac{(-1)^n}{n} $ converges.",
+        "Answer": "收敛"
+    },
+    {
+        "Unique ID": "LENOVO.1731669282",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算:$\\sum_{n=1}^{\\infty } \\frac{6}{\\pi^2n^2}  $。",
+        "Question in English": "Calculate:$\\sum_{n=1}^{\\infty } \\frac{6}{\\pi^2n^2} $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731669334",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求:$(1+x)^\\pi  $在$x=0$处泰勒展开式中的前2项。",
+        "Question in English": "Find the first 2 terms in the Taylor expansion of :$(1+x)^\\pi $ at $x=0$.",
+        "Answer": "1+πx"
+    },
+    {
+        "Unique ID": "LENOVO.1731669380",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求函数$f(x)=x^4(x-1)^3$的极大值。",
+        "Question in English": "Find the local maximum of the function $f(x)=x^4(x-1)^3$.",
+        "Answer": "0"
+    },
+    {
+        "Unique ID": "LENOVO.1731669424",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求函数$f(x)=x^4-4x^3+10$的最小值。",
+        "Question in English": "Find the minimum value of the function $f(x)=x^4-4x^3+10$.",
+        "Answer": "-17"
+    },
+    {
+        "Unique ID": "LENOVO.1731669474",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算不定积分:$\\int \\frac{1}{x} \\mathrm{dx}  $。",
+        "Question in English": "Calculate the indefinite integral:$\\int \\frac{1}{x} \\mathrm{dx} $.",
+        "Answer": "ln|x|+常数"
+    },
+    {
+        "Unique ID": "LENOVO.1731669516",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算:$\\int_{0}^{1} x \\mathrm{dx}  $。",
+        "Question in English": "Calculate:$\\int_{0}^{1} x \\mathrm{dx}  $.",
+        "Answer": "0.5"
+    },
+    {
+        "Unique ID": "LENOVO.1731669563",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算:$\\int_{-4}^{4} \\sin x \\mathrm{dx}  $。",
+        "Question in English": "Calculate:$\\int_{-4}^{4} \\sin x \\mathrm{dx}  $.",
+        "Answer": "0"
+    },
+    {
+        "Unique ID": "LENOVO.1731669611",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "求函数$f(x)=x^2$在$x=4$处的切线方程。",
+        "Question in English": "Find the equation of the tangent line to the function $f(x)=x^2$ at $x=4$.",
+        "Answer": "y=8x-16"
+    },
+    {
+        "Unique ID": "LENOVO.1731669652",
+        "Category": "Mathematics",
+        "Sub-category": "Calculus",
+        "Question in Chinese": "计算:$\\int_{0}^{1} e^x\\mathrm{dx}$。",
+        "Question in English": "Calculate:$\\int_{0}^{1} e^x\\mathrm{dx}$.",
+        "Answer": "e-1"
+    }
+]

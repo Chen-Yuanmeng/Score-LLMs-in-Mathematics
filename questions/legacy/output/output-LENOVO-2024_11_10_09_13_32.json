@@ -1,0 +1,186 @@
+[
+    {
+        "Unique ID": "LENOVO.1731199974",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算: $\\lim_{n \\to \\infty} (1-\\frac{1}{n} )^{\\frac{1}{n} } $。",
+        "Question in English": "Calculate: $\\lim_{n \\to \\infty} (1-\\frac{1}{n} )^{\\frac{1}{n} } $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731200072",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算: $\\sum_{n=1}^{\\infty } \\frac{2n-1}{2^n} $。",
+        "Question in English": "Calculate: $\\sum_{n=1}^{\\infty } \\frac{2n-1}{2^n} $.",
+        "Answer": "3"
+    },
+    {
+        "Unique ID": "LENOVO.1731200116",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算: $\\lim_{x \\to 0} \\frac{\\sqrt{1-\\cos (x^2)} }{1-\\cos x}  $。",
+        "Question in English": "Calculate: $\\lim_{x \\to 0} \\frac{\\sqrt{1-\\cos (x^2)} }{1-\\cos x}  $.",
+        "Answer": "根号2"
+    },
+    {
+        "Unique ID": "LENOVO.1731200167",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "求导: $\\frac{\\mathrm{d} }{\\mathrm{d} x} \\tan x  $。",
+        "Question in English": "Calculate the derivative of a function: $\\frac{\\mathrm{d} }{\\mathrm{d} x} \\tan x  $.",
+        "Answer": "(sec x)^2"
+    },
+    {
+        "Unique ID": "LENOVO.1731200231",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算: $\\lim_{x \\to \\infty} \\frac{\\frac{\\pi }{2} -\\arctan x}{\\sin \\frac{1}{x} }   $。",
+        "Question in English": "Calculate: $\\lim_{x \\to \\infty} \\frac{\\frac{\\pi }{2} -\\arctan x}{\\sin \\frac{1}{x} }   $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731200274",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "求函数的渐近线: $ f(x)=\\frac{1}{x} +\\ln{(e^{x} +1 )}  $。",
+        "Question in English": "Find the asymptote of the function: $ f(x)=\\frac{1}{x} +\\ln{(e^{x} +1 )}  $.",
+        "Answer": "y=x"
+    },
+    {
+        "Unique ID": "LENOVO.1731200317",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算: $ \\int_{0}^{1} e^{\\sqrt{x}} \\,dx $。",
+        "Question in English": "Calculate: $ \\int_{0}^{1} e^{\\sqrt{x}} \\,dx $.",
+        "Answer": "2"
+    },
+    {
+        "Unique ID": "LENOVO.1731200397",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "求幂级数的和函数: $ \\sum_{n=1}^{\\infty } \\frac{(-1)^n \\cdot x^{2n+1}}{2n+1} $。",
+        "Question in English": "Find the sum function of a power series:$ \\sum_{n=1}^{\\infty } \\frac{(-1)^n \\cdot x^{2n+1}}{2n+1} $.",
+        "Answer": "arctanx-x"
+    },
+    {
+        "Unique ID": "LENOVO.1731200433",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算函数$f(x,y)=x^y $在点(1,4)处的二阶混合偏导值: $  \\frac{\\partial^2 f}{\\partial x\\partial y}  $。",
+        "Question in English": "Calculate the second-order mixed partial derivative of the function $f(x,y)=x^y $ at the point (1,4): $  \\frac{\\partial^2 f}{\\partial x\\partial y}  $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731200476",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "求曲线:$ 2(x^3+y^3)-9xy=0  $在点(2,1)处的切线方程。",
+        "Question in English": "Find the equation of the tangent line to the curve:$ 2(x^3+y^3)-9xy=0  $ at the point (2,1).",
+        "Answer": "5x-4y-6=0"
+    },
+    {
+        "Unique ID": "LENOVO.1731200520",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算: $\\lim_{a \\to 0} \\int_{a}^{a+1}\\frac{ \\,dx}{1+x^2+a^2}  $。",
+        "Question in English": "Calculate: $\\lim_{a \\to 0} \\int_{a}^{a+1}\\frac{ \\,dx}{1+x^2+a^2}  $.",
+        "Answer": "π/4"
+    },
+    {
+        "Unique ID": "LENOVO.1731200562",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算区域$D:[0,1]\\times [-1,0]$上的面积分: $\\iint_{D} xe^{xy} \\,dxdy $。",
+        "Question in English": "Compute the multiple integral over the region $D:[0,1]\\times [-1,0]$:$\\iint_{D} xe^{xy} \\,dxdy $.",
+        "Answer": "1/e"
+    },
+    {
+        "Unique ID": "LENOVO.1731200611",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算沿回路$L:(x-1)^2+(y-1)^2=4$逆时针方向的积分: $\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $。",
+        "Question in English": "Calculate the integral along the loop $L:(x-1)^2+(y-1)^2=4$ counterclockwise:$\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $.",
+        "Answer": "2π"
+    },
+    {
+        "Unique ID": "LENOVO.1731200649",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算多重积分:$\\iiint_{V} xyz\\mathrm{d}V ,V=\\left \\{ (x,y,z):x^2+y^2+z^2\\le 1,x\\ge 0,y\\ge 0,z\\ge 0 \\right \\}   $。",
+        "Question in English": "Compute the multiple integral:$\\iiint_{V} xyz\\mathrm{d}V ,V=\\left \\{ (x,y,z):x^2+y^2+z^2\\le 1,x\\ge 0,y\\ge 0,z\\ge 0 \\right \\}   $.",
+        "Answer": "1/48"
+    },
+    {
+        "Unique ID": "LENOVO.1731200696",
+        "Category": "MP",
+        "Sub-category": "C2",
+        "Question in Chinese": "计算逆时针方向的回路积分:$\\oint_{C} (2y+z)\\mathrm{d}x+(x-z)\\mathrm{d}y+(y-x)\\mathrm{d}z $ 其中$C$表示平面$x+y+z=1$分别与平面$x=0$,$y=0$,$z=0$的交线围成的三角形。",
+        "Question in English": "Calculate the loop integral $\\oint_{C} (2y+z)\\mathrm{d}x+(x-z)\\mathrm{d}y+(y-x)\\mathrm{d}z $ in the counterclockwise direction where $C$ denotes the plane $x+y+z=1$ the triangle formed by the lines of intersection with the planes $x=0$,$y=0$,$z=0$, respectively.",
+        "Answer": "1.5"
+    },
+    {
+        "Unique ID": "LENOVO.1731200747",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "Question in English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "Answer": "t2(自由度为2的t分布)"
+    },
+    {
+        "Unique ID": "LENOVO.1731200816",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "Question in English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "Answer": "16000"
+    },
+    {
+        "Unique ID": "LENOVO.1731200856",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "在显著性水平$\\alpha =0.05$条件下,检验一组简单随机样本:$-1.22,-1.24,1.28,1.35,-0.68,1.21,0.08,-1.21,-1.87,-1.10$是否来自标准正态分布？",
+        "Question in English": "At the significance level $\\alpha =0.05$, test whether a set of simple random samples:$ -1.22,-1.24,1.28,1.35,-0.68,1.21,0.08,-1.21,-1.87,-1.10$are from a standard normal distribution.",
+        "Answer": "是"
+    },
+    {
+        "Unique ID": "LENOVO.1731200902",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "现有一组关于自变量$X$和响应变量$Y$的观测数据$(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(-2.55,-1.61),(1.98,2.02),(0.54,0.73)$,且随机误差项服从方差未知的正态分布, 求经验线性回归方程。",
+        "Question in English": "A set of observations $(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(- 2.55,-1.61),(1.98,2.02),(0.54,0.73)$, and the random error term follows a normal distribution with unknown variance, find the empirical linear regression equation.",
+        "Answer": "y=0.476+0.818x"
+    },
+    {
+        "Unique ID": "LENOVO.1731200951",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "现有一组关于自变量$X$和响应变量$Y$的观测数据$(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(-2.55,-1.61),(1.98,2.02),(0.54,0.73)$,且随机误差项服从方差未知的正态分布, 在显著性水平$\\alpha=0.05$ 条件下对线性回归方程$\\widehat{y}=0.476+0.818x$ 的回归系数进行显著性检验，判断$X$是否对$Y$有显著影响。",
+        "Question in English": "A set of observations $(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(- 2.55,-1.61),(1.98,2.02),(0.54,0.73)$, and the random error term follows a normal distribution with unknown variance.Test the significance of the regression coefficients of the empirical linear regression equation $\\widehat{y}=0.476+0.818x$ at the significance level $\\alpha=0.05$ to determine whether $X$ has a significant effect on $Y$ or not.",
+        "Answer": "是"
+    },
+    {
+        "Unique ID": "LENOVO.1731201025",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "有两组独立观测随机样本，第一组为$4.65,4.21,3.92,5.33,4.84,5,95,4.22,4.56,4.12,5.35$ 第二组样本$5.81,5.23,6.84,7.34,6.85,5.91,8.23,6.54,5.99,6.36$,在显著性水平为0.05条件下，两组样本是否服从相同的分布？",
+        "Question in English": "There are two sets of independently observed random samples, the first set being $4.65,4.21,3.92,5.33,4.84,5,95,4.22,4.56,4.12,5.35$ The second set of samples $5.81,5.23,6.84,7.34,6.85,5.91,8.23,6.54,5.99,6.36$, at the significance level of 0.05, do the two sets of samples obey the same distribution?",
+        "Answer": "否"
+    },
+    {
+        "Unique ID": "LENOVO.1731201075",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "随机抽600名大学生，有大一学生150名，大二学生165名，大三学生145名，大四学生140名，取显著性水平为0.05的条件下，各年级学生数是否服从离散的均匀分布？",
+        "Question in English": "A random sample of 600 college students, with 150 freshmen, 165 sophomores, 145 juniors, and 140 seniors, is taken to determine whether the number of students in each year obeys a discrete uniform distribution at a significance level of 0.05.",
+        "Answer": "是"
+    },
+    {
+        "Unique ID": "LENOVO.1731201115",
+        "Category": "MP",
+        "Sub-category": "MS",
+        "Question in Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "Question in English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "Answer": "X1X2...Xn(从X1至Xn累乘)"
+    }
+]
