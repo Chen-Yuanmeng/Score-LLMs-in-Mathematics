@@ -1,0 +1,146 @@
+[
+    {
+        "Unique ID": "asus.1732070916",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$6+  \\left ( 5- 8 \\right ) {\\div} 3\\times \\sqrt{4}$.",
+        "Question in English": "Calculate $ 6+  \\left ( 5- 8 \\right ) {\\div} 3\\times \\sqrt{4}$.",
+        "Answer": "4"
+    },
+    {
+        "Unique ID": "asus.1732070993",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$\\left ( 8{\\div} 7 \\right ) \\times 3$,结果保留至小数点后四位.",
+        "Question in English": "Calculate $\\left ( 8{\\div} 7 \\right ) \\times 3$, rounding the result to four decimal places.",
+        "Answer": "3.4286"
+    },
+    {
+        "Unique ID": "asus.1732071099",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$\\cfrac{1}{6 + \\cfrac{7}{4 + \\cfrac{9}{3}}}$ ,结果以分数形式表示.",
+        "Question in English": "Calculate $\\cfrac{1}{6 + \\cfrac{7}{4 + \\cfrac{9}{3}}}$ , express the result in fractional form.",
+        "Answer": "1/7"
+    },
+    {
+        "Unique ID": "asus.1732071194",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$8+  5\\times 3- 2{\\div} 2$.",
+        "Question in English": "Calculate $8+  5\\times 3- 2{\\div} 2$.",
+        "Answer": "22"
+    },
+    {
+        "Unique ID": "asus.1732071343",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$\\sqrt[3]{27} \\times \\left ( 1+  \\frac{2}{3}  \\right ) $.",
+        "Question in English": "Calculate $\\sqrt[3]{27} \\times \\left ( 1+  \\frac{2}{3}  \\right ) $.",
+        "Answer": "5"
+    },
+    {
+        "Unique ID": "asus.1732071408",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$0{\\div} 998- 998$.",
+        "Question in English": "Calculate $0{\\div} 998- 998$.",
+        "Answer": "-998"
+    },
+    {
+        "Unique ID": "asus.1732071453",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "Question in English": "Calculate $\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "Answer": "22"
+    },
+    {
+        "Unique ID": "asus.1732072067",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$13- 7+  9{\\div} 3$.",
+        "Question in English": "Calculate $13- 7+  9{\\div} 3$.",
+        "Answer": "9"
+    },
+    {
+        "Unique ID": "asus.1732072128",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "Question in English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "Answer": "123"
+    },
+    {
+        "Unique ID": "asus.1732072181",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算$9.8-7.6+4.45{\\div} 3.2$.",
+        "Question in English": "Calculate $9.8-7.6+4.45{\\div} 3.2$.",
+        "Answer": "3.590625"
+    },
+    {
+        "Unique ID": "LENOVO.1731669701",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算:$(2^3)^2{\\div} 2^5=$。",
+        "Question in English": "Calculate:$(2^3)^2{\\div} 2^5=$.",
+        "Answer": "2"
+    },
+    {
+        "Unique ID": "LENOVO.1731669742",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "解不等式:$x^2-5x+6<0$。",
+        "Question in English": "Solve the inequality:$x^2-5x+6<0$.",
+        "Answer": "2<x<3"
+    },
+    {
+        "Unique ID": "LENOVO.1731669801",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算:$\\log_{2}{8}+\\log_{2}{\\frac{1}{4}}=  $。",
+        "Question in English": "Calculate:$\\log_{2}{8}+\\log_{2}{\\frac{1}{4}}=  $.",
+        "Answer": "1"
+    },
+    {
+        "Unique ID": "LENOVO.1731669830",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算复数:$(2+3i)(1-i)=  $。",
+        "Question in English": "Calculate the complex number:$(2+3i)(1-i) = $.",
+        "Answer": "5+i"
+    },
+    {
+        "Unique ID": "LENOVO.1731669861",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算:$8765+3214=$。",
+        "Question in English": "Calculate:$8765+3214=$.",
+        "Answer": "11979"
+    },
+    {
+        "Unique ID": "LENOVO.1731669894",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算:$789 \\div  3 \\times 4 = $。",
+        "Question in English": "Calculate:$789 \\div  3 \\times  4 = $.",
+        "Answer": "1052"
+    },
+    {
+        "Unique ID": "LENOVO.1731669931",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算:$(-3) \\times  4 \\div  (-2) + 5 =$。",
+        "Question in English": "Calculate:$(-3) \\times  4 \\div  (-2) + 5 =$.",
+        "Answer": "11"
+    },
+    {
+        "Unique ID": "LENOVO.1731669966",
+        "Category": "Mathematics",
+        "Sub-category": "Calculation",
+        "Question in Chinese": "计算:$9999-4567=$。",
+        "Question in English": "Calculate:$9999-4567=$.",
+        "Answer": "5432"
+    }
+]

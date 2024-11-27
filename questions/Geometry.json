@@ -1,0 +1,122 @@
+[
+    {
+        "Unique ID": "WZH.1731160751",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "已知$ B = \\frac{\\pi}{4},~C = \\frac{\\pi}{6},~a = 1 + \\sqrt{3} $，解三角形ABC，你的结果不能写成近似小数",
+        "Question in English": "Given $ B = \\frac{\\pi}{4},~C = \\frac{\\pi}{6},~a = 1 + \\sqrt{3} $, solve the triangle ABC. And note that your results cannot be written in the form of approximate decimals.",
+        "Answer": "A = \\frac{7\\pi}{12},~b = 2,~c = \\sqrt{2}"
+    },
+    {
+        "Unique ID": "WZH.1731160920",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "Question in English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "Answer": "重心、垂心、外心"
+    },
+    {
+        "Unique ID": "WZH.1731160979",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "给定三角形ABC，已知$ a = 2,~b = 4,~C = \\frac{\\pi}{6} $，求三角形的面积.",
+        "Question in English": "Given the triangle ABC, it is known that $ a = 2,~b = 4,~C = \\frac{\\pi}{6} $. Find the area of the triangle.",
+        "Answer": "2"
+    },
+    {
+        "Unique ID": "WZH.1731161051",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "圆O的半径为5，弦AB的长度为8。求从圆心O到弦AB的距离。",
+        "Question in English": "The radius of the circle O is 5 and the length of the chord AB is 8. Find the distance from the center of the circle O to the chord AB.",
+        "Answer": "3"
+    },
+    {
+        "Unique ID": "WZH.1731161114",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "在三角形ABC中，AB=7，BC=8，CA=9。求该三角形的内切圆半径，你的结果不能写成近似小数。",
+        "Question in English": "In triangle ABC, AB=7, BC=8, CA=9. Find the radius of the inscribed circle of the triangle. And note that your results cannot be written in the form of approximate decimals.",
+        "Answer": "\\sqrt{5}"
+    },
+    {
+        "Unique ID": "WZH.1731672139",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "两直线平行，它们的同位角有什么关系？",
+        "Question in English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "Answer": "equal"
+    },
+    {
+        "Unique ID": "WZH.1731672182",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "凸八边形的内角和是多少度？",
+        "Question in English": "What is the sum of the inside angles of a convex octagon？",
+        "Answer": "1080"
+    },
+    {
+        "Unique ID": "WZH.1731672224",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "一个直角三角形，它的两条直角边长分别为3和4，求其斜边长。",
+        "Question in English": "A right-angled triangle with two right-angled sides of 3 and 4 lengths respectively, find the length of its hypotenuse.",
+        "Answer": "5"
+    },
+    {
+        "Unique ID": "WZH.1731672263",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "已知三角形ABC，D为AB中点，E为AC中点，BC的长为6，求DE的长。",
+        "Question in English": "Given the triangle ABC, D is the midpoint of AB, E is the midpoint of AC, the length of BC is 6, find the length of DE.",
+        "Answer": "3"
+    },
+    {
+        "Unique ID": "WZH.1731672301",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "圆O的半径为2，其面积是多少？",
+        "Question in English": "The radius of the circle O is 2, what is its area?",
+        "Answer": "4pi"
+    },
+    {
+        "Unique ID": "WZH.1731672342",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "一个三角形的三边长为7、24、25，求其面积。",
+        "Question in English": "The three sides of a triangle are 7, 24, 25 in length, find its area.",
+        "Answer": "84"
+    },
+    {
+        "Unique ID": "WZH.1731672385",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "3条直线最多将平面分成几个区域？",
+        "Question in English": "How many areas does 3 lines divide the plane into at most?",
+        "Answer": "7"
+    },
+    {
+        "Unique ID": "WZH.1731672418",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "三角形ABC中，a=b=c，求角A的大小。",
+        "Question in English": "In triangle ABC, a=b=c, find the magnitude of the angle A.",
+        "Answer": "60"
+    },
+    {
+        "Unique ID": "WZH.1731672449",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "椭圆的长轴为4，短轴为2，求其面积。",
+        "Question in English": "The major axis of the ellipse is 4 and the minor axis is 2, find its area.",
+        "Answer": "2pi"
+    },
+    {
+        "Unique ID": "WZH.1731672489",
+        "Category": "Mathematics",
+        "Sub-category": "Geometry",
+        "Question in Chinese": "一个三角形的三边长为6，8，10，求其外接圆半径。",
+        "Question in English": "The three sides of a triangle are 6, 8, 10 long, and find the radius of its circumscribed circle.",
+        "Answer": "5"
+    }
+]
