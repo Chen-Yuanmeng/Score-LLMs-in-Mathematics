@@ -2,6 +2,7 @@
 endpoint/test_endpoint.py
 answers/config.ini
 *.csv
+*.xls*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
