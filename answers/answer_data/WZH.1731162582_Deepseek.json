@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731162582",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "向量(1, 2, 3)和(4, 5, 6)的内积是多少？",
+        "question_in_English": "What is the inner product of vectors (1, 2, 3) and (4, 5, 6)?",
+        "answer": "32",
+        "occurrence": 1,
+        "model_output": " The inner product of two vectors is the sum of the product of their corresponding components. \n\nSo, for the vectors (1, 2, 3) and (4, 5, 6), their inner product is:\n\n(1 * 4) + (2 * 5) + (3 * 6) = 4 + 10 + 18 = 32\n\nSo, the inner product of the vectors (1, 2, 3) and (4, 5, 6) is 32.\n\nTherefore, the answer is $\\boxed{32}$.\n\nConfidence: I am confident in this answer because I have computed the inner product correctly, as per the definition of the inner product of two vectors.",
+        "num_new_tokens": 166,
+        "speed": 44.74706351889294,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "confident",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731162582",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "向量(1, 2, 3)和(4, 5, 6)的内积是多少？",
+        "question_in_English": "What is the inner product of vectors (1, 2, 3) and (4, 5, 6)?",
+        "answer": "32",
+        "occurrence": 2,
+        "model_output": " The inner product of two vectors is the sum of the products of their corresponding components. So, for the vectors (1, 2, 3) and (4, 5, 6), the inner product is:\n\n1 * 4 + 2 * 5 + 3 * 6 = 4 + 10 + 18 = 32\n\nSo the answer is $\\boxed{32}$. I am 95% confident in this answer.",
+        "num_new_tokens": 103,
+        "speed": 44.86554221712239,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731162582",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "向量(1, 2, 3)和(4, 5, 6)的内积是多少？",
+        "question_in_English": "What is the inner product of vectors (1, 2, 3) and (4, 5, 6)?",
+        "answer": "32",
+        "occurrence": 3,
+        "model_output": " The inner product of two vectors is the sum of the products of their corresponding components.\nFor the given vectors (1, 2, 3) and (4, 5, 6), the inner product is calculated as follows:\n\n(1 * 4) + (2 * 5) + (3 * 6) = 4 + 10 + 18 = 32\n\nSo, the inner product of the given vectors is 32.\nConfidence in percentage level: 100% (absolutely sure about the answer)\nThe answer is $\\boxed{32}$.",
+        "num_new_tokens": 132,
+        "speed": 44.684004210391066,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

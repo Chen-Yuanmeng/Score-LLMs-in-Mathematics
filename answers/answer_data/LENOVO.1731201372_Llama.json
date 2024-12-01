@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 1,
+        "model_output": "To find the maximum likelihood estimate of $a$, we need to maximize the likelihood function.\n\nThe likelihood function for the uniform distribution is given by:\n\nL(a, b) = \\prod_{i=1}^{n} f(x_i | a, b)\n\nwhere f(x_i | a, b) is the probability density function (pdf) of the uniform distribution.\n\nThe pdf of the uniform distribution on the interval (a, b) is:\n\nf(x_i | a, b) = \\frac{1}{b - a} for a < x_i < b\n\nSubstituting this into the likelihood function, we get:\n\nL(a, b) = \\prod_{i=1}^{n} \\frac{1}{b - a} = \\frac{1}{(b - a)^n}\n\nTo find the maximum likelihood estimate, we need to maximize the likelihood function with respect to a and b. We can do this by taking the logarithm of the likelihood function, which is called the log-likelihood function:\n\nl(a, b) = ln L(a, b) = -n ln(b - a)\n\nTo find the maximum likelihood estimate, we need to find the values of a and b that maximize the log-likelihood function.\n\nHowever, we are only interested in finding the maximum likelihood estimate of a. To do this, we can use the fact that the maximum likelihood estimate of a is the value that minimizes the expression:\n\n\\frac{\\partial l}{\\partial a}\n\nTaking the partial derivative of the log-likelihood function with respect to a, we get:\n\n\\frac{\\partial l}{\\partial a} = -\\frac{n}{b - a}\n\nTo find the value of a that minimizes this expression, we can set the derivative equal to zero and solve for a:\n\n\\frac{\\partial l}{\\partial a} = -\\frac{n}{b - a} = 0\n\nSolving for a, we get:\n\na = \\frac{min(x_i)}{2}\n\nwhere x_i is the smallest value in the sample.\n\nTherefore, the maximum likelihood estimate of a is:\n\n\\boxed{\\frac{min(X_1,X_2,...X_n)}{2}}\n\nConfidence level: 100% \n\nExplanation: This result is derived directly from the standard properties and applications of the uniform distribution, and it follows directly from solving the resulting maximum likelihood equations.<|eot_id|>",
+        "num_new_tokens": 492,
+        "speed": 38.85677947755571,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 2,
+        "model_output": "To find the maximum likelihood estimate of $a$, we first need to determine the likelihood function of the given data. \n\nGiven that $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, the probability density function (pdf) of each $X_i$ is:\n\n$f(x) = \\frac{1}{b-a}$ for $a < x < b$\n\nSince the $X_i$ are independent, the likelihood function of the given data is:\n\n$L(a,b) = \\prod_{i=1}^{n} f(x_i) = \\prod_{i=1}^{n} \\frac{1}{b-a}$ for $a < x_i < b$\n\nSince the pdf is the same for all $x_i$, we can write the likelihood function as:\n\n$L(a,b) = \\frac{1}{(b-a)^n}$ for $a < x_i < b$\n\nTo find the maximum likelihood estimate of $a$, we need to maximize the likelihood function with respect to $a$ and $b$. Since the likelihood function is the same for all $x_i$, we can consider the smallest $x_i$ to be the value that maximizes the likelihood function.\n\nThe smallest $x_i$ is the minimum value that $a$ can take. So, the maximum likelihood estimate of $a$ is:\n\n$\\hat{a} = \\min \\{x_1, x_2,..., x_n\\}$\n\n$\\boxed{\\hat{a} = \\min \\{x_1, x_2,..., x_n\\}}$\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 342,
+        "speed": 39.12503637495559,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 3,
+        "model_output": "To find the maximum likelihood estimate of $a$, we'll first find the likelihood function and then maximize it with respect to $a$.\n\nGiven that $X_i$ are independent and uniformly distributed on the interval $(a,b)$, the probability density function (pdf) of $X_i$ is:\n\n$f(x_i) = \\frac{1}{b-a}$ for $a \\leq x_i \\leq b$\n\nThe likelihood function $L(a, b; x_1, x_2,..., x_n)$ is given by the product of the individual pdfs:\n\n$L(a, b; x_1, x_2,..., x_n) = \\prod_{i=1}^{n} f(x_i)$\n\nSince the pdf is the same for all $X_i$, we can write the likelihood function as:\n\n$L(a, b; x_1, x_2,..., x_n) = \\prod_{i=1}^{n} \\frac{1}{b-a}$\n\nHowever, this expression is not a function of $a$ and $b$ only. We need to consider the constraint that $a \\leq x_i \\leq b$ for all $i$. The minimum value of the likelihood function will occur when all $x_i$ are at their minimum possible value, which is $a$. Therefore, we can rewrite the likelihood function as:\n\n$L(a, b; x_1, x_2,..., x_n) = \\frac{1}{(b-a)^n} \\cdot I(x_{(1)} = a)$\n\nwhere $x_{(1)}$ is the smallest order statistic, and $I(\\cdot)$ is an indicator function.\n\nNow, we want to maximize the likelihood function with respect to $a$. However, since the likelihood function is inversely proportional to $(b-a)^n$, we need to minimize $(b-a)$ to maximize the likelihood function. Since $a \\leq x_i \\leq b$, the minimum value of $(b-a)$ will occur when $a = x_{(1)}$, the smallest order statistic.\n\nTherefore, the maximum likelihood estimate of $a$ is $\\hat{a} = x_{(1)}$, the smallest order statistic.\n\n$\\boxed{\\hat{a} = x_{(1)}}$\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 488,
+        "speed": 39.0407334732527,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

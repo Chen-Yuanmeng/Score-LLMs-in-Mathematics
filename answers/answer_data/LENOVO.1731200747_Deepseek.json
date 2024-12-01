@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 1,
+        "model_output": " This question involves finding the distribution of a random variable that is a function of multiple independent random variables. \n\nThe random variables $X_1, X_2, X_3,$ and $X_4$ are independent of each other and follow a standard normal distribution. This means that each of these random variables has a mean of 0 and a standard deviation of 1, and their values are distributed symmetrically around 0.\n\nThe given random variable is $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}$. We can observe that this is a ratio of two random variables, and it is not in a form that corresponds to a known probability distribution.\n\nHowever, we can use the property of independence to simplify the problem. Since $X_1, X_2, X_3,$ and $X_4$ are independent, the random variables $X_1 - X_2$ and $X_3^2 + X_4^2$ are also independent. This is because the sum or difference of independent random variables is also independent, and the square of a standard normal random variable is an independent random variable.\n\nNow, let's consider the numerator $X_1 - X_2$. Since $X_1$ and $X_2$ are independent standard normal random variables, their difference also follows a standard normal distribution. This is because the difference of two independent standard normal random variables is a normal random variable with mean 0 and variance 2, which is still a standard normal distribution.\n\nNext, let's consider the denominator $\\sqrt{X_3^2+X_4^2}$. Since $X_3$ and $X_4$ are independent standard normal random variables, their squares are chi-square random variables with 1 degree of freedom. The sum of two independent chi-square random variables is also a chi-square random variable, so $X_3^2 + X_4^2$ follows a chi-square distribution with 2 degrees of freedom. The square root of a chi-square random variable with 2 degrees of freedom is a chi distribution with 1 degree of freedom.\n\nNow, we can use the property of independence again. The ratio of a standard normal random variable and a chi distribution with 1 degree of freedom follows a Cauchy distribution. This is because the ratio of a normal random variable and a chi distribution is a Cauchy random variable.\n\nTherefore, the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}$ follows a Cauchy distribution.\n\nSo, the answer is $\\boxed{Cauchy}$. \n\nRegarding the confidence in the answer, since the reasoning and calculations involved in this problem are quite rigorous and rely on the properties of independent random variables and known probability distributions, I am $\\boxed{95\\%}$ confident in my answer.",
+        "num_new_tokens": 619,
+        "speed": 43.93324287244873,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 2,
+        "model_output": " This question requires the use of the concept of the ratio of two independent normal random variables, which is known to follow a Cauchy distribution. \n\nLet $Y_1 = X_1 - X_2$ and $Y_2 = \\sqrt{X_3^2 + X_4^2}$. Since $X_1, X_2, X_3,$ and $X_4$ are independent, $Y_1$ and $Y_2$ are also independent. \n\n$Y_1$ follows a normal distribution with mean $0$ and variance $2$, because it is the difference of two independent standard normal random variables. So, $Y_1 \\sim N(0,2)$.\n\n$Y_2$ follows a Chi-squared distribution with $4$ degrees of freedom, because it is the square root of the sum of squares of two independent standard normal random variables. So, $Y_2 \\sim \\chi_4^2$.\n\nNow, we can see that the given random variable is the ratio of $Y_1$ and $Y_2$, i.e., $\\frac{Y_1}{Y_2}$. \n\nBy the definition of the Cauchy distribution, if $Y_1 \\sim N(0,2)$ and $Y_2 \\sim \\chi_4^2$, then $\\frac{Y_1}{Y_2} \\sim \\text{Cauchy}(0,1)$.\n\nTherefore, the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} }$ follows a Cauchy distribution with location parameter $0$ and scale parameter $1$.\n\nSo, the answer is $\\boxed{\\text{Cauchy}(0,1)}$. We are $\\boxed{95\\%}$ confident in this answer.",
+        "num_new_tokens": 394,
+        "speed": 44.19744865365877,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 3,
+        "model_output": " The answer is $\\boxed{a new type of distribution that has not been discovered yet. The distribution of a ratio of a normal variable and the square root of a sum of squares of normal variables is an open problem in probability theory}$.\n\nConfidence: 50%",
+        "num_new_tokens": 57,
+        "speed": 44.77148232308383,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "50%",
+        "additional_info": ""
+    }
+]

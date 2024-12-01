@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732075054",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令某厂生产的节能灯的使用寿命服从 $Exp (1/6000)$．经过技术革新后，该厂生产出一批新的节能灯，从中取出20个节能灯来做实验，预定到第5个失效时试验停止，而测得前5个节能灯的工作时间（单位： h ）分别为6000,6300,6600,6700,6800.问在显著性水平为0.05时，技术革新后节能灯的平均寿命是否提高了？",
+        "question_in_English": "Let the service life of energy-saving lamps produced by a certain factory follow $Exp (1/6000)$. After technical innovation the factory produced a new batch of energy-saving lamps. 20 energy-saving lamps were taken out for experimentation, and the experiment was stopped when the 5 one failed. The working times of the first 5 energy-saving lamps (in hours) were measured to be 6000, 6300 6600, 6700, and 6800, respectively. Has the average life of the energy-saving lamps increased after technical innovation at a significance level of 0.05?",
+        "answer": "提高了",
+        "occurrence": 1,
+        "model_output": " To determine if the average life of the energy-saving lamps has increased after technical innovation, we can perform a one-sample t-test. \n\nFirst, we need to find the sample mean and sample standard deviation of the 5 energy-saving lamps. \n\nThe sample mean (x̄) is the sum of the measured working times divided by the number of lamps:\nx̄ = (6000 + 6300 + 6600 + 6700 + 6800) / 5 = 32400 / 5 = 6480 hours\n\nNext, we calculate the sample standard deviation (s) using the formula:\ns = sqrt[((sum of (x - x̄)^2) / (n - 1))]\n\nThe sum of (x - x̄)^2 for the 5 lamps is:\n(6000 - 6480)^2 + (6300 - 6480)^2 + (6600 - 6480)^2 + (6700 - 6480)^2 + (6800 - 6480)^2 = 230400 + 32400 + 14400 + 57600 + 102400 = 558000\n\nSo, the sample standard deviation is:\ns = sqrt(558000 / 4) = sqrt(139500) = 373.48 hours\n\nNow, we can perform the t-test. The null hypothesis (H0) is that the average life of the energy-saving lamps has not increased, and the alternative hypothesis (H1) is that the average life has increased. \n\nThe t-score is calculated as:\nt = (x̄ - μ) / (s / sqrt(n))\n\nWe are given that the service life of energy-saving lamps produced by the factory follows an exponential distribution with parameter 1/6000. Therefore, the mean (μ) of the distribution is 6000 hours. \n\nt = (6480 - 6000) / (373.48 / sqrt(5)) = 480 / (373.48 / 2.236) = 480 / 166.67 = 2.88\n\nNow, we need to find the critical t-value for a one-tailed t-test with a significance level of 0.05 and degrees of freedom (df) = n - 1 = 5 - 1 = 4. Using a t-distribution table or calculator, we find the critical t-value to be approximately 2.132.\n\nSince our calculated t-score (2.88) is greater than the critical t-value (2.132), we reject the null hypothesis (H0) and conclude that the average life of the energy-saving lamps has increased at a significance level of 0.05.\n\nTherefore, the answer is $\\boxed{True}$. \n\nRegarding the confidence in this answer, it is difficult to provide an exact confidence level without further information or calculations, as it depends on the assumptions made and the underlying distribution of the data. However, based on the t-test result and the significance level of 0.05, we can be fairly confident that the average life of the energy-saving lamps has indeed increased after technical innovation. The answer is $\\boxed{True, 75\\%}$.",
+        "num_new_tokens": 804,
+        "speed": 43.414210437376276,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "75%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732075054",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令某厂生产的节能灯的使用寿命服从 $Exp (1/6000)$．经过技术革新后，该厂生产出一批新的节能灯，从中取出20个节能灯来做实验，预定到第5个失效时试验停止，而测得前5个节能灯的工作时间（单位： h ）分别为6000,6300,6600,6700,6800.问在显著性水平为0.05时，技术革新后节能灯的平均寿命是否提高了？",
+        "question_in_English": "Let the service life of energy-saving lamps produced by a certain factory follow $Exp (1/6000)$. After technical innovation the factory produced a new batch of energy-saving lamps. 20 energy-saving lamps were taken out for experimentation, and the experiment was stopped when the 5 one failed. The working times of the first 5 energy-saving lamps (in hours) were measured to be 6000, 6300 6600, 6700, and 6800, respectively. Has the average life of the energy-saving lamps increased after technical innovation at a significance level of 0.05?",
+        "answer": "提高了",
+        "occurrence": 2,
+        "model_output": " To determine whether the average life of the energy-saving lamps has increased after technical innovation at a significance level of 0.05, we will perform a one-sample t-test.\n\nFirst, let's calculate the mean and standard deviation of the sample data:\nMean = (6000 + 6300 + 6600 + 6700 + 6800) / 5 = 32400 / 5 = 6480\n\nNow, let's calculate the sample variance:\nVariance = ((6000 - 6480)^2 + (6300 - 6480)^2 + (6600 - 6480)^2 + (6700 - 6480)^2 + (6800 - 6480)^2) / (5 - 1) = 16416000 / 4 = 4104000\n\nNow, let's calculate the sample standard deviation:\nStandard Deviation = sqrt(4104000) ≈ 2026\n\nNow, let's perform the t-test:\nt = (mean - population_mean) / (sample_std_dev / sqrt(sample_size)) = (6480 - 6000) / (2026 / sqrt(20)) ≈ 24\n\nNow, let's find the critical t-value for a one-tailed t-test with a significance level of 0.05 and degrees of freedom = sample_size - 1 = 20 - 1 = 19:\nt_critical = 1.729\n\nSince our calculated t-value (24) is greater than the critical t-value (1.729), we reject the null hypothesis that the average life of the energy-saving lamps has not increased. Therefore, the answer is $\\boxed{True}$.\n\nConfidence in Percentage Level: 99.99%",
+        "num_new_tokens": 466,
+        "speed": 43.839267043420605,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "99.99%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732075054",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令某厂生产的节能灯的使用寿命服从 $Exp (1/6000)$．经过技术革新后，该厂生产出一批新的节能灯，从中取出20个节能灯来做实验，预定到第5个失效时试验停止，而测得前5个节能灯的工作时间（单位： h ）分别为6000,6300,6600,6700,6800.问在显著性水平为0.05时，技术革新后节能灯的平均寿命是否提高了？",
+        "question_in_English": "Let the service life of energy-saving lamps produced by a certain factory follow $Exp (1/6000)$. After technical innovation the factory produced a new batch of energy-saving lamps. 20 energy-saving lamps were taken out for experimentation, and the experiment was stopped when the 5 one failed. The working times of the first 5 energy-saving lamps (in hours) were measured to be 6000, 6300 6600, 6700, and 6800, respectively. Has the average life of the energy-saving lamps increased after technical innovation at a significance level of 0.05?",
+        "answer": "提高了",
+        "occurrence": 3,
+        "model_output": " To test whether the average life of the energy-saving lamps has increased after technical innovation, we can perform a one-sample t-test. We are given the following information:\n\n- The null hypothesis (H0) is that the average life of the energy-saving lamps has not increased, i.e., the true mean is 6000 hours.\n- The alternative hypothesis (H1) is that the average life of the energy-saving lamps has increased, i.e., the true mean is greater than 6000 hours.\n- The sample mean (x̄) is the average of the working times of the first 5 energy-saving lamps, which is (6000 + 6300 + 6600 + 6700 + 6800) / 5 = 6480 hours.\n- The sample standard deviation (s) is calculated as the square root of the sum of the squared differences between each value and the sample mean, divided by the number of values minus 1, which is sqrt((6000-6480)^2 + (6300-6480)^2 + (6600-6480)^2 + (6700-6480)^2 + (6800-6480)^2) / 4 = 260.43 hours.\n- The sample size (n) is 5.\n- The significance level (α) is 0.05.\n\nNow we calculate the t-score using the formula:\n\nt = (x̄ - μ) / (s / √n)\n\nwhere μ is the true mean, which is 6000 hours under the null hypothesis.\n\nt = (6480 - 6000) / (260.43 / √5) = 480 / (260.43 / √5) ≈ 3.06\n\nNow we need to find the critical t-value for a one-tailed t-test with a significance level of 0.05 and 4 degrees of freedom (n - 1). Using a t-table or calculator, we find the critical t-value to be approximately 2.132.\n\nSince the calculated t-score (3.06) is greater than the critical t-value (2.132), we reject the null hypothesis. Therefore, we can conclude that the average life of the energy-saving lamps has increased after technical innovation at a significance level of 0.05.\n\nTherefore, the answer is $\\boxed{True}$.\n\nRegarding the confidence level, since we rejected the null hypothesis, we have 95% confidence that the average life of the energy-saving lamps has increased after technical innovation.",
+        "num_new_tokens": 626,
+        "speed": 43.67283664391876,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]

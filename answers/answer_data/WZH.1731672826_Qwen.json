@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731672826",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "已知向量a=(7, 23), b=(4, 0)，求a在b上的投影向量。",
+        "question_in_English": "Given the vectors a=(7, 23), b=(4, 0), find the projection vector of a on b.",
+        "answer": "(7, 0)",
+        "occurrence": 1,
+        "model_output": "To find the projection vector of vector \\(\\mathbf{a}\\) onto vector \\(\\mathbf{b}\\), we use the formula for the projection of \\(\\mathbf{a}\\) onto \\(\\mathbf{b}\\):\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{\\mathbf{b} \\cdot \\mathbf{b}} \\mathbf{b}\n\\]\n\nFirst, we calculate the dot product \\(\\mathbf{a} \\cdot \\mathbf{b}\\):\n\n\\[\n\\mathbf{a} \\cdot \\mathbf{b} = 7 \\cdot 4 + 23 \\cdot 0 = 28\n\\]\n\nNext, we calculate the dot product \\(\\mathbf{b} \\cdot \\mathbf{b}\\):\n\n\\[\n\\mathbf{b} \\cdot \\mathbf{b} = 4 \\cdot 4 + 0 \\cdot 0 = 16\n\\]\n\nNow, we substitute these values into the projection formula:\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{28}{16} \\mathbf{b} = \\frac{7}{4} \\mathbf{b}\n\\]\n\nSince \\(\\mathbf{b} = (4, 0)\\), we multiply each component of \\(\\mathbf{b}\\) by \\(\\frac{7}{4}\\):\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{7}{4} \\cdot (4, 0) = (7, 0)\n\\]\n\nTherefore, the projection vector of \\(\\mathbf{a}\\) on \\(\\mathbf{b}\\) is \\(\\boxed{(7, 0)}\\).\n\nSince the projection formula is a deterministic calculation and there is no合并 of probabilities or随机ness involved in the process, my confidence level in the answer is \\(100\\%\\). Thus, the confidence level is \\(\\boxed{100}\\).",
+        "num_new_tokens": 462,
+        "speed": 41.78169212786725,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672826",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "已知向量a=(7, 23), b=(4, 0)，求a在b上的投影向量。",
+        "question_in_English": "Given the vectors a=(7, 23), b=(4, 0), find the projection vector of a on b.",
+        "answer": "(7, 0)",
+        "occurrence": 2,
+        "model_output": "To find the projection vector of \\(\\mathbf{a}\\) on \\(\\mathbf{b}\\), we use the formula for the projection of \\(\\mathbf{a}\\) onto \\(\\mathbf{b}\\):\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{\\mathbf{b} \\cdot \\mathbf{b}} \\mathbf{b}\n\\]\n\nFirst, we calculate the dot product \\(\\mathbf{a} \\cdot \\mathbf{b}\\):\n\n\\[\n\\mathbf{a} \\cdot \\mathbf{b} = 7 \\cdot 4 + 23 \\cdot 0 = 28 + 0 = 28\n\\]\n\nNext, we calculate the dot product \\(\\mathbf{b} \\cdot \\mathbf{b}\\):\n\n\\[\n\\mathbf{b} \\cdot \\mathbf{b} = 4 \\cdot 4 + 0 \\cdot 0 = 16 + 0 = 16\n\\]\n\nNow, we substitute these values into the projection formula:\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{28}{16} \\mathbf{b} = \\frac{7}{4} \\mathbf{b}\n\\]\n\nSince \\(\\mathbf{b} = (4, 0)\\), we multiply each component of \\(\\mathbf{b}\\) by \\(\\frac{7}{4}\\):\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{7}{4} \\cdot (4, 0) = \\left( \\frac{7}{4} \\cdot 4, \\frac{7}{4} \\cdot 0 \\right) = (7, 0)\n\\]\n\nTherefore, the projection vector of \\(\\mathbf{a}\\) on \\(\\mathbf{b}\\) is \\(\\boxed{(7, 0)}\\).\n\nSince the projection formula is a deterministic calculation and there is no randomness or uncertainty involved in the process, my confidence level in the answer is \\(100\\%\\). Thus, the confidence level is \\(\\boxed{100}\\).",
+        "num_new_tokens": 501,
+        "speed": 41.763825672136726,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672826",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "已知向量a=(7, 23), b=(4, 0)，求a在b上的投影向量。",
+        "question_in_English": "Given the vectors a=(7, 23), b=(4, 0), find the projection vector of a on b.",
+        "answer": "(7, 0)",
+        "occurrence": 3,
+        "model_output": "To find the projection of vector \\(\\mathbf{a} = (7, 23)\\) on vector \\(\\mathbf{b} = (4, 0)\\), we use the formula for the projection of \\(\\mathbf{a}\\) onto \\(\\mathbf{b}\\):\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{\\mathbf{b} \\cdot \\mathbf{b}} \\mathbf{b}\n\\]\n\nFirst, we calculate the dot product \\(\\mathbf{a} \\cdot \\mathbf{b}\\):\n\n\\[\n\\mathbf{a} \\cdot \\mathbf{b} = 7 \\cdot 4 + 23 \\cdot 0 = 28\n\\]\n\nNext, we calculate the dot product \\(\\mathbf{b} \\cdot \\mathbf{b}\\):\n\n\\[\n\\mathbf{b} \\cdot \\mathbf{b} = 4 \\cdot 4 + 0 \\cdot 0 = 16\n\\]\n\nNow, we substitute these values into the projection formula:\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{28}{16} \\mathbf{b} = \\frac{7}{4} \\mathbf{b}\n\\]\n\nSince \\(\\mathbf{b} = (4, 0)\\), we multiply each component of \\(\\mathbf{b}\\) by \\(\\frac{7}{4}\\):\n\n\\[\n\\text{proj}_{\\mathbf{b}} \\mathbf{a} = \\frac{7}{4} \\cdot (4, 0) = \\left( \\frac{7}{4} \\cdot 4, \\frac{7}{4} \\cdot 0 \\right) = (7, 0)\n\\]\n\nTherefore, the projection vector of \\(\\mathbf{a}\\) on \\(\\mathbf{b}\\) is \\(\\boxed{(7, 0)}\\).\n\n regarding the answer: Since the projection calculation is a deterministic process and there are no random components involved, the confidence level is 100%. Thus, the confidence level is \\(\\boxed{100}\\).",
+        "num_new_tokens": 498,
+        "speed": 41.78966521546003,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732075144",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知$X\\sim Exp\\left ( 2 \\right ) $,计算$var\\left (X  \\right ) $.",
+        "question_in_English": "$X\\sim Exp\\left ( 2 \\right ) $,Calculate $var\\left (X  \\right ) $.",
+        "answer": "1/4",
+        "occurrence": 1,
+        "model_output": "To calculate the variance of an exponential distribution, we can use the following formula:\n\n$var(X) = \\frac{1}{\\lambda^2}$\n\nwhere $\\lambda$ is the rate parameter.\n\nGiven that $X\\sim Exp(2)$, we know that $\\lambda = 2$.\n\nSubstituting the value of $\\lambda$ into the formula, we get:\n\n$var(X) = \\frac{1}{2^2}$\n$var(X) = \\frac{1}{4}$\n\nTherefore,\n\n$\\boxed{\\frac{1}{4}}$\n\nConfidence Level: 100%<|eot_id|>",
+        "num_new_tokens": 126,
+        "speed": 39.20184478116219,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732075144",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知$X\\sim Exp\\left ( 2 \\right ) $,计算$var\\left (X  \\right ) $.",
+        "question_in_English": "$X\\sim Exp\\left ( 2 \\right ) $,Calculate $var\\left (X  \\right ) $.",
+        "answer": "1/4",
+        "occurrence": 2,
+        "model_output": "To calculate the variance of an exponential distribution, we can use the formula:\n\nvar(X) = σ^2\n\nFor an exponential distribution, the variance is equal to the square of the rate parameter (λ). \n\nGiven that X ~ Exp(2), we can identify the rate parameter (λ) as 2. \n\nNow, we can plug in the value of λ into the formula:\n\nvar(X) = (2)^2\n       = 4\n\nTherefore, \n\\boxed{var(X) = 4}\n\nConfidence Level: 100%<|eot_id|>",
+        "num_new_tokens": 114,
+        "speed": 39.44881268848302,
+        "model": "Llama",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732075144",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知$X\\sim Exp\\left ( 2 \\right ) $,计算$var\\left (X  \\right ) $.",
+        "question_in_English": "$X\\sim Exp\\left ( 2 \\right ) $,Calculate $var\\left (X  \\right ) $.",
+        "answer": "1/4",
+        "occurrence": 3,
+        "model_output": "To calculate the variance of an exponential distribution, we need to use the following formula:\n\n$var(X) = \\frac{1}{\\lambda^2}$\n\nwhere $\\lambda$ is the rate parameter of the exponential distribution.\n\nGiven that $X\\sim Exp(2)$, we can identify that $\\lambda=2$.\n\nNow, substitute $\\lambda=2$ into the formula:\n\n$var(X) = \\frac{1}{2^2}$\n$var(X) = \\frac{1}{4}$\n$var(X) = 0.25$\n\n$\\boxed{0.25}$\n\nConfidence Level: 100%<|eot_id|>",
+        "num_new_tokens": 133,
+        "speed": 38.955972205792,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

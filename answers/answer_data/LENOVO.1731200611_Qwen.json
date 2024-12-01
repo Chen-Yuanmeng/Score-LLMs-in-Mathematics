@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200611",
+        "category": "Mathematics",
+        "sub_category": "Calculus",
+        "question_in_Chinese": "计算沿回路$L:(x-1)^2+(y-1)^2=4$逆时针方向的积分: $\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $。",
+        "question_in_English": "Calculate the integral along the loop $L:(x-1)^2+(y-1)^2=4$ counterclockwise:$\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $.",
+        "answer": "2π",
+        "occurrence": 1,
+        "model_output": "To calculate the integral \\(\\oint_{L} \\frac{x \\mathrm{d} y - y \\mathrm{d} x}{x^2 + y^2}\\) along the loop \\(L: (x-1)^2 + (y-1)^2 = 4\\) counterclockwise, we can use Green's Theorem. Green's Theorem states that for a positively oriented, piecewise-smooth, simple closed curve \\(C\\) and a plane region \\(D\\) bounded by \\(C\\),\n\n\\[\n\\oint_C (P \\, \\mathrm{d} x + Q \\, \\mathrm{d} y) = \\iint_D \\left( \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} \\right) \\, \\mathrm{d} A,\n\\]\n\nwhere \\(P = \\frac{-y}{x^2 + y^2}\\) and \\(Q = \\frac{x}{x^2 + y^2}\\).\n\nFirst, we compute the partial derivatives \\(\\frac{\\partial Q}{\\partial x}\\) and \\(\\frac{\\partial P}{\\partial y}\\):\n\n\\[\n\\frac{\\partial Q}{\\partial x} = \\frac{\\partial}{\\partial x} \\left( \\frac{x}{x^2 + y^2} \\right) = \\frac{(x^2 + y^2) \\cdot 1 - x \\cdot 2x}{(x^2 + y^2)^2} = \\frac{x^2 + y^2 - 2x^2}{(x^2 + y^2)^2} = \\frac{-x^2 + y^2}{(x^2 + y^2)^2},\n\\]\n\n\\[\n\\frac{\\partial P}{\\partial y} = \\frac{\\partial}{\\partial y} \\left( \\frac{-y}{x^2 + y^2} \\right) = \\frac{(x^2 + y^2) \\cdot (-1) - (-y) \\cdot 2y}{(x^2 + y^2)^2} = \\frac{-x^2 - y^2 + 2y^2}{(x^2 + y^2)^2} = \\frac{-x^2 + y^2}{(x^2 + y^2)^2}.\n\\]\n\nThus, we have\n\n\\[\n\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} = \\frac{-x^2 + y^2}{(x^2 + y^2)^2} - \\frac{-x^2 + y^2}{(x^2 + y^2)^2} = 0.\n\\]\n\nAccording to Green's Theorem, the integral is\n\n\\[\n\\oint_{L} \\frac{x \\mathrm{d} y - y \\mathrm{d} x}{x^2 + y^2} = \\iint_D 0 \\, \\mathrm{d} A = 0.\n\\]\n\nTherefore, the value of the integral is \\(\\boxed{0}\\).\n\nThe confidence level in this answer is \\(100\\%\\).",
+        "num_new_tokens": 680,
+        "speed": 41.38719055452773,
+        "model": "Qwen",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200611",
+        "category": "Mathematics",
+        "sub_category": "Calculus",
+        "question_in_Chinese": "计算沿回路$L:(x-1)^2+(y-1)^2=4$逆时针方向的积分: $\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $。",
+        "question_in_English": "Calculate the integral along the loop $L:(x-1)^2+(y-1)^2=4$ counterclockwise:$\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $.",
+        "answer": "2π",
+        "occurrence": 2,
+        "model_output": "To calculate the integral \\(\\oint_{L} \\frac{x \\, \\mathrm{d} y - y \\, \\mathrm{d} x}{x^2 + y^2}\\) along the loop \\(L: (x-1)^2 + (y-1)^2 = 4\\) counterclockwise, we can use Green's theorem. Green's theorem states that for a positively oriented, piecewise-smooth simple curve \\(C\\) and a continuously differentiable vector field \\(\\mathbf{F} = P(x,y) \\mathbf{i} + Q(x,y) \\mathbf{j}\\) in a plane, the line integral of \\(\\mathbf{F}\\) along \\(C\\) is equal to the double integral of the partial derivative of \\(Q\\) with respect to \\(x\\) minus the partial derivative of \\(P\\) with respect to \\(y\\) over the region \\(D\\) enclosed by \\(C\\):\n\n\\[\n\\oint_{C} (P \\, \\mathrm{d}x + Q \\, \\mathrm{d}y) = \\iint_{D} \\left( \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} \\right) \\, \\mathrm{d}A.\n\\]\n\nIn our case, the vector field is \\(\\mathbf{F} = \\frac{-y}{x^2 + y^2} \\mathbf{i} + \\frac{x}{x^2 + y^2} \\mathbf{j}\\), so \\(P(x,y) = \\frac{-y}{x^2 + y^2}\\) and \\(Q(x,y) = \\frac{x}{x^2 + y^2}\\). We need to compute the partial derivatives \\(\\frac{\\partial Q}{\\partial x}\\) and \\(\\frac{\\partial P}{\\partial y}\\):\n\n\\[\n\\frac{\\partial Q}{\\partial x} = \\frac{\\partial}{\\partial x} \\left( \\frac{x}{x^2 + y^2} \\right) = \\frac{(x^2 + y^2) \\cdot 1 - x \\cdot 2x}{(x^2 + y^2)^2} = \\frac{x^2 + y^2 - 2x^2}{(x^2 + y^2)^2} = \\frac{y^2 - x^2}{(x^2 + y^2)^2},\n\\]\n\n\\[\n\\frac{\\partial P}{\\partial y} = \\frac{\\partial}{\\partial y} \\left( \\frac{-y}{x^2 + y^2} \\right) = \\frac{(x^2 + y^2) \\cdot (-1) - (-y) \\cdot 2y}{(x^2 + y^2)^2} = \\frac{-x^2 - y^2 + 2y^2}{(x^2 + y^2)^2} = \\frac{y^2 - x^2}{(x^2 + y^2)^2}.\n\\]\n\nThus, \\(\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} = \\frac{y^2 - x^2}{(x^2 + y^2)^2} - \\frac{y^2 - x^2}{(x^2 + y^2)^2} = 0\\). Therefore, by Green's theorem, the line integral is:\n\n\\[\n\\oint_{L} \\frac{x \\, \\mathrm{d} y - y \\, \\mathrm{d} x}{x^2 + y^2} = \\iint_{D} 0 \\, \\mathrm{d}A = 0.\n\\]\n\nHowever, this result is not correct because the vector field \\(\\mathbf{F}\\) is not defined at the origin \\((0,0)\\), which is inside the loop \\(L\\). The correct approach is to use the fact that the integral of \\(\\frac{x \\, \\mathrm{d} y - y \\, \\mathrm{d} x}{x^2 + y^2}\\) around any simple closed curve that encircles the origin counterclockwise is \\(2\\pi\\). This is a well-known result from complex analysis, specifically the calculation of theifiers of the function \\(\\frac{1}{z}\\) around the unit circle in the complex plane.\n\nTherefore, the integral is:\n\n\\[\n\\oint_{L} \\frac{x \\, \\mathrm{d} y - y \\, \\mathrm{d} x}{x^2 + y^2} = 2\\pi.\n\\]\n\nMy confidence level in this answer is \\(100\\%\\).\n\nThe final answer is:\n\n\\[\n\\boxed{2\\pi}.\n\\]",
+        "num_new_tokens": 1028,
+        "speed": 41.404684053746465,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200611",
+        "category": "Mathematics",
+        "sub_category": "Calculus",
+        "question_in_Chinese": "计算沿回路$L:(x-1)^2+(y-1)^2=4$逆时针方向的积分: $\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $。",
+        "question_in_English": "Calculate the integral along the loop $L:(x-1)^2+(y-1)^2=4$ counterclockwise:$\\oint_{L}  \\frac{x \\mathrm{d} y-y\\mathrm{d} x}{x^2+y^2} $.",
+        "answer": "2π",
+        "occurrence": 3,
+        "model_output": "To calculate the integral \\(\\oint_{L} \\frac{x \\, \\mathrm{d} y - y \\, \\mathrm{d} x}{x^2 + y^2}\\) along the loop \\(L: (x-1)^2 + (y-1)^2 = 4\\) counterclockwise, we can use Green's Theorem. Green's Theorem states that for a positively oriented, piecewise-smooth, simple closed curve \\(C\\) and a plane region \\(D\\) bounded by \\(C\\),\n\n\\[\n\\oint_{C} (P \\, \\mathrm{d} x + Q \\, \\mathrm{d} y) = \\iint_{D} \\left( \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y} \\right) \\, \\mathrm{d} A,\n\\]\n\nwhere \\(P\\) and \\(Q\\) have continuous partial derivatives on an open region containing \\(D\\).\n\nIn our case, \\(P = -\\frac{y}{x^2 + y^2}\\) and \\(Q = \\frac{x}{x^2 + y^2}\\). We need to compute the partial derivatives \\(\\frac{\\partial Q}{\\partial x}\\) and \\(\\frac{\\partial P}{\\partial y}\\).\n\nFirst, compute \\(\\frac{\\partial Q}{\\partial x}\\):\n\n\\[\n\\frac{\\partial Q}{\\partial x} = \\frac{\\partial}{\\partial x} \\left( \\frac{x}{x^2 + y^2} \\right) = \\frac{(x^2 + y^2) \\cdot 1 - x \\cdot 2x}{(x^2 + y^2)^2} = \\frac{x^2 + y^2 - 2x^2}{(x^2 + y^2)^2} = \\frac{y^2 - x^2}{(x^2 + y^2)^2}.\n\\]\n\nNext, compute \\(\\frac{\\partial P}{\\partial y}\\):\n\n\\[\n\\frac{\\partial P}{\\partial y} = \\frac{\\partial}{\\partial y} \\left( -\\frac{y}{x^2 + y^2} \\right) = -\\frac{(x^2 + y^2) \\cdot 1 - y \\cdot 2y}{(x^2 + y^2)^2} = -\\frac{x^2 + y^2 - 2y^2}{(x^2 + y^2)^2} = -\\frac{x^2 - y^2}{(x^2 + y^2)^2} = \\frac{y^2 - x^2}{(x^2 + y^2)^2}.\n\\]\n\nNow, substitute \\(\\frac{\\partial Q}{\\partial x}\\) and \\(\\frac{\\partial P}{\\partial y}\\) into Green's Theorem:\n\n\\[\n\\oint_{L} \\frac{x \\, \\mathrm{d} y - y \\, \\mathrm{d} x}{x^2 + y^2} = \\iint_{D} \\left( \\frac{y^2 - x^2}{(x^2 + y^2)^2} - \\frac{y^2 - x^2}{(x^2 + y^2)^2} \\right) \\, \\mathrm{d} A = \\iint_{D} 0 \\, \\mathrm{d} A = 0.\n\\]\n\nTherefore, the value of the integral is \\(\\boxed{0}\\).\n\nMy confidence level in this answer is \\(100\\%\\).",
+        "num_new_tokens": 780,
+        "speed": 41.66593217123731,
+        "model": "Qwen",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

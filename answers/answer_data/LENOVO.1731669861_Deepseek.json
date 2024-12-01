@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731669861",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$8765+3214=$。",
+        "question_in_English": "Calculate:$8765+3214=$.",
+        "answer": "11979",
+        "occurrence": 1,
+        "model_output": " Add the numbers column by column from right to left. If a column number is larger than $10$, carry over the value to the next column.\n\nFirst, we add the digits in the rightmost column: $5+4=9$.\n\nNext, we add the digits in the next column: $6+1=7$.\n\nThen, we add the digits in the next column: $7+2=9$.\n\nFinally, we add the digits in the leftmost column: $8+3=11$. Since this is larger than $10$, we write down $1$ and carry over $1$ to the next column.\n\nPutting it all together, we get $8765+3214=11979$.\n\nTherefore, the answer is $\\boxed{11979}$. I am $\\boxed{100\\%}$ confident in my answer.",
+        "num_new_tokens": 198,
+        "speed": 44.693618457850086,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731669861",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$8765+3214=$。",
+        "question_in_English": "Calculate:$8765+3214=$.",
+        "answer": "11979",
+        "occurrence": 2,
+        "model_output": " The sum of $8765$ and $3214$ is $\\boxed{11979}$. \n\nMy confidence in providing the correct answer is $\\boxed{100\\%}$.",
+        "num_new_tokens": 46,
+        "speed": 44.944093938656984,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731669861",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$8765+3214=$。",
+        "question_in_English": "Calculate:$8765+3214=$.",
+        "answer": "11979",
+        "occurrence": 3,
+        "model_output": " We can add the numbers column by column from right to left. \nStarting from the rightmost column, $5+4=9$. \nMoving to the next column, $6+1=7$. \nIn the third column, $7+2=9$. \nAnd finally, in the leftmost column, $8+3=11$. \nSo, $8765+3214=11979$.\nThe answer is $\\boxed{11979}$.\nMy confidence in percentage level is $\\boxed{100\\%}$.",
+        "num_new_tokens": 127,
+        "speed": 44.980548077467894,
+        "model": "Deepseek",
+        "mark": 10,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

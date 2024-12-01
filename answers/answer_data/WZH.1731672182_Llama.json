@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731672182",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "凸八边形的内角和是多少度？",
+        "question_in_English": "What is the sum of the inside angles of a convex octagon？",
+        "answer": "1080",
+        "occurrence": 1,
+        "model_output": "To find the sum of the inside angles of a convex octagon, we can use the formula for the sum of the inside angles of a polygon, which is:\n\nSum of inside angles = (n - 2) × 180°\n\nwhere n is the number of sides of the polygon.\n\nFor a convex octagon, n = 8 (since an octagon has 8 sides).\n\nPlugging in the value of n into the formula, we get:\n\nSum of inside angles = (8 - 2) × 180°\nSum of inside angles = 6 × 180°\nSum of inside angles = 1080°\n\nTherefore, the sum of the inside angles of a convex octagon is 1080°.\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 159,
+        "speed": 39.44086676254622,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672182",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "凸八边形的内角和是多少度？",
+        "question_in_English": "What is the sum of the inside angles of a convex octagon？",
+        "answer": "1080",
+        "occurrence": 2,
+        "model_output": "To find the sum of the inside angles of a convex octagon, we can use the formula for the sum of interior angles of a polygon, which is given by:\n\nSum of interior angles = (n - 2) × 180\n\nwhere n is the number of sides of the polygon. In this case, n = 8 (since an octagon has 8 sides).\n\nPlugging in the value of n, we get:\n\nSum of interior angles = (8 - 2) × 180\n= 6 × 180\n= 1080\n\nTherefore, the sum of the inside angles of a convex octagon is 1080 degrees.\n\n\\boxed{1080}\n\nI am confident in this answer to the level of 100%.<|eot_id|>",
+        "num_new_tokens": 155,
+        "speed": 39.448691595204586,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672182",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "凸八边形的内角和是多少度？",
+        "question_in_English": "What is the sum of the inside angles of a convex octagon？",
+        "answer": "1080",
+        "occurrence": 3,
+        "model_output": "To find the sum of the inside angles of a convex octagon, we need to use the formula for the sum of inside angles of a polygon:\n\nSum of inside angles = (n-2) * 180\n\nwhere n is the number of sides of the polygon.\n\nFor a convex octagon, n = 8.\n\nNow, let's plug in the value of n into the formula:\n\nSum of inside angles = (8-2) * 180\n= 6 * 180\n= 1080\n\nTherefore, the sum of the inside angles of a convex octagon is 1080.\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 132,
+        "speed": 39.267740723802696,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

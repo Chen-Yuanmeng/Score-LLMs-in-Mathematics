@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 1,
+        "model_output": "To determine the distribution of the random variable \\( Z = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}} \\), where \\( X_1, X_2, X_3, \\) and \\( X_4 \\) are independent standard normal random variables, we will follow these steps:\n\n1. **Identify the distributions of \\( X_1 - X_2 \\) and \\( \\sqrt{X_3^2 + X_4^2} \\)**.\n2. **Determine the distribution of \\( Z \\) by recognizing its form as a ratio of independent random variables.**\n\n**Step 1: Distribution of \\( X_1 - X_2 \\)**\n\nSince \\( X_1 \\) and \\( X_2 \\) are independent standard normal random variables, their difference \\( X_1 - X_2 \\) is also a normal random variable. The mean and variance of \\( X_1 - X_2 \\) are:\n- Mean: \\( \\mathbb{E}[X_1 - X_2] = \\mathbb{E}[X_1] - \\mathbb{E}[X_2] = 0 - 0 = 0 \\)\n- Variance: \\( \\text{Var}(X_1 - X_2) = \\text{Var}(X_1) + \\text{Var}(X_2) = 1 + 1 = 2 \\)\n\nTherefore, \\( X_1 - X_2 \\) follows a normal distribution with mean 0 and variance 2, denoted as \\( \\mathcal{N}(0, 2) \\).\n\n**Step 2: Distribution of \\( \\sqrt{X_3^2 + X_4^2} \\)**\n\nSince \\( X_3 \\) and \\( X_4 \\) are independent standard normal random variables, the sum \\( X_3^2 + X_4^2 \\) follows a chi-squared distribution with 2 degrees of freedom, denoted as \\( \\chi^2_2 \\).\n\nThe square root of a chi-squared random variable with 2 degrees of freedom follows a Rayleigh distribution with parameter 1. The probability density function (pdf) of a Rayleigh distribution with parameter 1 is:\n\\[ f_{\\sqrt{X_3^2 + X_4^2}}(x) = \\begin{cases} \nx e^{-x^2/2} & \\text{for } x \\geq 0 \\\\\n0 & \\text{for } x < 0 \n\\end{cases} \\]\n\n**Step 3: Distribution of \\( Z = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}} \\)**\n\nThe ratio of a standard normal random variable to a Rayleigh random variable (which is the square root of a chi-squared random variable with 2 degrees of freedom) follows a Cauchy distribution. Specifically, if \\( X_1 - X_2 \\) follows \\( \\mathcal{N}(0, 2) \\) and \\( \\sqrt{X_3^2 + X_4^2} \\) follows a Rayleigh distribution with parameter 1, then \\( Z \\) follows a standard Cauchy distribution.\n\nThe standard Cauchy distribution has a probability density function given by:\n\\[ f_Z(z) = \\frac{1}{\\pi (1 + z^2)} \\]\n\n**Confidence Level**\n\nThe Cauchy distribution is a well-known distribution, and it is已经 well-documented in statistical theory. Therefore, we can be confident in our result.\n\nThus, the random variable \\( Z \\) follows a standard Cauchy distribution, and the confidence level is 100%.\n\nThe final answer is:\n\\[\n\\boxed{100\\%}\n\\]",
+        "num_new_tokens": 825,
+        "speed": 40.35975000031492,
+        "model": "Qwen",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "confident",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 2,
+        "model_output": "Given that the random variables \\(X_1, X_2, X_3, X_4\\) are independent and follow a standard normal distribution, we need to determine the distribution of the random variable \\(Y = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}}\\).\n\nFirst, consider the numerator \\(X_1 - X_2\\). Since \\(X_1\\) and \\(X_2\\) are independent standard normal random variables, the difference \\(X_1 - X_2\\) is also a normal random variable with mean 0 and variance \\(1 + 1 = 2\\). Therefore, \\(X_1 - X_2 \\sim N(0, 2)\\).\n\nNext, consider the denominator \\(\\sqrt{X_3^2 + X_4^2}\\). The sum of squares of two independent standard normal random variables follows a chi-squared distribution with 2 degrees of freedom. Specifically, \\(X_3^2 + X_4^2 \\sim \\chi^2_2\\). The square root of a chi-squared random variable with 2 degrees of freedom follows a Rayleigh distribution with parameter 1. Therefore, \\(\\sqrt{X_3^2 + X_4^2} \\sim \\text{Rayleigh}(1)\\).\n\nNow, we need to find the distribution of the ratio \\(Y = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}}\\). To do this, we can use the fact that if \\(Z \\sim N(0, 1)\\) and \\(R \\sim \\text{Rayleigh}(1)\\) are independent, then the ratio \\(Z/R\\) follows a Cauchy distribution. In our case, \\(X_1 - X_2\\) is \\(N(0, 2)\\), so we can write \\(X_1 - X_2 = \\sqrt{2}Z\\) where \\(Z \\sim N(0, 1)\\). Therefore, we have:\n\n\\[ Y = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}} = \\frac{\\sqrt{2}Z}{R} = \\sqrt{2} \\cdot \\frac{Z}{R} \\]\n\nSince \\(Z/R\\) follows a Cauchy distribution, \\(\\sqrt{2} \\cdot \\frac{Z}{R}\\) follows a Cauchy distribution scaled by \\(\\sqrt{2}\\). The standard Cauchy distribution has the probability density function \\(f(x) = \\frac{1}{\\pi(1 + x^2)}\\), and the scaled Cauchy distribution has the probability density function \\(f(x) = \\frac{1}{\\pi\\sqrt{2}(1 + (x/\\sqrt{2})^2)} = \\frac{\\sqrt{2}}{\\pi(2 + x^2)}\\).\n\nTherefore, the random variable \\(Y\\) follows a Cauchy distribution with scale parameter \\(\\sqrt{2}\\). The Cauchy distribution does not have a finite mean or variance, but it is symmetric and has a median of 0.\n\nThe confidence level in this answer is 100%, as the result is derived from the properties of the normal and chi-squared distributions, which are well-established in probability theory.\n\nThe final answer is:\n\n\\[\n\\boxed{\\text{Cauchy}(\\sqrt{2})}\n\\]",
+        "num_new_tokens": 745,
+        "speed": 41.428475534300276,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 3,
+        "model_output": "To determine the distribution of the random variable \\( Z = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}} \\), where \\( X_1, X_2, X_3, X_4 \\) are independent standard normal random variables, we need to analyze the properties of the numerator and the denominator separately.\n\n### Step 1: Analyze the Numerator\nThe numerator is \\( X_1 - X_2 \\). Since \\( X_1 \\) and \\( X_2 \\) are independent standard normal random variables, their difference \\( X_1 - X_2 \\) is also a normal random variable. The mean and variance of \\( X_1 - X_2 \\) can be calculated as follows:\n- Mean: \\( \\mathbb{E}[X_1 - X_2] = \\mathbb{E}[X_1] - \\mathbb{E}[X_2] = 0 - 0 = 0 \\)\n- Variance: \\( \\text{Var}(X_1 - X_2) = \\text{Var}(X_1) + \\text{Var}(X_2) = 1 + 1 = 2 \\)\n\nThus, \\( X_1 - X_2 \\) follows a normal distribution with mean 0 and variance 2, i.e., \\( X_1 - X_2 \\sim N(0, 2) \\).\n\n### Step 2: Analyze the Denominator\nThe denominator is \\( \\sqrt{X_3^2 + X_4^2} \\). Since \\( X_3 \\) and \\( X_4 \\) are independent standard normal random variables, the sum of their squares \\( X_3^2 + X_4^2 \\) follows a chi-squared distribution with 2 degrees of freedom, i.e., \\( X_3^2 + X_4^2 \\sim \\chi^2(2) \\).\n\nThe square root of a chi-squared random variable with 2 degrees of freedom follows a Rayleigh distribution. Specifically, if \\( Y \\sim \\chi^2(2) \\), then \\( \\sqrt{Y} \\) follows a Rayleigh distribution with parameter 1, i.e., \\( \\sqrt{X_3^2 + X_4^2} \\sim \\text{Rayleigh}(1) \\).\n\n### Step 3: Combine the Numerator and Denominator\nWe now need to combine the results from the numerator and the denominator. The random variable \\( Z = \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}} \\) is the ratio of a normal random variable \\( X_1 - X_2 \\) with mean 0 and variance 2 to a Rayleigh random variable \\( \\sqrt{X_3^2 + X_4^2} \\) with parameter 1.\n\nThe distribution of the ratio of a normal random variable to a Rayleigh random variable is known to follow a Cauchy distribution. Specifically, if \\( U \\sim N(0, \\sigma^2) \\) and \\( V \\sim \\text{Rayleigh}(\\sigma) \\), then \\( \\frac{U}{V} \\) follows a Cauchy distribution with parameter \\( \\sigma \\).\n\nIn our case, \\( U = X_1 - X_2 \\sim N(0, 2) \\) implies \\( \\sigma^2 = 2 \\), so \\( \\sigma = \\sqrt{2} \\). Therefore, \\( \\frac{X_1 - X_2}{\\sqrt{X_4^2 + X_3^2}} \\) follows a Cauchy distribution with parameter \\( \\sqrt{2} \\).\n\n### Final Answer\nThe random variable \\( \\frac{X_1 - X_2}{\\sqrt{X_3^2 + X_4^2}} \\) follows a Cauchy distribution with parameter \\( \\sqrt{2} \\). My confidence level in this answer is 100%.\n\n\\[\n\\boxed{\\text{Cauchy}(\\sqrt{2})}\n\\]",
+        "num_new_tokens": 888,
+        "speed": 41.631014142548416,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

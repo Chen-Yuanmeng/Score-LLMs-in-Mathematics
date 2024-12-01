@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 1,
+        "model_output": "To calculate the expression $1533{\\div} 73+  159- 57$, we need to follow the order of operations (PEMDAS):\n\n1. Divide 1533 by 73: \n   $1533{\\div} 73 = 21.000...$\n\nWe'll keep the result as a decimal for now.\n\n2. Add 159 to the result:\n   $21.000... + 159 = 180.000...$\n\n3. Subtract 57 from the result:\n   $180.000... - 57 = 123.000...$\n\nRounding this to the nearest whole number, we get 123. \n\nSo, $\\boxed{123}.$\n\nConfidence level: 100% (Since the calculation is a simple arithmetic operation and does not involve any complex math or uncertainty.)<|eot_id|>",
+        "num_new_tokens": 172,
+        "speed": 39.19679836253922,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 2,
+        "model_output": "To calculate the expression $1533{\\div} 73+  159- 57$, we need to follow the order of operations (PEMDAS):\n\n1. Divide $1533$ by $73$:\n   $1533{\\div} 73 = 21.02739726027451$\n\n2. Now, we have $21.02739726027451 + 159 - 57$. To simplify this, we can first add and subtract the whole numbers:\n   $159 - 57 = 102$\n\n3. Now, we have $21.02739726027451 + 102$. \n   $21.02739726027451 + 102 = 123.02739726027451$\n\n4. Since we need a final answer and assuming that it should be a decimal, our answer is $123.02739726027451$. However, as the problem does not explicitly state the format for the answer, we can simplify it to $123.03$ if we want a more precise representation of the decimal answer.\n\n\n\\boxed{123.02739726027451}  \nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 236,
+        "speed": 39.292791183159274,
+        "model": "Llama",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 3,
+        "model_output": "To calculate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Divide 1533 by 73: \n   1533 ÷ 73 = 21.041 (approximately)\n\n2. Now, add 21.041 and 159: \n   21.041 + 159 = 180.041\n\n3. Subtract 57 from 180.041:\n   180.041 - 57 = 123.041\n\nSo, the result is approximately 123.041.\n\n\\boxed{123.041}\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 124,
+        "speed": 39.34837335514656,
+        "model": "Llama",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

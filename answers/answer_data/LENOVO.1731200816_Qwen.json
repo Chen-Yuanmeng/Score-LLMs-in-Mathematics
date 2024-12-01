@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 1,
+        "model_output": "To find the maximum likelihood estimate of the total number of fish in the pond, we can use the method of capture-recapture. Let's denote the total number of fish in the pond as \\( N \\).\n\nFirst, we know that 800 fish were marked and returned to the pond. Later, 2000 fish were caught, and out of these, 100 were marked. The proportion of marked fish in the second sample should be approximately equal to the proportion of marked fish in the entire pond. Therefore, we can set up the following equation:\n\n\\[\n\\frac{100}{2000} = \\frac{800}{N}\n\\]\n\nSimplifying the left side of the equation, we get:\n\n\\[\n\\frac{1}{20} = \\frac{800}{N}\n\\]\n\nTo solve for \\( N \\), we can cross-multiply:\n\n\\[\nN = 800 \\times 20 = 16000\n\\]\n\nSo, the maximum likelihood estimate of the total number of fish in the pond is \\( 16000 \\).\n\nNext, we need to give a confidence level in percentage regarding this estimate. The confidence level can be estimated using the formula for the standard error of the estimate, which is given by:\n\n\\[\n\\text{Standard error} = \\sqrt{\\frac{N \\cdot M \\cdot (N - M) \\cdot (n - m)}{M^2 \\cdot n^3}}\n\\]\n\nwhere \\( N \\) is the total number of fish in the pond, \\( M \\) is the number of marked fish, \\( n \\) is the number of fish caught in the second sample, and \\( m \\) is the number of marked fish in the second sample. Plugging in the values \\( N = 16000 \\), \\( M = 800 \\), \\( n = 2000 \\), and \\( m = 100 \\), we get:\n\n\\[\n\\text{Standard error} = \\sqrt{\\frac{16000 \\cdot 800 \\cdot (16000 - 800) \\cdot (2000 - 100)}{800^2 \\cdot 2000^3}}\n\\]\n\nSimplifying the numerator and the denominator, we get:\n\n\\[\n\\text{Standard error} = \\sqrt{\\frac{16000 \\cdot 800 \\cdot 15200 \\cdot 1900}{640000 \\cdot 8000000000}} = \\sqrt{\\frac{19000000000000}{51200000000000}} = \\sqrt{\\frac{19}{3.125}} = \\sqrt{6.08} \\approx 2.47\n\\]\n\nThe standard error is approximately 2.47. To find the confidence interval, we can use the approximately normal distribution and the standard error. For a 95% confidence level, the z-score is approximately 1.96. Therefore, the confidence interval is:\n\n\\[\n16000 \\pm 1.96 \\times 2.47 \\approx 16000 \\pm 4.84\n\\]\n\nThis gives us a confidence interval from approximately 15995.16 to 16004.84. Since we are asked to give the confidence level in percentage regarding the estimate, we can say that we are approximately 95% confident that the total number of fish in the pond is between 15995 and 16005. However, the confidence level regarding the point estimate of 16000 is 100% because it is the maximum likelihood estimate.\n\nTherefore, the confidence level in percentage regarding the estimate of 16000 is:\n\n\\[\n\\boxed{100}\n\\]",
+        "num_new_tokens": 874,
+        "speed": 41.47872600212826,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 2,
+        "model_output": "To find the maximum likelihood estimate (MLE) of the total number of fish in the pond, we can use the capture-recapture method. Here's the step-by-step reasoning:\n\n1. Let \\( N \\) be the total number of fish in the pond.\n2. In the first capture, 800 fish are marked and returned to the pond.\n3. In the second capture, 2000 fish are caught, and 100 of them are marked.\n\nThe probability that a randomly chosen fish from the second capture is marked is the ratio of the number of marked fish to the total number of fish in the pond. This probability can also be estimated by the ratio of the number of marked fish in the second capture to the total number of fish in the second capture. Therefore, we can set up the following equation:\n\n\\[\n\\frac{800}{N} = \\frac{100}{2000}\n\\]\n\nSolving for \\( N \\):\n\n\\[\n\\frac{800}{N} = \\frac{1}{20}\n\\]\n\n\\[\nN = 800 \\times 20\n\\]\n\n\\[\nN = 16000\n\\]\n\nSo, the maximum likelihood estimate of the total number of fish in the pond is 16000.\n\nNext, we need to give a confidence level in percentage regarding this answer. The confidence level can be estimated using the properties of the hypergeometric distribution or the normal approximation to the hypergeometric distribution. For simplicity, we can use the following rule of thumb: the confidence interval for the MLE using the capture-recapture method is approximately:\n\n\\[\nN \\pm 1.96 \\sqrt{N \\left(1 - \\frac{M}{N}\\right) \\left(\\frac{n}{N}\\right)}\n\\]\n\nwhere \\( M = 800 \\) and \\( n = 2000 \\). However, a simpler approach is to use the fact that the estimate is reasonably accurate when the number of marked fish in the second capture is at least 50% of the total number of fish marked and the total number of fish captured in the second sample is at least 50% of the total number of fish in the pond. In this case, we have:\n\n- The number of marked fish in the second capture is 100, which is less than 50% of the total number of fish marked (800).\n- The total number of fish captured in the second sample is 2000, which is more than 50% of the total number of fish in the pond (16000).\n\nGiven these conditions, the estimate is reasonably accurate, and we can say with a high degree of confidence that the total number of fish in the pond is close to 16000. A common confidence level for such estimates is 95%. Therefore, the confidence level is:\n\n\\[\n\\boxed{95}\n\\]",
+        "num_new_tokens": 630,
+        "speed": 40.89534982248812,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 3,
+        "model_output": "To find the maximum likelihood estimate (MLE) of the total number of fish in the pond, we can use the capture-recapture method. This method assumes that the proportion of marked fish in the second sample is the same as the proportion of marked fish in the entire pond.\n\nLet's denote the total number of fish in the pond by \\( N \\).\n\n1. **First Capture:**\n   - 800 fish are caught and marked.\n   - These 800 marked fish are returned to the pond.\n\n2. **Second Capture:**\n   - 2000 fish are caught.\n   - 100 of these fish are marked.\n\nAccording to the capture-recapture method, the proportion of marked fish in the second sample should be equal to the proportion of marked fish in the entire pond. Therefore, we can set up the following equation:\n\n\\[\n\\frac{\\text{Number of marked fish in the second sample}}{\\text{Total number of fish in the second sample}} = \\frac{\\text{Total number of marked fish}}{\\text{Total number of fish in the pond}}\n\\]\n\nSubstituting the given values into the equation, we get:\n\n\\[\n\\frac{100}{2000} = \\frac{800}{N}\n\\]\n\nSimplify the left-hand side:\n\n\\[\n\\frac{1}{20} = \\frac{800}{N}\n\\]\n\nTo solve for \\( N \\), we can cross-multiply:\n\n\\[\nN \\cdot \\frac{1}{20} = 800\n\\]\n\n\\[\nN = 800 \\times 20\n\\]\n\n\\[\nN = 16000\n\\]\n\nThus, the maximum likelihood estimate of the total number of fish in the pond is \\( \\boxed{16000} \\).\n\n**Confidence Level:**\nThe confidence level in this estimate can be determined using the properties of the hypergeometric distribution. However, for large \\( N \\), the confidence level can be approximated using the normal distribution and the standard error of the estimate. This requires more complex calculations involving the standard deviation and the z-score, which is beyond the scope of this problem.\n\nFor practical purposes and without additional calculations, we can state that the confidence level is typically high (e.g., 95% or higher) when using the capture-recapture method with a large sample size. For simplicity, we can assume a confidence level of approximately 95% when implementing this method in practice.\n\nTherefore, the confidence level in our answer is \\( \\boxed{95\\%} \\).",
+        "num_new_tokens": 548,
+        "speed": 40.79524493934577,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]

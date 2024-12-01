@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 1,
+        "model_output": "To solve the expression \\(1533 \\div 73 + 159 - 57\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. **Division**: First, we perform the division \\(1533 \\div 73\\).\n   \\[\n   1533 \\div 73 = 21\n   \\]\n   So the expression now becomes \\(21 + 159 - 57\\).\n\n2. **Addition**: Next, we perform the addition \\(21 + 159\\).\n   \\[\n   21 + 159 = 180\n   \\]\n   So the expression now becomes \\(180 - 57\\).\n\n3. **Subtraction**: Finally, we perform the subtraction \\(180 - 57\\).\n   \\[\n   180 - 57 = 123\n   \\]\n\nTherefore, the value of the expression is \\(\\boxed{123}\\).\n\nSince this is a straightforward arithmetic calculation, my confidence level in the answer is \\(100\\%\\).",
+        "num_new_tokens": 277,
+        "speed": 41.85382034715312,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 2,
+        "model_output": "To solve the expression \\(1533 \\div 73 + 159 - 57\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. **Division**: First, we perform the division \\(1533 \\div 73\\).\n   \\[\n   1533 \\div 73 = 21\n   \\]\n   So the expression now becomes:\n   \\[\n   21 + 159 - 57\n   \\]\n\n2. **Addition**: Next, we perform the addition \\(21 + 159\\).\n   \\[\n   21 + 159 = 180\n   \\]\n   So the expression now becomes:\n   \\[\n   180 - 57\n   \\]\n\n3. **Subtraction**: Finally, we perform the subtraction \\(180 - 57\\).\n   \\[\n   180 - 57 = 123\n   \\]\n\nTherefore, the value of the expression \\(1533 \\div 73 + 159 - 57\\) is \\(\\boxed{123}\\).\n\nSince I have followed the steps carefully and double-checked my calculations, I am confident that the answer is correct. My confidence level is \\(\\boxed{100}\\)%.",
+        "num_new_tokens": 325,
+        "speed": 41.864603766524695,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 3,
+        "model_output": "To solve the expression \\(1533 \\div 73 + 159 - 57\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the division \\(1533 \\div 73\\):\n   \\[\n   1533 \\div 73 = 21\n   \\]\n   So the expression now becomes:\n   \\[\n   21 + 159 - 57\n   \\]\n\n2. Next, perform the addition \\(21 + 159\\):\n   \\[\n   21 + 159 = 180\n   \\]\n   So the expression now becomes:\n   \\[\n   180 - 57\n   \\]\n\n3. Finally, perform the subtraction \\(180 - 57\\):\n   \\[\n   180 - 57 = 123\n   \\]\n\nTherefore, the value of the expression \\(1533 \\div 73 + 159 - 57\\) is \\(\\boxed{123}\\).\n\nSince I have followed the correct order of operations and performed each calculation accurately, my confidence level in the answer is \\(100\\%\\).",
+        "num_new_tokens": 304,
+        "speed": 41.86970603625328,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

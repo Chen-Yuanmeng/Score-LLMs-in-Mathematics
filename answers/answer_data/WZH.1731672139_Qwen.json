@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 1,
+        "model_output": "When two straight lines are parallel, the corresponding angles formed by a transversal line are equal. This is a fundamental property of parallel lines.\n\nLet's break it down step by step:\n\n1. **Definition of Parallel Lines**: Two lines are parallel if they lie in the same plane and never intersect, no matter how far they are extended.\n\n2. **Transversal Line**: A transversal is a line that intersects two or more lines at distinct points.\n\n3. **Corresponding Angles**: When a transversal intersects two parallel lines, corresponding angles are the angles that are in the same relative position at each intersection. For example, if the transversal intersects the parallel lines at points A and B, and we label the angles formed at point A as 1, 2, 3, and 4, and at point B as 5, 6, 7, and 8, then the corresponding angles are 1 and 5, 2 and 6, 3 and 7, and 4 and 8.\n\n4. **Property of Corresponding Angles**: The property states that corresponding angles are equal. So, if angle 1 is equal to angle 5, angle 2 is equal to angle 6, angle 3 is equal to angle 7, and angle 4 is equal to angle 8.\n\nTherefore, the relationship between the isotoping angles of two parallel lines is that they are equal. The confidence level in this answer is 100% because it is a well-known and proven geometric property.\n\nThe final answer is:\n\\[\n\\boxed{100\\%}\n\\]",
+        "num_new_tokens": 342,
+        "speed": 41.718921561904025,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 2,
+        "model_output": "When two straight lines are parallel, the corresponding angles formed by a transversal line intersecting them are equal. This is a fundamental property of parallel lines.\n\nLet's break it down step by step:\n\n1. **Definition of Parallel Lines**: Two lines are parallel if they lie in the same plane and never intersect, no matter how far they are extended.\n\n2. **Transversal Line**: A transversal is a line that intersects two or more lines at different points.\n\n3. **Corresponding Angles**: When a transversal intersects two parallel lines, the corresponding angles are the angles that are in the same relative position at each intersection. For example, if we label the angles formed by the transversal and the two parallel lines as follows:\n   - Angle 1 is formed by the transversal and the first parallel line.\n   - Angle 2 is formed by the transversal and the second parallel line.\n   - Angle 3 is formed by the transversal and the first parallel line.\n   - Angle 4 is formed by the transversal and the second parallel line.\n   - And so on.\n   The corresponding angles are angle 1 and angle 3, angle 2 and angle 4, angle 5 and angle 7, angle 6 and angle 8, etc.\n\n4. **Property of Corresponding Angles**: The corresponding angles are equal. So, if angle 1 is equal to angle 3, angle 2 is equal to angle 4, and so on.\n\nTherefore, the relationship between the isotropic angles of two parallel lines is that they are equal.\n\nThe confidence level in this answer is 100%, as it is a fundamental geometric property that is always true.\n\nThe final answer is:\n\n\\[\n\\boxed{100}\n\\]",
+        "num_new_tokens": 375,
+        "speed": 41.76643147981623,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 3,
+        "model_output": "When two straight lines are parallel, the corresponding angles formed by a transversal are equal. This is a fundamental property of parallel lines and transversals.\n\nLet's break it down step by step:\n\n1. **Definition of Parallel Lines**: Two lines are parallel if they never intersect, no matter how far they are extended.\n\n2. **Transversal**: A transversal is a line that intersects two or more other lines at different points.\n\n3. **Corresponding Angles**: When a transversal intersects two parallel lines, the corresponding angles are equal. Corresponding angles are the angles that are in the same relative position at each intersection.\n\nFor example, if line \\( l_1 \\) is parallel to line \\( l_2 \\) and a transversal \\( t \\) intersects them, then:\n- Angle 1 (formed by \\( l_1 \\) and \\( t \\)) is equal to Angle 5 (formed by \\( l_2 \\) and \\( t \\)).\n- Angle 2 is equal to Angle 6.\n- Angle 3 is equal to Angle 7.\n- Angle 4 is equal to Angle 8.\n\nThis property holds true for all corresponding angles formed by the transversal and the parallel lines.\n\n**Confidence Level**:\nAs this is a well-established geometric property that has been proven through logical reasoning and empirical evidence, my confidence level in this answer is very high. Therefore, I am 100% confident that the relationship between the isotropic angles of two parallel lines is that they are equal.\n\n\\[\n\\boxed{100\\%}\n\\]",
+        "num_new_tokens": 335,
+        "speed": 41.6137793557139,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731669966",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$9999-4567=$。",
+        "question_in_English": "Calculate:$9999-4567=$.",
+        "answer": "5432",
+        "occurrence": 1,
+        "model_output": " Let's solve this step by step.\n\nFirst, we write down the numbers one below the other. The number $9999$ is larger than $4567$, so we don't have to worry about any borrowing or negative numbers.\n\nHere's how it looks:\n\n```\n  9999\n- 4567\n```\n\nNow, we subtract each column from right to left.\n\nIn the rightmost column, we have $9 - 7 = 2$.\n\nIn the second column, we have $9 - 6 = 3$.\n\nIn the third column, we have $9 - 5 = 4$.\n\nIn the leftmost column, we have $9 - 4 = 5$.\n\nSo, the answer is $5432$.\n\nNow, let's give our confidence in the percentage level. We are very confident in our answer because we followed the standard procedure for subtraction, which always works.\n\nSo, the answer is $\\boxed{5432}$ and our confidence level is $\\boxed{100\\%}$.",
+        "num_new_tokens": 246,
+        "speed": 44.66858447132365,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731669966",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$9999-4567=$。",
+        "question_in_English": "Calculate:$9999-4567=$.",
+        "answer": "5432",
+        "occurrence": 2,
+        "model_output": " We can use the column method to subtract these numbers. We start from the rightmost column:\n\n$9 - 7 = 2$\n\nFor the second column from the right, we have:\n\n$9 - 6 = 3$\n\nFor the third column, we have:\n\n$9 - 5 = 4$\n\nAnd finally, for the leftmost column:\n\n$9 - 4 = 5$\n\nSo, $9999 - 4567 = \\boxed{5432}$.\n\nWe are $100\\%$ confident in this answer.",
+        "num_new_tokens": 136,
+        "speed": 44.886646894547034,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731669966",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$9999-4567=$。",
+        "question_in_English": "Calculate:$9999-4567=$.",
+        "answer": "5432",
+        "occurrence": 3,
+        "model_output": " The answer is $\\boxed{5432}$.\n\nI am $\\boxed{100\\%}$ confident in my answer.",
+        "num_new_tokens": 29,
+        "speed": 44.87657530354962,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

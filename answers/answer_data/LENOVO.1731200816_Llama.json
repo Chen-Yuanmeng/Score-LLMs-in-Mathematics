@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 1,
+        "model_output": "To solve this problem, we will use the concept of capture-recapture experiments in statistics. We can apply the formula for estimating the total population size (N) using the maximum likelihood estimate (MLE) as follows:\n\nn1: Initial number of fish marked and released = 800\nn2: Number of fish caught the second time = 2000\nm2: Number of marked fish in the second catch = 100\nm1: Number of marked fish in the first catch (which should equal n1) = 800 (but note that we don't know the total number of fish in the pond, that is what we want to find)\n\nNow, let's consider that in the second catch, the ratio of the number of marked fish to the total number of fish should be the same as the ratio of the number of marked fish in the first catch to the total population. So we can write the equation as:\n\n( m2 / n2 ) = ( m1 / N )\n\nSubstituting the given values into the equation, we get:\n\n( 100 / 2000 ) = ( 800 / N )\n\nTo find N, we can solve the equation as follows:\n\n( 100 / 2000 ) = ( 800 / N )\n\nCross-multiplying:\n100N = 800 * 2000\n\nExpanding:\n100N = 1600000\n\nDividing by 100:\nN = 16000\n\nTherefore, the maximum likelihood estimate of the total number of fish in the pond is:\n\\boxed{16000}\n\nConfidence level: 80%<|eot_id|>",
+        "num_new_tokens": 326,
+        "speed": 39.10850587907618,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "80",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 2,
+        "model_output": "To find the maximum likelihood estimate of the total number of fish in the pond, we need to use the concept of capture-recapture. \n\nLet's denote the total number of fish in the pond as N. \n\nWhen the first 800 fish are caught and marked, the probability of a fish being caught in this sample can be represented as 800/N. \n\nWhen the second sample of 2000 fish is caught, out of which 100 are marked, we can assume that the 100 marked fish in the second sample came from the initial 800 marked fish. Therefore, the probability of a marked fish being caught in the second sample is (800/N) * (800/2000), since there are 800 marked fish in the total population of size N, and the probability of being caught is proportional to the population size. \n\nHowever, not all 100 marked fish in the second sample came from the initial 800 marked fish; they could have come from the remaining unmarked fish. But since we are assuming that the marked fish in the second sample came from the first marked sample, this assumption should be kept as is because it's an assumption. \n\nThe probability of a fish being marked in the second sample can be represented as 100/N, as 100 fish are marked out of the total population size N.\n\nThe probability of catching a marked fish in the second sample can be calculated as the probability of catching a marked fish (which came from the first sample) divided by the total probability of catching a fish (which is either marked or unmarked). \n\nThis probability can be represented as (800/N) * (800/2000) / (800/N + (N-800)/N) * (2000/N) \n\nSimplifying the above expression gives us  (800/2000) / ((N-800 + 800)/N)\n\nSince 100 fish are marked in the second sample, we can use the binomial distribution to model the probability of catching k marked fish in the second sample.\n\nP(k=100 | N) = (N choose 2000) * ((800/N)^100) * ((2000/N - 800/N)^2000-100) \n\nHowever, since (N choose 2000) involves a lot of calculations which we cannot solve directly without computational tools, we can use the maximum likelihood method by approximating (N choose 2000) as ((N^2000)/2000!) \n\nP(k=100 | N) = ((N^2000)/2000!) * ((800/N)^100) * ((2000/N - 800/N)^2000-100)\n\nTo find the maximum likelihood estimate of N, we can use the method of maximum likelihood estimation (MLE). The MLE of N can be obtained by differentiating P(k=100 | N) with respect to N, setting it equal to zero and solving for N.\n\nUnfortunately, this cannot be solved analytically without computational tools. So let's rewrite P(k=100 | N) in terms of the number of unmarked fish in the second sample.\n\nP(k=100 | N) = ((N^2000)/2000!) * ((800/N)^100) * (((N-800)/N)^(2000-100))\n\nSince 1800 fish are unmarked in the second sample, we can approximate the above expression as follows:\n\nP(k=100 | N) = ((N^2000)/2000!) * ((800/N)^100) * (((N-800)/N)^(1800))\n\nTo find the maximum likelihood estimate of N, we can maximize this expression by using calculus. Taking the logarithm of P(k=100 | N) gives us:\n\nlog(P(k=100 | N)) = log((N^2000)/2000!) + 100log(800/N) + 1800log((N-800)/N)\n\nDifferentiating log(P(k=100 | N)) with respect to N gives us:\n\nd(log(P(k=100 | N)))/dN = 2000/N + 100(-800/N^2) + 1800(((N-800)/N) * (1/N) - ((N-800)/N^2))\n\nTo find the maximum likelihood estimate of N, we can set d(log(P(k=100 | N)))/dN = 0 and solve for N.\n\nSolving the above equation gives us:\n\n(2000/N) - (80000/N^2) + (1800((N-800)/N)/N) - (1800(N-800)/N^2) = 0\n\nSimplifying the above expression gives us:\n\n(2000(N-800) - 80000 + 1800(N-800)) / N^2 = 0\n\n(2000N - 1600000 - 80000 + 1800N - 1440000) / N^2 = 0\n\n(3080N - 2720000) / N^2 = 0\n\nSince 3080N - 2720000 cannot be zero for any value of N, we need to re-examine our assumptions and calculations.\n\nTo maximize the likelihood function P(k=100 | N), we can also make the assumption that the number of marked fish in the second sample (100) is a proportion of the total number of fish in the second sample.\n\nP(k=100 | N) ∝ 100/2000 * 800/N * ((N-800)/N)\n\nThis simplifies the problem significantly. \n\nNow we can use the concept of ratios of the number of marked and unmarked fish to estimate the total number of fish in the pond. \n\nThe ratio of the number of marked fish in the second sample to the number of marked fish in the first sample is equal to the ratio of the number of fish in the second sample to the total number of fish in the pond.\n\n100/800 = 2000/N\n\nN = (2000 * 800) / 100\nN = 160000\n\nTherefore, the maximum likelihood estimate of the total number of fish in the pond is 160,000.\n\nConfidence level: 80%<|eot_id|>",
+        "num_new_tokens": 1279,
+        "speed": 38.38611312830351,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "80%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 3,
+        "model_output": "To find the maximum likelihood estimate of the total number of fish in the pond, we need to use the concept of capture-recapture sampling. Let's denote the total number of fish in the pond as N.\n\nGiven:\n- Number of fish initially caught and marked (n1) = 800\n- Number of fish caught in the second sample (n2) = 2000\n- Number of marked fish in the second sample (m2) = 100\n\nThe probability of a fish being caught in the second sample can be expressed as:\n\nP(second catch) = (Number of marked fish caught in second sample) / (Total number of fish in the pond)\n\nWe can use the concept of hypergeometric distribution to model this problem. The probability of catching'm2' marked fish out of 'n2' fish in the second sample, given 'n1' marked fish in the pond is:\n\nP(m2 | N) = (n1 choose m2) * ((N-n1) choose (n2-m2)) / (N choose n2)\n\nSince we're interested in finding the maximum likelihood estimate of N, we need to maximize P(m2 | N). However, this is a difficult task as it involves the hypergeometric distribution.\n\nBut, we can use the fact that the expected value of the number of marked fish caught in the second sample is equal to the number of marked fish in the pond times the probability of a fish being caught in the second sample:\n\nExpected(m2) = m2 = n1 * (n1/N) * (n2/N)\n\nNow, we can rearrange this equation to get:\n\nN = n1 * n2 * (n2/n1) / m2\n\nPlugging in the values we have:\n\nN = 800 * 2000 * (2000/800) / 100\n\nN = 40000\n\nSo, the maximum likelihood estimate of the total number of fish in the pond is 40000.\n\nConfidence level: 80%<|eot_id|>",
+        "num_new_tokens": 416,
+        "speed": 38.96044556681278,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "80",
+        "additional_info": ""
+    }
+]

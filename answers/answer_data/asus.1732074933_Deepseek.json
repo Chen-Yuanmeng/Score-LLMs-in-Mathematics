@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 1,
+        "model_output": " To find the maximum likelihood estimates of $\\mu$ and $\\sigma^2$, we need to maximize the likelihood function. The likelihood function is given by:\n\n$$L(\\mu, \\sigma^2) = \\prod_{i=1}^{n} \\frac{1}{\\sqrt{2\\pi\\sigma^2}} \\exp\\left(-\\frac{(x_i-\\mu)^2}{2\\sigma^2}\\right)$$\n\nTaking the natural logarithm of the likelihood function, we get:\n\n$$\\ell(\\mu, \\sigma^2) = -\\frac{n}{2}\\log(2\\pi\\sigma^2) - \\frac{1}{2\\sigma^2}\\sum_{i=1}^{n}(x_i-\\mu)^2$$\n\nTo maximize the likelihood function, we need to find the values of $\\mu$ and $\\sigma^2$ that maximize the log-likelihood function. To do this, we can take the partial derivatives of the log-likelihood function with respect to $\\mu$ and $\\sigma^2$ and set them equal to zero:\n\n$$\\frac{\\partial \\ell(\\mu, \\sigma^2)}{\\partial \\mu} = \\frac{1}{\\sigma^2}\\sum_{i=1}^{n}(x_i-\\mu) = 0$$\n\n$$\\frac{\\partial \\ell(\\mu, \\sigma^2)}{\\partial \\sigma^2} = -\\frac{n}{2\\sigma^2} + \\frac{1}{2(\\sigma^2)^2}\\sum_{i=1}^{n}(x_i-\\mu)^2 = 0$$\n\nSolving the first equation for $\\mu$, we get:\n\n$$\\mu = \\frac{1}{n}\\sum_{i=1}^{n}x_i$$\n\nSolving the second equation for $\\sigma^2$, we get:\n\n$$\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\mu)^2$$\n\nSubstituting the expression for $\\mu$ into the equation for $\\sigma^2$, we get:\n\n$$\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\frac{1}{n}\\sum_{j=1}^{n}x_j)^2$$\n\nThe maximum likelihood estimates of $\\mu$ and $\\sigma^2$ are therefore:\n\n$$\\hat{\\mu} = \\frac{1}{n}\\sum_{i=1}^{n}x_i$$\n\n$$\\hat{\\sigma}^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\hat{\\mu})^2$$\n\nSo, the maximum likelihood estimates of $\\mu$ and $\\sigma^2$ are the sample mean and sample variance, respectively. We are $100\\%$ confident in our answer because we have derived the maximum likelihood estimates from first principles using calculus.\n\nThe answer is $\\boxed{\\left(\\frac{1}{n}\\sum_{i=1}^{n}x_i, \\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\frac{1}{n}\\sum_{j=1}^{n}x_j)^2\\right)}$. We are $\\boxed{100\\%}$ confident in our answer.",
+        "num_new_tokens": 714,
+        "speed": 43.75939631958417,
+        "model": "Deepseek",
+        "mark": 80,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 2,
+        "model_output": " To find the maximum likelihood estimates of $\\mu$ and $\\sigma^2$, we first need to find the likelihood function. The likelihood function is given by:\n\n$$L(\\mu, \\sigma^2) = f(X_1, X_2; \\mu, \\sigma^2) = f(X_1; \\mu, \\sigma^2) \\cdot f(X_2; \\mu, \\sigma^2)$$\n\nSince $X_1$ and $X_2$ are iid, we can write the likelihood function as:\n\n$$L(\\mu, \\sigma^2) = \\prod_{i=1}^{2} f(X_i; \\mu, \\sigma^2)$$\n\nThe probability density function of a normal distribution is given by:\n\n$$f(X_i; \\mu, \\sigma^2) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} \\exp\\left(-\\frac{(X_i - \\mu)^2}{2\\sigma^2}\\right)$$\n\nSubstituting this into the likelihood function, we get:\n\n$$L(\\mu, \\sigma^2) = \\prod_{i=1}^{2} \\frac{1}{\\sqrt{2\\pi\\sigma^2}} \\exp\\left(-\\frac{(X_i - \\mu)^2}{2\\sigma^2}\\right)$$\n\nTaking the logarithm of the likelihood function to simplify the expression, we get:\n\n$$\\log L(\\mu, \\sigma^2) = -\\sum_{i=1}^{2} \\left[\\frac{1}{2} \\log(2\\pi\\sigma^2) + \\frac{(X_i - \\mu)^2}{2\\sigma^2}\\right]$$\n\nTo find the maximum likelihood estimates, we need to find the values of $\\mu$ and $\\sigma^2$ that maximize the likelihood function or equivalently, the log-likelihood function. To do this, we can take the partial derivatives of the log-likelihood function with respect to $\\mu$ and $\\sigma^2$ and set them equal to zero:\n\n$$\\frac{\\partial \\log L(\\mu, \\sigma^2)}{\\partial \\mu} = \\sum_{i=1}^{2} \\frac{X_i - \\mu}{\\sigma^2} = 0$$\n\n$$\\frac{\\partial \\log L(\\mu, \\sigma^2)}{\\partial \\sigma^2} = -\\frac{2}{2\\sigma^2} + \\frac{1}{2\\sigma^4} \\sum_{i=1}^{2} (X_i - \\mu)^2 = 0$$\n\nSolving these equations, we get the maximum likelihood estimates:\n\n$$\\hat{\\mu} = \\frac{1}{2}(X_1 + X_2)$$\n\n$$\\hat{\\sigma}^2 = \\frac{1}{2} \\sum_{i=1}^{2} (X_i - \\hat{\\mu})^2$$\n\nTherefore, the maximum likelihood estimates of $\\mu$ and $\\sigma^2$ are $\\hat{\\mu} = \\frac{1}{2}(X_1 + X_2)$ and $\\hat{\\sigma}^2 = \\frac{1}{2} \\sum_{i=1}^{2} (X_i - \\hat{\\mu})^2$, respectively.\n\nSince we have two equations and two unknowns, we can solve these equations directly to find the maximum likelihood estimates. However, in practice, it is more common to use numerical methods to find the maximum likelihood estimates. \n\nThe confidence in the answer is $\\boxed{100\\%}$ as these are the maximum likelihood estimates derived from the likelihood function.",
+        "num_new_tokens": 801,
+        "speed": 43.72701770712297,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 3,
+        "model_output": " To find the maximum likelihood estimates of $\\mu$ and $\\sigma^2$, we need to maximize the likelihood function with respect to these parameters. The likelihood function for a sample of $n$ independent identically distributed (i.i.d) observations $X_1, X_2, ..., X_n$ from a normal distribution with mean $\\mu$ and variance $\\sigma^2$ is given by:\n\n$$L(\\mu, \\sigma^2) = \\prod_{i=1}^n \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x_i - \\mu)^2}{2\\sigma^2}}$$\n\nTo simplify the expression, we can take the natural logarithm of the likelihood function:\n\n$$\\ln L(\\mu, \\sigma^2) = \\sum_{i=1}^n \\left[-\\frac{1}{2}\\ln(2\\pi\\sigma^2) - \\frac{(x_i - \\mu)^2}{2\\sigma^2}\\right]$$\n\nTo maximize the likelihood function, we need to find the values of $\\mu$ and $\\sigma^2$ that maximize this expression. To do this, we can take the partial derivatives of the log-likelihood function with respect to $\\mu$ and $\\sigma^2$ and set them equal to zero:\n\n$$\\frac{\\partial \\ln L(\\mu, \\sigma^2)}{\\partial \\mu} = \\sum_{i=1}^n \\frac{x_i - \\mu}{\\sigma^2} = 0$$\n\n$$\\frac{\\partial \\ln L(\\mu, \\sigma^2)}{\\partial \\sigma^2} = -\\frac{n}{2\\sigma^2} + \\frac{1}{2\\sigma^4}\\sum_{i=1}^n (x_i - \\mu)^2 = 0$$\n\nSolving these equations for $\\mu$ and $\\sigma^2$, we get:\n\n$$\\mu = \\frac{1}{n}\\sum_{i=1}^n x_i$$\n\n$$\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i - \\mu)^2$$\n\nThese are the maximum likelihood estimates of $\\mu$ and $\\sigma^2$. \n\nThe answer is $\\boxed{\\mu = \\frac{1}{n}\\sum_{i=1}^n x_i, \\sigma^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i - \\mu)^2}$. We are $95\\%$ confident in our answer.",
+        "num_new_tokens": 561,
+        "speed": 44.05632698186995,
+        "model": "Deepseek",
+        "mark": 80,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

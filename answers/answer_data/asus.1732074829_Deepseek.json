@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732074829",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,其中$\\mu ,\\sigma ^{2}$为未知参数，记$X_{1},X_{2} idd\\sim X$,求  $\\mu ,\\sigma ^{2}$的矩估计.",
+        "question_in_English": "Given $X\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$，where $\\mu ,\\sigma ^{2}$ are unknown parameters, and $X_{1},X_{2} idd\\sim X$, find the method of estimates for $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为X_1,X_2的样本期望和样本方差",
+        "occurrence": 1,
+        "model_output": " To find the method of estimates for $\\mu$ and $\\sigma^2$, we will use the method of moments. The method of moments involves equating the sample moments to the population moments and solving for the parameters.\n\nThe first moment of the population distribution is the mean, which is $\\mu$. The sample mean is given by $\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i$. \n\nThe second moment of the population distribution is the variance, which is $\\sigma^2$. The sample variance is given by $S^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2$.\n\nNow, we equate the sample moments to the population moments and solve for the parameters:\n\n1. $\\mu = \\bar{X}$\n2. $\\sigma^2 = S^2$\n\nTherefore, the method of estimates for $\\mu$ and $\\sigma^2$ are $\\mu = \\bar{X}$ and $\\sigma^2 = S^2$.\n\nHowever, it's important to note that in this case, the method of moments does not provide unbiased estimates for $\\mu$ and $\\sigma^2$. The maximum likelihood estimates (MLEs) are generally preferred for unbiased estimates.\n\nThe answer is $\\boxed{\\mu = \\bar{X}, \\sigma^2 = S^2}$. However, I am $\\boxed{95\\%}$ confident in this answer, as it is derived using the method of moments, which is a widely accepted method for finding estimates in statistics.",
+        "num_new_tokens": 347,
+        "speed": 44.218439332423536,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074829",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,其中$\\mu ,\\sigma ^{2}$为未知参数，记$X_{1},X_{2} idd\\sim X$,求  $\\mu ,\\sigma ^{2}$的矩估计.",
+        "question_in_English": "Given $X\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$，where $\\mu ,\\sigma ^{2}$ are unknown parameters, and $X_{1},X_{2} idd\\sim X$, find the method of estimates for $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为X_1,X_2的样本期望和样本方差",
+        "occurrence": 2,
+        "model_output": " To find the method of estimates for $\\mu$ and $\\sigma^2$, we can use the maximum likelihood estimation method. The likelihood function for a sample of size $n$ is given by:\n\n$$L(\\mu, \\sigma^2) = \\prod_{i=1}^n \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x_i-\\mu)^2}{2\\sigma^2}}$$\n\nTo find the maximum likelihood estimates, we need to maximize this likelihood function. Taking the natural logarithm of the likelihood function, we get:\n\n$$\\ln L(\\mu, \\sigma^2) = -n\\ln(\\sqrt{2\\pi\\sigma^2}) - \\frac{1}{2\\sigma^2}\\sum_{i=1}^n (x_i-\\mu)^2$$\n\nTo maximize this function, we can take the partial derivatives with respect to $\\mu$ and $\\sigma^2$ and set them equal to zero:\n\n$$\\frac{\\partial \\ln L}{\\partial \\mu} = \\frac{1}{\\sigma^2}\\sum_{i=1}^n (x_i-\\mu) = 0$$\n\n$$\\frac{\\partial \\ln L}{\\partial \\sigma^2} = -\\frac{n}{2\\sigma^2} + \\frac{1}{2(\\sigma^2)^2}\\sum_{i=1}^n (x_i-\\mu)^2 = 0$$\n\nSolving these equations, we get the maximum likelihood estimates:\n\n$$\\hat{\\mu} = \\bar{x} = \\frac{1}{n}\\sum_{i=1}^n x_i$$\n\n$$\\hat{\\sigma}^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i-\\bar{x})^2$$\n\nTherefore, the method of estimates for $\\mu$ and $\\sigma^2$ are $\\boxed{\\hat{\\mu} = \\bar{x}}$ and $\\boxed{\\hat{\\sigma}^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i-\\bar{x})^2}$, respectively.\n\nConfidence in percentage level: Since we have found the maximum likelihood estimates using the method of moments, we can be 95% confident in our answers.",
+        "num_new_tokens": 500,
+        "speed": 44.08253468520625,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074829",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,其中$\\mu ,\\sigma ^{2}$为未知参数，记$X_{1},X_{2} idd\\sim X$,求  $\\mu ,\\sigma ^{2}$的矩估计.",
+        "question_in_English": "Given $X\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$，where $\\mu ,\\sigma ^{2}$ are unknown parameters, and $X_{1},X_{2} idd\\sim X$, find the method of estimates for $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为X_1,X_2的样本期望和样本方差",
+        "occurrence": 3,
+        "model_output": " The method of moments estimators (MME) for the mean $\\mu$ and variance $\\sigma^2$ of a normal distribution can be found by equating the sample mean and variance to their corresponding population parameters.\n\nThe sample mean $\\bar{X}$ is an unbiased estimator of the population mean $\\mu$, so we can set $\\bar{X}$ equal to $\\mu$:\n$$\\bar{X} = \\frac{1}{n} \\sum_{i=1}^n X_i = \\mu$$\n\nThe sample variance $S^2$ is an unbiased estimator of the population variance $\\sigma^2$, so we can set $S^2$ equal to $\\sigma^2$:\n$$S^2 = \\frac{1}{n-1} \\sum_{i=1}^n (X_i - \\bar{X})^2 = \\sigma^2$$\n\nSolving these equations for $\\mu$ and $\\sigma^2$, we get:\n$$\\hat{\\mu}_{MME} = \\bar{X}$$\n$$\\hat{\\sigma}^2_{MME} = S^2$$\n\nThese are the method of moments estimators for $\\mu$ and $\\sigma^2$. They are consistent and asymptotically normally distributed. Therefore, we can be $\\boxed{95\\%}$ confident in our answer.\nThe answer is $\\boxed{95}$.",
+        "num_new_tokens": 291,
+        "speed": 44.36233780550476,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 1,
+        "model_output": " First, let's define each center:\n\n1. Center of Gravity (Centroid): This is the point where the triangle's mass is concentrated. It's the intersection of the three medians of the triangle.\n\n2. Vertical Center: This is the midpoint of the height of the triangle. It's where the height and the base of the triangle intersect.\n\n3. Inner Center: This is the intersection of the three angle bisectors of the triangle.\n\n4. Outer Center: This is the intersection of the three perpendicular bisectors of the sides of the triangle.\n\nNow, let's reason step by step:\n\n1. In any triangle, the medians intersect at a point called the centroid.\n2. The centroid, being the intersection of the medians, divides each median in a 2:1 ratio.\n3. The centroid is also the center of mass of the triangle, and it lies on the line segment that joins the midpoints of any two sides of the triangle.\n4. This line segment is called the median, and it also passes through the vertex opposite the side it is drawn from.\n5. Therefore, the centroid is always collinear with the median drawn from any vertex of the triangle.\n6. The median is also the perpendicular bisector of the side opposite the vertex from which it is drawn.\n7. Therefore, the centroid is also always collinear with the perpendicular bisectors of the sides of the triangle.\n8. Since the centroid is always collinear with the median, and the median is also the perpendicular bisector of the side opposite the vertex from which it is drawn, the centroid is always collinear with the perpendicular bisectors of the sides of the triangle.\n9. The perpendicular bisectors of the sides of the triangle also intersect at a point called the circumcenter.\n10. Therefore, the centroid is always collinear with the circumcenter.\n11. The centroid is also the intersection of the three medians of the triangle, and the medians are the perpendicular bisectors of the sides of the triangle.\n12. Therefore, the centroid is always collinear with the circumcenter, which is the intersection of the three perpendicular bisectors of the sides of the triangle.\n13. Since the centroid is always collinear with the circumcenter, the centroid is always collinear with the circumcenter, the intersection of the three perpendicular bisectors of the sides of the triangle, and the intersection of the three angle bisectors of the triangle.\n14. Therefore, in a general triangle, the centroid (Center of Gravity), the circumcenter (Vertical Center), the incenter (Inner Center), and the circumcenter (Outer Center) are always collinear.\n\nConfidence Level: 100%</s>",
+        "num_new_tokens": 645,
+        "speed": 34.136917258263004,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 2,
+        "model_output": " In the context of a triangle, the centers of gravity referred to are likely the centroid, the orthocenter, the incenter, and the circumcenter. Let's break down each of these:\n\n1. Centroid (center of gravity): This is the point where the three medians of a triangle intersect. The median is a line segment joining a vertex to the midpoint of the opposite side.\n\n2. Orthocenter (vertical center): This is the point where the three altitudes of a triangle intersect. The altitude is a perpendicular line segment drawn from a vertex to the line containing the opposite side.\n\n3. Incenter (inner center): This is the point where the three angle bisectors of a triangle intersect. The angle bisector is a line segment that splits an angle into two equal parts.\n\n4. Circumcenter (outer center): This is the point where the three perpendicular bisectors of a triangle intersect. The perpendicular bisector is a line that intersects a line segment at its midpoint and forms a right angle.\n\nIn general, for any triangle, these four centers do not always lie on the same line. However, there is a special case where they do. This is when the triangle is an equilateral triangle. In an equilateral triangle, all sides are equal, and all angles are 60 degrees. In this case, all four centers coincide and lie on the same line, which is the line of symmetry for the triangle.\n\nTherefore, for an equilateral triangle, the centroid, orthocenter, incenter, and circumcenter are always collinear.\n\nConfidence level: 90%</s>",
+        "num_new_tokens": 369,
+        "speed": 32.49169061349284,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "90",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 3,
+        "model_output": " Step 1: Understand the problem\nThe problem is asking about the relationship between the center of gravity, vertical center, inner center, and outer center of a general triangle. Specifically, it's asking which three of these centers are always collinear, meaning they always lie on the same straight line.\n\nStep 2: Recall relevant knowledge\nIn a general triangle, there are several centers that can be defined, including the centroid (or center of gravity), orthocenter (or vertical center), circumcenter (or outer center), and incenter (or inner center). These centers have specific properties and relationships with each other.\n\nStep 3: Reason about the problem\nThe centroid of a triangle is the point of intersection of its medians, and it divides each median into a ratio of 2:1. The orthocenter is the point where the altitudes of the triangle intersect, and it is the orthocenter of the triangle. The circumcenter is the point where the perpendicular bisectors of the sides of the triangle intersect, and it is the center of the triangle's circumscribed circle. The incenter is the point where the angle bisectors of the triangle intersect, and it is the center of the triangle's inscribed circle.\n\nStep 4: Identify the collinear centers\nIn a general triangle, the centroid, orthocenter, and circumcenter are always collinear. This property is known as Euler's line, and it states that these three centers lie on the same line, with the centroid being the midpoint of the line segment connecting the orthocenter and circumcenter.\n\nStep 5: Conclude\nTherefore, the three centers that are always collinear in a general triangle are the center of gravity (centroid), vertical center (orthocenter), and outer center (circumcenter).\n\nFinal answer: The center of gravity, vertical center, and outer center are always collinear. \\boxed{\\text{Centroid, Orthocenter, Circumcenter}}\n\nConfidence level: 95%</s>",
+        "num_new_tokens": 453,
+        "speed": 34.99260939814754,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95",
+        "additional_info": ""
+    }
+]

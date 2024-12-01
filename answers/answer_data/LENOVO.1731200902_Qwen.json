@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200902",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "现有一组关于自变量$X$和响应变量$Y$的观测数据$(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(-2.55,-1.61),(1.98,2.02),(0.54,0.73)$,且随机误差项服从方差未知的正态分布, 求经验线性回归方程。",
+        "question_in_English": "A set of observations $(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(- 2.55,-1.61),(1.98,2.02),(0.54,0.73)$, and the random error term follows a normal distribution with unknown variance, find the empirical linear regression equation.",
+        "answer": "y=0.476+0.818x",
+        "occurrence": 1,
+        "model_output": "To find the empirical linear regression equation for the given set of observations \\((x,y)\\), we need to use the formulas for the slope \\(b\\) and the intercept \\(a\\) of the regression line \\(y = a + bx\\). The formulas are:\n\n\\[\nb = \\frac{n \\sum xy - \\sum x \\sum y}{n \\sum x^2 - (\\sum x)^2}\n\\]\n\\[\na = \\frac{\\sum y - b \\sum x}{n}\n\\]\n\nwhere \\(n\\) is the number of observations. Let's calculate each part step by step.\n\nFirst, we find the sums \\(\\sum x\\), \\(\\sum y\\), \\(\\sum xy\\), and \\(\\sum x^2\\).\n\n\\[\n\\sum x = -0.72 + 0.88 - 1.94 - 0.87 + 0.083 + 0.54 - 0.71 - 2.55 + 1.98 + 0.54 = -2.287\n\\]\n\n\\[\n\\sum y = -0.061 + 1.55 - 0.97 - 0.42 + 0.55 + 0.93 - 0.23 - 1.61 + 2.02 + 0.73 = 1.97\n\\]\n\n\\[\n\\sum xy = (-0.72)(-0.061) + (0.88)(1.55) + (-1.94)(-0.97) + (-0.87)(-0.42) + (0.083)(0.55) + (0.54)(0.93) + (-0.71)(-0.23) + (-2.55)(-1.61) + (1.98)(2.02) + (0.54)(0.73)\n\\]\n\\[\n= 0.04392 + 1.364 + 1.88228 + 0.3654 + 0.04565 + 0.5022 + 0.1633 + 4.10155 + 3.9996 + 0.3942 = 16.10905\n\\]\n\n\\[\n\\sum x^2 = (-0.72)^2 + (0.88)^2 + (-1.94)^2 + (-0.87)^2 + (0.083)^2 + (0.54)^2 + (-0.71)^2 + (-2.55)^2 + (1.98)^2 + (0.54)^2\n\\]\n\\[\n= 0.5184 + 0.7744 + 3.7636 + 0.7569 + 0.006889 + 0.2916 + 0.5041 + 6.5025 + 3.9204 + 0.2916 = 17.220729\n\\]\n\nNow, we substitute these values into the formulas for \\(b\\) and \\(a\\).\n\n\\[\nb = \\frac{10 \\cdot 16.10905 - (-2.287)(1.97)}{10 \\cdot 17.220729 - (-2.287)^2} = \\frac{161.0905 + 4.50439}{172.20729 - 5.231369} = \\frac{165.59489}{166.975921} \\approx 0.992\n\\]\n\n\\[\na = \\frac{1.97 - 0.992 \\cdot (-2.287)}{10} = \\frac{1.97 + 2.267064}{10} = \\frac{4.237064}{10} = 0.4237064 \\approx 0.424\n\\]\n\nSo, the empirical linear regression equation is:\n\n\\[\ny = 0.424 + 0.992x\n\\]\n\nTo determine the confidence level, we would typically need to calculate the standard error of the slope and then use a t-distribution to find the confidence interval. However, without additional information about the standard error or the degrees of freedom, we cannot provide a specific confidence level. For the purpose of this problem, we will assume a standard confidence level of 95%.\n\nTherefore, the final answer is:\n\n\\[\n\\boxed{y = 0.424 + 0.992x}\n\\]",
+        "num_new_tokens": 1109,
+        "speed": 41.16103817478685,
+        "model": "Qwen",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "not provided",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200902",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "现有一组关于自变量$X$和响应变量$Y$的观测数据$(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(-2.55,-1.61),(1.98,2.02),(0.54,0.73)$,且随机误差项服从方差未知的正态分布, 求经验线性回归方程。",
+        "question_in_English": "A set of observations $(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(- 2.55,-1.61),(1.98,2.02),(0.54,0.73)$, and the random error term follows a normal distribution with unknown variance, find the empirical linear regression equation.",
+        "answer": "y=0.476+0.818x",
+        "occurrence": 2,
+        "model_output": "To find the empirical linear regression equation for the given set of observations \\((x,y)\\), we need to determine the slope \\(b_1\\) and the intercept \\(b_0\\) of the line \\(y = b_0 + b_1 x\\). The formulas for \\(b_1\\) and \\(b_0\\) are given by:\n\n\\[\nb_1 = \\frac{n \\sum xy - \\sum x \\sum y}{n \\sum x^2 - (\\sum x)^2}\n\\]\n\\[\nb_0 = \\frac{\\sum y - b_1 \\sum x}{n}\n\\]\n\nFirst, we calculate the necessary sums:\n\n\\[\n\\sum x = -0.72 + 0.88 - 1.94 - 0.87 + 0.083 + 0.54 - 0.71 - 2.55 + 1.98 + 0.54 = -2.887\n\\]\n\n\\[\n\\sum y = -0.061 + 1.55 - 0.97 - 0.42 + 0.55 + 0.93 - 0.23 - 1.61 + 2.02 + 0.73 = 1.962\n\\]\n\n\\[\n\\sum x^2 = (-0.72)^2 + 0.88^2 + (-1.94)^2 + (-0.87)^2 + 0.083^2 + 0.54^2 + (-0.71)^2 + (-2.55)^2 + 1.98^2 + 0.54^2 = 0.5184 + 0.7744 + 3.7636 + 0.7569 + 0.006889 + 0.2916 + 0.5041 + 6.5025 + 3.9204 + 0.2916 = 18.1007\n\\]\n\n\\[\n\\sum xy = (-0.72)(-0.061) + (0.88)(1.55) + (-1.94)(-0.97) + (-0.87)(-0.42) + (0.083)(0.55) + (0.54)(0.93) + (-0.71)(-0.23) + (-2.55)(-1.61) + (1.98)(2.02) + (0.54)(0.73) = 0.04392 + 1.364 + 1.8828 + 0.3654 + 0.04565 + 0.5022 + 0.1633 + 4.1055 + 4.0096 + 0.3942 = 11.9608\n\\]\n\nNow, we substitute these sums into the formula for \\(b_1\\):\n\n\\[\nb_1 = \\frac{10 \\cdot 11.9608 - (-2.887)(1.962)}{10 \\cdot 18.1007 - (-2.887)^2} = \\frac{119.608 + 56.68774}{181.007 - 8.334769} = \\frac{176.29574}{172.672231} \\approx 1.0208\n\\]\n\nNext, we substitute \\(b_1\\) and the sums into the formula for \\(b_0\\):\n\n\\[\nb_0 = \\frac{1.962 - 1.0208 \\cdot (-2.887)}{10} = \\frac{1.962 + 2.944376}{10} = \\frac{4.906376}{10} = 0.4906\n\\]\n\nThus, the empirical linear regression equation is:\n\n\\[\ny = 0.4906 + 1.0208x\n\\]\n\nSince the random error term follows a normal distribution with unknown variance, we can use the t-distribution to construct a confidence interval for the slope \\(b_1\\). However, the problem does not specify the desired confidence level. Assuming we want a 95% confidence interval, we would use the t-distribution with \\(n-2 = 8\\) degrees of freedom. The formula for the confidence interval for \\(b_1\\) is:\n\n\\[\nb_1 \\pm t_{\\alpha/2, n-2} \\sqrt{\\frac{\\frac{\\sum (y_i - \\hat{y}_i)^2}{n-2}}{\\sum (x_i - \\bar{x})^2}}\n\\]\n\nSince the problem does not specify the standard error of the slope or the sum of squared errors, we cannot provide a specific confidence interval. However, we can state that the empirical linear regression equation is:\n\n\\[\n\\boxed{y = 0.4906 + 1.0208x}\n\\]",
+        "num_new_tokens": 1203,
+        "speed": 41.13833987557501,
+        "model": "Qwen",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "not provided",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200902",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "现有一组关于自变量$X$和响应变量$Y$的观测数据$(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(-2.55,-1.61),(1.98,2.02),(0.54,0.73)$,且随机误差项服从方差未知的正态分布, 求经验线性回归方程。",
+        "question_in_English": "A set of observations $(x,y): (-0.72,-0.061),(0.88,1.55),(-1.94,-0.97),(-0.87,-0.42),(0.083,0.55),(0.54,0.93),(-0.71,-0.23),(- 2.55,-1.61),(1.98,2.02),(0.54,0.73)$, and the random error term follows a normal distribution with unknown variance, find the empirical linear regression equation.",
+        "answer": "y=0.476+0.818x",
+        "occurrence": 3,
+        "model_output": "To find the empirical linear regression equation for the given set of observations, we need to determine the coefficients \\( \\beta_0 \\) (the intercept) and \\( \\beta_1 \\) (the slope) of the regression line \\( y = \\beta_0 + \\beta_1 x \\). The formulas for these coefficients are:\n\n\\[\n\\beta_1 = \\frac{n \\sum xy - \\sum x \\sum y}{n \\sum x^2 - (\\sum x)^2}\n\\]\n\\[\n\\beta_0 = \\frac{\\sum y - \\beta_1 \\sum x}{n}\n\\]\n\nwhere \\( n \\) is the number of observations. Let's calculate these step by step.\n\nFirst, we compute the necessary sums:\n\n\\[\n\\sum x = -0.72 + 0.88 - 1.94 - 0.87 + 0.083 + 0.54 - 0.71 - 2.55 + 1.98 + 0.54 = -2.22\n\\]\n\n\\[\n\\sum y = -0.061 + 1.55 - 0.97 - 0.42 + 0.55 + 0.93 - 0.23 - 1.61 + 2.02 + 0.73 = 1.92\n\\]\n\n\\[\n\\sum xy = (-0.72)(-0.061) + (0.88)(1.55) + (-1.94)(-0.97) + (-0.87)(-0.42) + (0.083)(0.55) + (0.54)(0.93) + (-0.71)(-0.23) + (-2.55)(-1.61) + (1.98)(2.02) + (0.54)(0.73)\n\\]\n\\[\n= 0.04392 + 1.364 + 1.8828 + 0.3654 + 0.04565 + 0.5022 + 0.1633 + 4.1015 + 3.9996 + 0.3942 = 14.84262\n\\]\n\n\\[\n\\sum x^2 = (-0.72)^2 + (0.88)^2 + (-1.94)^2 + (-0.87)^2 + (0.083)^2 + (0.54)^2 + (-0.71)^2 + (-2.55)^2 + (1.98)^2 + (0.54)^2\n\\]\n\\[\n= 0.5184 + 0.7744 + 3.7636 + 0.7569 + 0.006889 + 0.2916 + 0.5041 + 6.5025 + 3.9204 + 0.2916 = 17.221369\n\\]\n\nNow, we substitute these sums into the formulas for \\( \\beta_1 \\) and \\( \\beta_0 \\):\n\n\\[\n\\beta_1 = \\frac{10 \\cdot 14.84262 - (-2.22) \\cdot 1.92}{10 \\cdot 17.221369 - (-2.22)^2} = \\frac{148.4262 + 4.2624}{172.21369 - 4.9284} = \\frac{152.6886}{167.28529} \\approx 0.9132\n\\]\n\n\\[\n\\beta_0 = \\frac{1.92 - 0.9132 \\cdot (-2.22)}{10} = \\frac{1.92 + 2.03184}{10} = \\frac{3.95184}{10} = 0.3952\n\\]\n\nThus, the empirical linear regression equation is:\n\n\\[\ny = 0.3952 + 0.9132x\n\\]\n\nTo determine the confidence level, we would typically need to calculate the standard error of the estimate and use a t-distribution. However, since the problem does not specify the confidence level and we are asked to give it in percentage, a common choices is 95% confidence. Therefore, the confidence level is:\n\n\\[\n\\boxed{95}\n\\]",
+        "num_new_tokens": 1073,
+        "speed": 41.07469454397665,
+        "model": "Qwen",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]
