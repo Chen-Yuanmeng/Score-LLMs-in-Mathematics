@@ -1,5 +1,9 @@
 # Files containing personal information need to be excluded
 endpoint/test_endpoint.py
+answers/config.ini
+*.csv
+answers/*.xls*
+answers/markdown
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

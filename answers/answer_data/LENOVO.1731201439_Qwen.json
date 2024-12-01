@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731201439",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X$服从自由度为$n\\,(n\\ge 2)$的t分布，求$X$的期望$EX$。",
+        "question_in_English": "Let $X$ obey the t-distribution with degrees of freedom $n\\,(n\\ge 2)$ and find the expectation $EX$ of $X$.",
+        "answer": "0",
+        "occurrence": 1,
+        "model_output": "To find the expectation \\(EX\\) of a random variable \\(X\\) that follows the t-distribution with degrees of freedom \\(n\\) (where \\(n \\ge 2\\)), we start by recalling the definition of the t-distribution. The t-distribution with degrees of freedom \\(n\\) is the distribution of the random variable\n\n\\[\nT = \\frac{Z}{\\sqrt{V/n}},\n\\]\n\nwhere \\(Z\\) is a standard normal random variable (i.e., \\(Z \\sim N(0,1)\\)) and \\(V\\) is a chi-squared random variable with degrees of freedom \\(n\\) (i.e., \\(V \\sim \\chi^2_n\\)), and \\(Z\\) and \\(V\\) are independent.\n\nThe expectation of a t-distributed random variable \\(T\\) can be found using the linearity of expectation and the properties of the standard normal and chi-squared distributions. Specifically, we have\n\n\\[\nEX = E\\left[\\frac{Z}{\\sqrt{V/n}}\\right] = \\frac{1}{\\sqrt{n}} E\\left[\\frac{Z}{\\sqrt{V}}\\right].\n\\]\n\nSince \\(Z\\) and \\(V\\) are independent, we can use the property of expectation of the product of independent random variables, which states that \\(E[AB] = E[A]E[B]\\). Therefore,\n\n\\[\nE\\left[\\frac{Z}{\\sqrt{V}}\\right] = E[Z]E\\left[\\frac{1}{\\sqrt{V}}\\right].\n\\]\n\nWe know that the expectation of a standard normal random variable \\(Z\\) is\n\n\\[\nE(Z) = 0.\n\\]\n\nThus,\n\n\\[\nE\\left[\\frac{Z}{\\sqrt{V}}\\right] = 0 \\cdot E\\left[\\frac{1}{\\sqrt{V}}\\right] = 0.\n\\]\n\nSubstituting this back into our expression for \\(EX\\), we get\n\n\\[\nEX = \\frac{1}{\\sqrt{n}} \\cdot 0 = 0.\n\\]\n\nTherefore, the expectation of a t-distributed random variable with degrees of freedom \\(n\\) is\n\n\\[\n\\boxed{0}.\n\\]\n\n regarding this answer, since the result is derived from the properties of the standard normal and chi-squared distributions, which are well-established and consistent with the definition of the t-distribution, we can have a high level of confidence in our result. However, the exact confidence level is not typically associated with this theoretical result in the context of probability distributions. Instead, we often use the t-distribution to construct confidence intervals and hypothesis tests, where the specific confidence level is chosen based on the problem at hand. For the purpose of this problem, we can say that our answer is correct with a confidence level of \\(100\\%\\), as it is a theoretical result that holds exactly under the given assumptions.",
+        "num_new_tokens": 611,
+        "speed": 41.899347415375274,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201439",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X$服从自由度为$n\\,(n\\ge 2)$的t分布，求$X$的期望$EX$。",
+        "question_in_English": "Let $X$ obey the t-distribution with degrees of freedom $n\\,(n\\ge 2)$ and find the expectation $EX$ of $X$.",
+        "answer": "0",
+        "occurrence": 2,
+        "model_output": "To find the expectation \\(EX\\) of a random variable \\(X\\) that follows the t-distribution with degrees of freedom \\(n\\), we start by recalling the definition and properties of the t-distribution. The t-distribution is defined as the ratio of a standard normal random variable \\(Z\\) to the square root of a chi-squared random variable \\(Y\\) divided by its degrees of freedom \\(n\\). That is,\n\n\\[ X = \\frac{Z}{\\sqrt{Y/n}} \\]\n\nwhere \\(Z \\sim N(0,1)\\) and \\(Y \\sim \\chi^2(n)\\). The expectation of \\(X\\) can be computed as follows:\n\n\\[ EX = E\\left[ \\frac{Z}{\\sqrt{Y/n}} \\right] = E\\left[ Z \\cdot \\frac{1}{\\sqrt{Y/n}} \\right] \\]\n\nSince \\(Z\\) and \\(Y\\) are independent, we can use the property of expectation for independent random variables, which states that the expectation of the product is the product of the expectations:\n\n\\[ EX = E(Z) \\cdot E\\left[ \\frac{1}{\\sqrt{Y/n}} \\right] \\]\n\nWe know that \\(E(Z) = 0\\) because \\(Z\\) is a standard normal random variable. Therefore,\n\n\\[ EX = 0 \\cdot E\\left[ \\frac{1}{\\sqrt{Y/n}} \\right] = 0 \\]\n\nThus, the expectation of \\(X\\) is\n\n\\[ EX = 0 \\]\n\nThe confidence level in this answer is 100%, because the expectation of the t-distribution with any degrees of freedom is always 0. This is a fundamental property of the t-distribution.\n\nThe final answer is:\n\n\\[\n\\boxed{0}\n\\]",
+        "num_new_tokens": 377,
+        "speed": 41.9000141313775,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201439",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X$服从自由度为$n\\,(n\\ge 2)$的t分布，求$X$的期望$EX$。",
+        "question_in_English": "Let $X$ obey the t-distribution with degrees of freedom $n\\,(n\\ge 2)$ and find the expectation $EX$ of $X$.",
+        "answer": "0",
+        "occurrence": 3,
+        "model_output": "The t-distribution with degrees of freedom \\( n \\) is a probability distribution that is symmetric about 0 and has a shape that depends on \\( n \\). The expectation (or mean) of a t-distributed random variable \\( X \\) with degrees of freedom \\( n \\) is given by:\n\n\\[\nEX = 0 \\quad \\text{for} \\quad n > 1\n\\]\n\nThis result can be derived from the definition of the t-distribution. The t-distribution is defined as the ratio of a standard normal random variable \\( Z \\) to the square root of a chi-squared random variable \\( U \\) divided by its degrees of freedom \\( n \\):\n\n\\[\nX = \\frac{Z}{\\sqrt{U/n}}\n\\]\n\nThe expectation of \\( X \\) can be found using the properties of expectation and the symmetry of the standard normal distribution. Since \\( Z \\) is symmetric about 0, \\( E(Z) = 0 \\). Therefore, we have:\n\n\\[\nEX = E\\left( \\frac{Z}{\\sqrt{U/n}} \\right) = \\frac{E(Z)}{\\sqrt{E(U)/n}} = \\frac{0}{\\sqrt{E(U)/n}} = 0\n\\]\n\nThe expectation \\( EX = 0 \\) holds for all \\( n > 1 \\). Since \\( n \\ge 2 \\) is given in the problem, we can confidently state that \\( EX = 0 \\).\n\nThe confidence level in this answer is 100%, because the result is a well-known property of the t-distribution and is derived from a rigorous mathematical proof.\n\nThus, the final answer is:\n\n\\[\n\\boxed{0}\n\\]",
+        "num_new_tokens": 362,
+        "speed": 41.99991740195569,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

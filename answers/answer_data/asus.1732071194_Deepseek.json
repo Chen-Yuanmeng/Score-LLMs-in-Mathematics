@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732071194",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$8+  5\\times 3- 2{\\div} 2$.",
+        "question_in_English": "Calculate $8+  5\\times 3- 2{\\div} 2$.",
+        "answer": "22",
+        "occurrence": 1,
+        "model_output": " According to the order of operations, we first perform the multiplication and division from left to right:\n$5\\times 3 = 15$ and $2{\\div} 2 = 1$\nSo the expression becomes $8 + 15 - 1$\nNext, we perform the addition and subtraction from left to right:\n$8 + 15 = 23$ and $23 - 1 = 22$\nTherefore, $8 + 5\\times 3 - 2{\\div} 2 = \\boxed{22}$\nI am $\\boxed{100\\%}$ confident in my answer.",
+        "num_new_tokens": 140,
+        "speed": 44.865635571447946,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732071194",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$8+  5\\times 3- 2{\\div} 2$.",
+        "question_in_English": "Calculate $8+  5\\times 3- 2{\\div} 2$.",
+        "answer": "22",
+        "occurrence": 2,
+        "model_output": " To calculate this expression, we need to follow the order of operations, which is often remembered by the acronym PEMDAS: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).\n\nThere are no parentheses or exponents in this expression, so we start with multiplication and division. We perform the multiplication and division operations from left to right:\n\n$5\\times 3 = 15$\n\n$2{\\div} 2 = 1$\n\nNow, substitute these results back into the expression:\n\n$8 + 15 - 1$\n\nNext, we perform the addition and subtraction operations from left to right:\n\n$8 + 15 = 23$\n\n$23 - 1 = 22$\n\nSo, $8+  5\\times 3- 2{\\div} 2 = 22$.\n\nNow, let's give our confidence in percentage level. As a mathematician, I am 100% confident in my answer.",
+        "num_new_tokens": 236,
+        "speed": 44.558499295918125,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732071194",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$8+  5\\times 3- 2{\\div} 2$.",
+        "question_in_English": "Calculate $8+  5\\times 3- 2{\\div} 2$.",
+        "answer": "22",
+        "occurrence": 3,
+        "model_output": " We need to follow the order of operations, which is often remembered by the acronym PEMDAS: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).\n\nIn the expression $8+  5\\times 3- 2{\\div} 2$, there are no parentheses or exponents, so we start with multiplication and division.\n\nFirst, we calculate the multiplication: $5\\times 3 = 15$.\n\nThen, we calculate the division: $2\\div 2 = 1$.\n\nSo, the expression becomes $8+ 15 - 1$.\n\nFinally, we perform the addition and subtraction from left to right: $8+ 15 - 1 = 23 - 1 = 22$.\n\nSo, $8+  5\\times 3- 2{\\div} 2 = 22$.\n\nWe are $100\\%$ confident in our answer.",
+        "num_new_tokens": 220,
+        "speed": 44.836729128778224,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

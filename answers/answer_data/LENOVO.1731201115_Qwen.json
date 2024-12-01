@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731201115",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "question_in_English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "answer": "X1X2...Xn(从X1至Xn累乘)",
+        "occurrence": 1,
+        "model_output": "To find the sufficient statistic for the parameters of the Gamma distribution, we start with the probability density function (pdf) of a single Gamma random variable \\(X_i\\). The pdf of \\(X_i\\) is given by:\n\n\\[\nf(x_i; \\xi, \\lambda) = \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i} \\quad \\text{for} \\quad x_i > 0\n\\]\n\nSince the random variables \\(X_1, X_2, \\ldots, X_n\\) are independent and identically distributed (iid), the joint pdf of \\(X_1, X_2, \\ldots, X_n\\) is the product of their individual pdfs:\n\n\\[\nf(x_1, x_2, \\ldots, x_n; \\xi, \\lambda) = \\prod_{i=1}^n f(x_i; \\xi, \\lambda) = \\prod_{i=1}^n \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}\n\\]\n\nThis can be rewritten as:\n\n\\[\nf(x_1, x_2, \\ldots, x_n; \\xi, \\lambda) = \\left( \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} \\right)^n \\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^n x_i}\n\\]\n\nBy the factorization theorem, a sufficient statistic for \\(\\xi\\) is a function of the data that contains all the information about \\(\\xi\\) in the sample. From the joint pdf, we can see that the expression \\(\\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^n x_i}\\) depends on \\(\\xi\\) and the sum \\(\\sum_{i=1}^n x_i\\). Therefore, the sufficient statistic for \\(\\xi\\) is:\n\n\\[\nT(X_1, X_2, \\ldots, X_n) = \\sum_{i=1}^n X_i\n\\]\n\nThe confidence level is not directly provided by the sufficient statistic itself, but we can use it to construct a confidence interval for \\(\\xi\\) if needed. However, the sufficient statistic itself does not provide a confidence level. The sufficient statistic for \\(\\xi\\) is:\n\n\\[\n\\boxed{\\sum_{i=1}^n X_i}\n\\]",
+        "num_new_tokens": 559,
+        "speed": 41.99276348851643,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "don't provide",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201115",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "question_in_English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "answer": "X1X2...Xn(从X1至Xn累乘)",
+        "occurrence": 2,
+        "model_output": "To find the sufficient statistic for the parameter \\(\\xi\\) in the given gamma distribution, we start by writing down the probability density function (pdf) of the gamma distribution for each \\(X_i\\). The pdf of a gamma random variable \\(X_i\\) with parameters \\(\\xi\\) and \\(\\lambda\\) is given by:\n\n\\[\nf(x_i; \\xi, \\lambda) = \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}\n\\]\n\nSince the random variables \\(X_1, X_2, \\ldots, X_n\\) are independent and identically distributed (iid), the likelihood function \\(L(\\xi; x_1, x_2, \\ldots, x_n)\\) is the product of their individual pdfs:\n\n\\[\nL(\\xi; x_1, x_2, \\ldots, x_n) = \\prod_{i=1}^n f(x_i; \\xi, \\lambda) = \\prod_{i=1}^n \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}\n\\]\n\nWe can simplify this likelihood function by separating the terms involving \\(\\xi\\) from those that do not:\n\n\\[\nL(\\xi; x_1, x_2, \\ldots, x_n) = \\left( \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} \\right)^n \\prod_{i=1}^n x_i^{\\xi-1} e^{-\\lambda x_i}\n\\]\n\nNext, we can further simplify the product:\n\n\\[\nL(\\xi; x_1, x_2, \\ldots, x_n) = \\frac{\\lambda^{n\\xi}}{\\Gamma(\\xi)^n} \\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^n x_i}\n\\]\n\nTo find the sufficient statistic, we use the factorization theorem, which states that a statistic \\(T(X)\\) is sufficient for a parameter \\(\\theta\\) if the likelihood function can be written in the form:\n\n\\[\nL(\\theta; x_1, x_2, \\ldots, x_n) = g(T(x_1, x_2, \\ldots, x_n), \\theta) h(x_1, x_2, \\ldots, x_n)\n\\]\n\nIn our likelihood function, we can see that the term \\(\\frac{\\lambda^{n\\xi}}{\\Gamma(\\xi)^n} e^{-\\lambda \\sum_{i=1}^n x_i}\\) depends on the data \\(x_1, x_2, \\ldots, x_n\\) through \\(\\sum_{i=1}^n x_i\\) and \\(\\xi\\), and the term \\(\\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1}\\) depends on the data through \\(\\prod_{i=1}^n x_i\\). However, the term \\(\\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1}\\) is not necessary to determine the sufficiency since it can be factored out as a function of \\(\\prod_{i=1}^n x_i\\) which is not directly related to the parameter \\(\\xi\\) in the exponent form. Therefore, the sufficient statistic for \\(\\xi\\) is simply \\(\\sum_{i=1}^n x_i\\).\n\nThus, the sufficient statistic for \\(\\xi\\) is:\n\n\\[\nT = \\sum_{i=1}^n X_i\n\\]\n\nThe confidence level is not directly related to finding the sufficient statistic itself but rather to the properties of the sufficient statistic and the distribution it follows. However, since we are asked to provide a confidence level percentage regarding our answer, we can state that we have found the sufficient statistic with an understanding of its properties in the context of the gamma distribution. For a complete answer, we would need to specify a specific confidence interval or interval estimate, but for the purpose of this problem, we can state:\n\n\\[\n\\boxed{50\\%}\n\\]\n\nThis percentage is a placeholder since the exact confidence level depends on the specific intervals chosen. However, we can conclude that we have indeed found the sufficient statistic.\n\nTherefore, the sufficient statistic is:\n\n\\[\n\\boxed{\\sum_{i=1}^n X_i}\n\\]",
+        "num_new_tokens": 960,
+        "speed": 41.60889629092768,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "50%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201115",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "question_in_English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "answer": "X1X2...Xn(从X1至Xn累乘)",
+        "occurrence": 3,
+        "model_output": "To find the sufficient statistic for the unknown parameter \\(\\xi\\) in the Gamma distribution \\(Gamma(\\xi, \\lambda)\\) with known \\(\\lambda\\), we start by writing down the probability density function (pdf) of a single Gamma random variable \\(X_i\\):\n\n\\[\nf(x_i; \\xi, \\lambda) = \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}\n\\]\n\nGiven that \\(X_1, X_2, \\ldots, X_n\\) are independent and identically distributed (iid), the joint pdf of \\(X_1, X_2, \\ldots, X_n\\) is the product of their individual pdf's:\n\n\\[\nf(x_1, x_2, \\ldots, x_n; \\xi, \\lambda) = \\prod_{i=1}^n f(x_i; \\xi, \\lambda) = \\prod_{i=1}^n \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}\n\\]\n\nWe can simplify this expression by factoring out the terms that do not depend on \\(\\xi\\):\n\n\\[\nf(x_1, x_2, \\ldots, x_n; \\xi, \\lambda) = \\left( \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} \\right)^n \\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^n x_i}\n\\]\n\nUsing the properties of exponents, we can rewrite the expression as:\n\n\\[\nf(x_1, x_2, \\ldots, x_n; \\xi, \\lambda) = \\frac{\\lambda^{n\\xi}}{\\Gamma(\\xi)^n} \\left( \\prod_{i=1}^n x_i \\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^n x_i}\n\\]\n\nAccording to the factorization theorem, a sufficient statistic for \\(\\xi\\) is a function of the data \\(X_1, X_2, \\ldots, X_n\\) that can be separated into two parts: one part that depends on the parameter \\(\\xi\\) and the other part that does not depend on \\(\\xi\\). From the expression above, we see that the sufficient statistic is:\n\n\\[\nT(X_1, X_2, \\ldots, X_n) = \\prod_{i=1}^n X_i\n\\]\n\nThis is because the term \\(\\left( \\prod_{i=1}^n X_i \\right)^{\\xi-1}\\) depends on \\(\\xi\\), while the rest of the expression \\(\\frac{\\lambda^{n\\xi}}{\\Gamma(\\xi)^n} e^{-\\lambda \\sum_{i=1}^n x_i}\\) does not.\n\nTherefore, the sufficient statistic for \\(\\xi\\) is:\n\n\\[\n\\boxed{\\prod_{i=1}^n X_i}\n\\]\n\n regarding the sufficiency, the confidence level in percentage regarding this answer is \\(100\\%\\), since the factorization theorem guarantees that this statistic is sufficient. \\(\\boxed{100}\\)",
+        "num_new_tokens": 705,
+        "speed": 41.9439645520697,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 1,
+        "model_output": "To find the maximum likelihood estimates of $\\mu$ and $\\sigma^2$, we'll follow these steps:\n\n### Step 1: Define the likelihood function\n\nThe likelihood function is defined as the probability density function of the multivariate normal distribution evaluated at the observed data points.\n\n\\[ L(\\mu,\\sigma^2) = \\prod_{i=1}^{n} \\frac{1}{\\sqrt{2\\pi\\sigma^2}} \\exp\\left(-\\frac{(x_i-\\mu)^2}{2\\sigma^2}\\right) \\]\n\n### Step 2: Take the logarithm of the likelihood function\n\nTaking the logarithm of the likelihood function simplifies the expression and makes it easier to work with.\n\n\\[ \\log L(\\mu,\\sigma^2) = -\\frac{n}{2} \\log(2\\pi\\sigma^2) - \\frac{1}{2\\sigma^2} \\sum_{i=1}^{n} (x_i-\\mu)^2 \\]\n\n### Step 3: Find the partial derivatives of the log-likelihood function\n\nWe need to find the partial derivatives of the log-likelihood function with respect to $\\mu$ and $\\sigma^2$.\n\n\\[ \\frac{\\partial \\log L}{\\partial \\mu} = \\frac{1}{\\sigma^2} \\sum_{i=1}^{n} (x_i-\\mu) \\]\n\n\\[ \\frac{\\partial \\log L}{\\partial \\sigma^2} = -\\frac{n}{2\\sigma^2} + \\frac{1}{2\\sigma^4} \\sum_{i=1}^{n} (x_i-\\mu)^2 \\]\n\n### Step 4: Set the partial derivatives equal to zero\n\nTo find the maximum likelihood estimates, we set the partial derivatives equal to zero and solve for $\\mu$ and $\\sigma^2$.\n\n\\[ \\frac{1}{\\sigma^2} \\sum_{i=1}^{n} (x_i-\\mu) = 0 \\]\n\n\\[ -\\frac{n}{2\\sigma^2} + \\frac{1}{2\\sigma^4} \\sum_{i=1}^{n} (x_i-\\mu)^2 = 0 \\]\n\n### Step 5: Solve for $\\mu$\n\nFrom the first equation, we can solve for $\\mu$.\n\n\\[ \\sum_{i=1}^{n} (x_i-\\mu) = 0 \\]\n\n\\[ \\sum_{i=1}^{n} x_i - n\\mu = 0 \\]\n\n\\[ \\mu = \\frac{1}{n} \\sum_{i=1}^{n} x_i \\]\n\n\\[ \\mu = \\bar{x} \\]\n\nwhere $\\bar{x}$ is the sample mean.\n\n### Step 6: Solve for $\\sigma^2$\n\nFrom the second equation, we can solve for $\\sigma^2$.\n\n\\[ -\\frac{n}{2\\sigma^2} + \\frac{1}{2\\sigma^4} \\sum_{i=1}^{n} (x_i-\\mu)^2 = 0 \\]\n\n\\[ \\frac{n}{2\\sigma^2} = \\frac{1}{2\\sigma^4} \\sum_{i=1}^{n} (x_i-\\mu)^2 \\]\n\n\\[ \\frac{n\\sigma^2}{2} = \\frac{1}{2\\sigma^4} \\sum_{i=1}^{n} (x_i-\\mu)^2 \\]\n\n\\[ \\sigma^2 = \\frac{1}{n} \\sum_{i=1}^{n} (x_i-\\mu)^2 \\]\n\n\\[ \\sigma^2 = \\frac{1}{n} \\sum_{i=1}^{n} (x_i-\\bar{x})^2 \\]\n\n\\[ \\sigma^2 = \\frac{S^2}{n} \\]\n\nwhere $S^2$ is the sample variance.\n\nThe final answer is: $\\boxed{\\bar{x}, \\frac{S^2}{n}}$\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 866,
+        "speed": 38.729017659463125,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 2,
+        "model_output": "To find the maximum likelihood estimates of $\\mu$ and $\\sigma^2$, we need to follow these steps:\n\n1. **Write the likelihood function**:\n\nGiven that $X_1, X_2$ are independent and identically distributed (iid) from a normal distribution with mean $\\mu$ and variance $\\sigma^2$, the joint probability density function (pdf) is given by:\n\n$$f(x_1,x_2;\\mu,\\sigma^2) = \\frac{1}{2\\pi\\sigma^2}\\exp\\left(-\\frac{(x_1-\\mu)^2+(x_2-\\mu)^2}{2\\sigma^2}\\right)$$\n\nSince $X_1$ and $X_2$ are iid, the likelihood function is the product of their individual pdfs:\n\n$$L(\\mu,\\sigma^2) = \\prod_{i=1}^2 f(x_i;\\mu,\\sigma^2) = \\left(\\frac{1}{2\\pi\\sigma^2}\\right)^2\\exp\\left(-\\frac{(x_1-\\mu)^2+(x_2-\\mu)^2}{2\\sigma^2}\\right)$$\n\n2. **Simplify the likelihood function**:\n\n$$L(\\mu,\\sigma^2) = \\left(\\frac{1}{2\\pi\\sigma^2}\\right)^2\\exp\\left(-\\frac{2\\mu^2-2x_1\\mu-2x_2\\mu+\\mu^2+x_1^2+x_2^2}{2\\sigma^2}\\right)$$\n\n$$L(\\mu,\\sigma^2) = \\left(\\frac{1}{2\\pi\\sigma^2}\\right)^2\\exp\\left(-\\frac{\\mu^2-2\\mu(x_1+x_2)+x_1^2+x_2^2}{2\\sigma^2}\\right)$$\n\n3. **Take the logarithm of the likelihood function**:\n\n$$\\ln L(\\mu,\\sigma^2) = -2\\ln(2\\pi\\sigma^2) - \\frac{\\mu^2-2\\mu(x_1+x_2)+x_1^2+x_2^2}{2\\sigma^2}$$\n\n4. **Find the maximum likelihood estimates**:\n\nTo find the maximum likelihood estimates, we need to take the partial derivatives of the log-likelihood function with respect to $\\mu$ and $\\sigma^2$, set them equal to zero, and solve for $\\mu$ and $\\sigma^2$.\n\n**For $\\mu$**:\n\n$$\\frac{\\partial \\ln L}{\\partial \\mu} = \\frac{\\mu}{\\sigma^2} - \\frac{x_1+x_2}{\\sigma^2} = 0$$\n\nSolving for $\\mu$, we get:\n\n$$\\hat{\\mu} = \\frac{x_1+x_2}{2}$$\n\n**For $\\sigma^2$**:\n\n$$\\frac{\\partial \\ln L}{\\partial \\sigma^2} = -\\frac{1}{\\sigma^2} + \\frac{\\mu^2-2\\mu(x_1+x_2)+x_1^2+x_2^2}{2\\sigma^4} = 0$$\n\nSubstituting $\\hat{\\mu}$, we get:\n\n$$-\\frac{1}{\\sigma^2} + \\frac{(x_1+x_2)^2}{2\\sigma^4} = 0$$\n\nSolving for $\\sigma^2$, we get:\n\n$$\\hat{\\sigma}^2 = \\frac{(x_1-x_2)^2}{2}$$\n\nHowever, this estimator is not unbiased. An unbiased estimator for $\\sigma^2$ is given by $\\frac{1}{2}\\left(\\frac{(x_1-x_2)^2}{2}+\\frac{(x_2-x_1)^2}{2}\\right)$ but since $(x_2-x_1)^2$ is the same as $(x_1-x_2)^2$ we have \n\n$\\hat{\\sigma}^2=\\frac{(x_1-x_2)^2}{2}$\n\n5. **Write the final answer**:\n\n$\\boxed{\\left(\\frac{x_1+x_2}{2}, \\frac{(x_1-x_2)^2}{2}\\right)}$\n\nConfidence Level: 100%<|eot_id|>",
+        "num_new_tokens": 947,
+        "speed": 38.61528822687424,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 3,
+        "model_output": "To find the maximum likelihood estimates of $\\mu$ and $\\sigma^{2}$, we first need to write the likelihood function.\n\nThe likelihood function is given by the joint probability density function of $X_{1}$ and $X_{2}$:\n\n$$\nL(\\mu, \\sigma^{2}; x_{1}, x_{2}) = f(x_{1}, x_{2}; \\mu, \\sigma^{2}) = \\frac{1}{2\\pi\\sigma^{2}} \\exp\\left(-\\frac{(x_{1} - \\mu)^2 + (x_{2} - \\mu)^2}{2\\sigma^{2}}\\right)\n$$\n\nSince $x_{1}$ and $x_{2}$ are independent, we can write the likelihood function as:\n\n$$\nL(\\mu, \\sigma^{2}; x_{1}, x_{2}) = f(x_{1}; \\mu, \\sigma^{2}) f(x_{2}; \\mu, \\sigma^{2}) = \\frac{1}{2\\pi\\sigma^{2}} \\exp\\left(-\\frac{(x_{1} - \\mu)^2}{2\\sigma^{2}}\\right) \\frac{1}{2\\pi\\sigma^{2}} \\exp\\left(-\\frac{(x_{2} - \\mu)^2}{2\\sigma^{2}}\\right)\n$$\n\nNow, we can take the log of the likelihood function to simplify the calculations:\n\n$$\n\\log L(\\mu, \\sigma^{2}; x_{1}, x_{2}) = -\\frac{n}{2} \\log(2\\pi\\sigma^{2}) - \\frac{1}{2\\sigma^{2}} (x_{1} - \\mu)^2 - \\frac{1}{2\\sigma^{2}} (x_{2} - \\mu)^2\n$$\n\nwhere $n = 2$.\n\nTo find the maximum likelihood estimates of $\\mu$ and $\\sigma^{2}$, we need to take the partial derivatives of the log-likelihood function with respect to $\\mu$ and $\\sigma^{2}$, and set them equal to zero.\n\n$$\n\\frac{\\partial \\log L}{\\partial \\mu} = \\frac{1}{\\sigma^{2}} (x_{1} - \\mu) + \\frac{1}{\\sigma^{2}} (x_{2} - \\mu) = 0\n$$\n\n$$\n\\frac{\\partial \\log L}{\\partial \\sigma^{2}} = -\\frac{n}{2\\sigma^{2}} + \\frac{1}{2\\sigma^{4}} (x_{1} - \\mu)^2 + \\frac{1}{2\\sigma^{4}} (x_{2} - \\mu)^2 = 0\n$$\n\nSolving the first equation for $\\mu$, we get:\n\n$$\n\\mu = \\frac{x_{1} + x_{2}}{2}\n$$\n\nSubstituting this value of $\\mu$ into the second equation, we get:\n\n$$\n-\\frac{n}{2\\sigma^{2}} + \\frac{1}{2\\sigma^{4}} ((x_{1} - \\frac{x_{1} + x_{2}}{2})^2 + (x_{2} - \\frac{x_{1} + x_{2}}{2})^2) = 0\n$$\n\nSimplifying this equation, we get:\n\n$$\n-\\frac{n}{2\\sigma^{2}} + \\frac{1}{2\\sigma^{4}} (\\frac{(x_{1} - x_{2})^2}{2}) = 0\n$$\n\n$$\n-\\frac{n}{2\\sigma^{2}} + \\frac{(x_{1} - x_{2})^2}{4\\sigma^{4}} = 0\n$$\n\nSolving this equation for $\\sigma^{2}$, we get:\n\n$$\n\\sigma^{2} = \\frac{(x_{1} - x_{2})^2}{2n}\n$$\n\nSo, the maximum likelihood estimates of $\\mu$ and $\\sigma^{2}$ are:\n\n$$\n\\hat{\\mu} = \\frac{x_{1} + x_{2}}{2}\n$$\n\n$$\n\\hat{\\sigma}^{2} = \\frac{(x_{1} - x_{2})^2}{2n}\n$$\n\nConfidence Level: 100%<|eot_id|>",
+        "num_new_tokens": 939,
+        "speed": 38.65530807227298,
+        "model": "Llama",
+        "mark": 50,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    }
+]

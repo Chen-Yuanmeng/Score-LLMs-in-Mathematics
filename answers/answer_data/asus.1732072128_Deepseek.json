@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 1,
+        "model_output": " Using the order of operations (PEMDAS), we first perform the division:\n$1533{\\div} 73 = 21$\nThen we perform the addition:\n$21 + 159 = 180$\nFinally, we perform the subtraction:\n$180 - 57 = 123$\nTherefore, the answer is $\\boxed{123}$.\nI am 95% confident in my answer because I checked my work and found no errors.",
+        "num_new_tokens": 113,
+        "speed": 44.934095993946045,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 2,
+        "model_output": " Let's break this problem down into smaller steps.\n\nStep 1: First, we need to calculate $1533{\\div} 73$. This is a division operation, and the result is $21$.\n\nStep 2: Next, we need to calculate $159 - 57$. This is a subtraction operation, and the result is $102$.\n\nStep 3: Finally, we need to calculate $21 + 102$. This is an addition operation, and the result is $123$.\n\nSo, $1533{\\div} 73+  159- 57 = \\boxed{123}$.\n\nAs for the confidence level, I am very confident in my answer because I followed the order of operations (PEMDAS/BODMAS) correctly and used basic arithmetic operations correctly.",
+        "num_new_tokens": 193,
+        "speed": 44.60462575207221,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "confident",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732072128",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$1533{\\div} 73+  159- 57$.",
+        "question_in_English": "Calculate $1533{\\div} 73+  159- 57$.",
+        "answer": "123",
+        "occurrence": 3,
+        "model_output": " First, we perform the division: $1533\\div 73 = 21$.\nNext, we perform the addition and subtraction: $21 + 159 - 57 = 123$.\nTherefore, the value of the expression is $\\boxed{123}$.\nSince the problem asks for the value of the expression, the answer is $\\boxed{100\\%}$.\nThe answer is $\\boxed{100}$.",
+        "num_new_tokens": 101,
+        "speed": 44.92462509585429,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

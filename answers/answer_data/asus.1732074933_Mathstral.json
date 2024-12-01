@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 1,
+        "model_output": " Step 1: The maximum likelihood estimate (MLE) is a method for estimating the parameters of a statistical model given some observed data. In this case, we are trying to find the MLEs for $\\mu$ (the mean) and $\\sigma^2$ (the variance) of a normal distribution given two independent and identically distributed (iid) random variables $X_1$ and $X_2$.\n\nStep 2: The likelihood function for a normal distribution is given by the probability density function (pdf) of the normal distribution, which is $f(x; \\mu, \\sigma^2) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$.\n\nStep 3: Since $X_1$ and $X_2$ are iid, the joint likelihood function is the product of their individual pdfs, which is $L(\\mu, \\sigma^2) = f(x_1; \\mu, \\sigma^2)f(x_2; \\mu, \\sigma^2)$.\n\nStep 4: To find the MLEs, we need to maximize the likelihood function. This is typically done by taking the partial derivatives of the log likelihood function with respect to the parameters, setting them equal to zero, and solving for the parameters.\n\nStep 5: The log likelihood function is $l(\\mu, \\sigma^2) = \\ln L(\\mu, \\sigma^2) = -\\frac{n}{2}\\ln(2\\pi\\sigma^2) - \\frac{1}{2\\sigma^2}\\sum_{i=1}^n (x_i - \\mu)^2$.\n\nStep 6: Taking the partial derivative of $l(\\mu, \\sigma^2)$ with respect to $\\mu$ and setting it equal to zero gives $\\frac{\\partial l}{\\partial \\mu} = \\frac{1}{\\sigma^2}\\sum_{i=1}^n (x_i - \\mu) = 0$, which simplifies to $\\mu = \\frac{1}{n}\\sum_{i=1}^n x_i$.\n\nStep 7: Taking the partial derivative of $l(\\mu, \\sigma^2)$ with respect to $\\sigma^2$ and setting it equal to zero gives $\\frac{\\partial l}{\\partial \\sigma^2} = -\\frac{n}{2\\sigma^2} + \\frac{1}{2\\sigma^4}\\sum_{i=1}^n (x_i - \\mu)^2 = 0$, which simplifies to $\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i - \\mu)^2$.\n\nStep 8: Substituting the expression for $\\mu$ from Step 6 into the expression for $\\sigma^2$ from Step 7 gives $\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i - \\frac{1}{n}\\sum_{j=1}^n x_j)^2$.\n\nTherefore, the maximum likelihood estimates for $\\mu$ and $\\sigma^2$ are $\\boxed{\\mu = \\frac{1}{n}\\sum_{i=1}^n x_i}$ and $\\boxed{\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^n (x_i - \\frac{1}{n}\\sum_{j=1}^n x_j)^2}$.\n\nRegarding my confidence in the answer:\n\nI have a high confidence level in the answer, as the steps followed are standard procedures in finding maximum likelihood estimates for normal distributions. The likelihood function was correctly derived, and the partial derivatives were correctly taken and set equal to zero to find the MLEs. However, without specific values for $X_1$ and $X_2$, I cannot calculate an exact percentage confidence level.</s>",
+        "num_new_tokens": 856,
+        "speed": 35.12522070881303,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "high confidence",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 2,
+        "model_output": " To find the maximum likelihood estimates (MLEs) of $\\mu$ and $\\sigma^2$ for a bivariate normal distribution, we need to maximize the likelihood function. The likelihood function for a bivariate normal distribution is given by:\n\nL(X|μ,σ^2) = (2πσ^2)^(-n/2) exp{-1/2(X-μ)'Σ^(-1)(X-μ)}\n\nwhere X is the data matrix, μ is the mean vector, Σ is the covariance matrix, and n is the number of observations.\n\nStep 1: Compute the sample mean vector μ\\_hat\n\nThe sample mean vector is given by:\n\nμ\\_hat = 1/n Σ X\\_i\n\nwhere X\\_i is the i-th observation.\n\nStep 2: Compute the sample covariance matrix Σ\\_hat\n\nThe sample covariance matrix is given by:\n\nΣ\\_hat = 1/(n-1) Σ (X\\_i - μ\\_hat)(X\\_i - μ\\_hat)'\n\nwhere X\\_i is the i-th observation.\n\nStep 3: Compute the maximum likelihood estimates\n\nThe maximum likelihood estimates of μ and Σ are given by the sample mean vector μ\\_hat and the sample covariance matrix Σ\\_hat, respectively.\n\nSo, the maximum likelihood estimate of μ is μ\\_hat, and the maximum likelihood estimate of σ^2 is Σ\\_hat(ii), where Σ\\_hat(ii) is the i-th diagonal element of the sample covariance matrix Σ\\_hat.\n\nFinal answer: The maximum likelihood estimates of μ and σ^2 are μ\\_hat and Σ\\_hat(ii), respectively.\n\nConfidence level: I'm confident that my answer is correct, but without knowing the specific data set, it's difficult to give a precise confidence level. However, in general, maximum likelihood estimates are asymptotically consistent and efficient, so as the sample size increases, the estimates should get closer to the true values. Therefore, I would say my confidence level is around 90%.\n\n\\boxed{\\text{Final answer: The maximum likelihood estimates of } \\mu \\text{ and } \\sigma^2 \\text{ are } \\mu\\_hat \\text{ and } \\Sigma\\_hat(ii), \\text{ respectively.}}\n\n\\boxed{\\text{Confidence level: 90%}}</s>",
+        "num_new_tokens": 559,
+        "speed": 35.187916258131075,
+        "model": "Mathstral",
+        "mark": 60,
+        "need_rerun": false,
+        "confidence_level": "90",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732074933",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "已知 $X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$,求$\\mu ,\\sigma ^{2}$的最大似然估计.",
+        "question_in_English": "$X_{1},X_{2} idd\\sim N\\left ( \\mu ,\\sigma ^{2}  \\right )$. Find the maximum likelihood estimates of $\\mu ,\\sigma ^{2}$.",
+        "answer": "分别为样本期望和样本方差",
+        "occurrence": 3,
+        "model_output": " Step 1: The maximum likelihood estimation is a statistical method used to estimate the parameters of a model or a distribution. In this case, we want to estimate the mean (μ) and variance (σ²) of a normal distribution.\n\nStep 2: The probability density function (pdf) of a normal distribution is given by:\n\nf(x|μ,σ²) = 1/(√(2πσ²)) * e^(-((x-μ)²)/(2σ²))\n\nStep 3: The maximum likelihood estimates are obtained by finding the values of μ and σ² that maximize the likelihood function, which is the product of the pdfs for all observations in the sample.\n\nStep 4: The maximum likelihood estimates of μ and σ² are the solutions to the following equations:\n\n∑(xi - μ) = 0 (for μ)\n∑((xi - μ)²)/(n-1) = σ² (for σ²)\n\nStep 5: Solving these equations gives us:\n\nμ = ∑xi / n (sample mean)\nσ² = ∑((xi - μ)²)/(n-1) (sample variance)\n\nFinal Answer:\nThe maximum likelihood estimates of μ and σ² are the sample mean and sample variance respectively.\n\nConfidence Level:\nI am 100% confident in this answer because it follows directly from the definition and properties of maximum likelihood estimation for a normal distribution.\n\n$\\boxed{\\text{μ = ∑xi / n, σ² = ∑((xi - μ)²)/(n-1)}}$</s>",
+        "num_new_tokens": 367,
+        "speed": 35.03391638924353,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

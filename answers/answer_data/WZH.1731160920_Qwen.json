@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 1,
+        "model_output": "To determine which three of the center of gravity, vertical center, inner center, and outer center of a general triangle are always collinear, we need to understand the definitions and properties of these points.\n\n1. **Center of Gravity (Centroid)**: The center of gravity of a triangle is the point where the three medians intersect. A median of a triangle is a line segment joining a vertex to the midpoint of the opposite side. The centroid divides each median into a ratio of 2:1, with the longer segment being closer to the vertex.\n\n2. **Vertical Center**: This term is not a standard geometric term for a triangle. It might be referring to the orthocenter, which is the point where the three altitudes of the triangle intersect. An altitude of a triangle is a perpendicular line segment from a vertex to the line containing the opposite side.\n\n3. **Inner Center**: This term is not a standard geometric term for a triangle. It might be referring to the incenter, which is the point where the three angle bisectors of the triangle intersect. The incenter is the center of the triangle's inscribed circle (incircle), which is the circle that is tangent to all three sides of the triangle.\n\n4. **Outer Center**: This term is not a standard geometric term for a triangle. It might be referring to the circumcenter, which is the point where the three perpendicular bisectors of the sides of the triangle intersect. The circumcenter is the center of the triangle's circumscribed circle (circumcircle), which is the circle that passes through all three vertices of the triangle.\n\nGiven these definitions, the three points that are always collinear in any triangle are the centroid (center of gravity), the circumcenter, and the orthocenter. This line is known as the Euler line.\n\nTherefore, the three points that are always collinear are the centroid, the circumcenter, and the orthocenter. The confidence level regarding this answer is 100%.\n\nThe final answer is:\n\\[\n\\boxed{100}\n\\]",
+        "num_new_tokens": 422,
+        "speed": 41.543925928479936,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 2,
+        "model_output": "To determine which three of the center of gravity (centroid), vertical center (orthocenter), inner center (incenter), and outer center (circumcenter) of a triangle are always collinear, we need to understand the properties of these points in a triangle.\n\n1. **Centroid (G)**: The centroid is the point where the three medians of the triangle intersect. A median is a line segment joining a vertex to the midpoint of the opposite side.\n2. **Orthocenter (H)**: The orthocenter is the point where the three altitudes of the triangle intersect. An altitude is a perpendicular line segment from a vertex to the line containing the opposite side.\n3. **Incenter (I)**: The incenter is the point where the three angle bisectors of the triangle intersect. An angle bisector is a line segment that divides an angle into two equal angles.\n4. **Circumcenter (O)**: The circumcenter is the point where the three perpendicular bisectors of the sides of the triangle intersect. A perpendicular bisector is a line segment that is perpendicular to a side of the triangle and passes through its midpoint.\n\nIn any triangle, the centroid (G), orthocenter (H), and circumcenter (O) are always collinear. This line is known as the Euler line. The incenter (I) is not always collinear with these three points.\n\nThe confidence level in this answer is 100% because this is a well-known geometric property of triangles.\n\nTherefore, the three points that are always collinear are the centroid, orthocenter, and circumcenter. The answer is:\n\n\\[\n\\boxed{100}\n\\]",
+        "num_new_tokens": 349,
+        "speed": 41.36671162482879,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 3,
+        "model_output": "To determine which three of the center of gravity (centroid), vertical center (orthocenter), inner center (incenter), and outer center (circumcenter) of a general triangle are always collinear, we need to understand the properties of these points.\n\n1. **Centroid (G)**: The centroid is the point where the three medians of the triangle intersect. It divides each median into a ratio of 2:1, with the longer segment being closer to the vertex.\n2. **Orthocenter (H)**: The orthocenter is the point where the three altitudes of the triangle intersect. For an acute triangle, the orthocenter is inside the triangle. For a right triangle, the orthocenter is at the vertex of the right angle. For an obtuse triangle, the orthocenter is outside the triangle.\n3. **Incenter (I)**: The incenter is the point where the three angle bisectors of the triangle intersect. It is the center of the inscribed circle (incircle) of the triangle.\n4. **Circumcenter (O)**: The circumcenter is the point where the three perpendicular bisectors of the sides of the triangle intersect. It is the center of the circumscribed circle (circumcircle) of the triangle.\n\nIn any triangle, the centroid (G), orthocenter (H), and circumcenter (O) are always collinear. This line is known as the Euler line. The incenter (I) is not necessarily collinear with these three points unless the triangle is equilateral.\n\nTherefore, the three points that are always collinear are the centroid, orthocenter, and circumcenter.\n\nThe confidence level in this answer is 100% because this is a well-known geometric property that holds for all triangles.\n\nThe final answer is:\n\n\\[\n\\boxed{100}\n\\]",
+        "num_new_tokens": 388,
+        "speed": 41.73684064476303,
+        "model": "Qwen",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

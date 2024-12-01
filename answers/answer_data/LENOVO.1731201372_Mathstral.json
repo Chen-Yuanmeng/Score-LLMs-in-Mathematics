@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 1,
+        "model_output": " To find the maximum likelihood estimate (MLE) of $a$, we first need to find the likelihood function of $a$ given the data $X_1, X_2, ..., X_n$.\n\nSince $X_i$'s are independent and uniformly distributed on the interval $(a, b)$, the probability density function (pdf) of each $X_i$ is:\n\n$f(x_i) = \\frac{1}{b - a}$, for $x_i \\in (a, b)$\n\nThe likelihood function $L(a)$ is the product of the individual pdfs:\n\n$L(a) = \\prod\\limits_{i=1}^{n} f(x_i) = \\left(\\frac{1}{b - a}\\right)^n \\cdot \\prod\\limits_{i=1}^{n} I(x_i \\in (a, b))$,\n\nwhere $I(x_i \\in (a, b))$ is the indicator function that is 1 if $x_i \\in (a, b)$ and 0 otherwise.\n\nTo find the MLE of $a$, we need to maximize $L(a)$ with respect to $a$. Since $b$ is not a parameter, we can treat it as a constant. The derivative of $L(a)$ with respect to $a$ is:\n\n$\\frac{dL(a)}{da} = n\\left(\\frac{1}{b - a}\\right)^2 \\cdot \\prod\\limits_{i=1}^{n} I(x_i \\in (a, b)) \\cdot (-1)$\n\nSetting this derivative equal to zero gives:\n\n$n\\left(\\frac{1}{b - a}\\right)^2 \\cdot \\prod\\limits_{i=1}^{n} I(x_i \\in (a, b)) \\cdot (-1) = 0$\n\nSince $\\prod\\limits_{i=1}^{n} I(x_i \\in (a, b))$ is either 0 or 1, it cannot be equal to 0. Therefore, the only way for the equation to hold is if $\\frac{1}{b - a} = 0$, which is impossible. However, we can notice that as $a$ approaches $x_{min}$, where $x_{min} = \\min(x_1, x_2, ..., x_n)$, the likelihood function increases without bound. Therefore, the maximum likelihood estimate of $a$ is $x_{min}$.\n\n\\boxed{a = x_{min}}\n\nI am very confident in this answer, as it is based on a well-known result for the maximum likelihood estimation of parameters in uniform distributions. Therefore, my confidence level is 99%.</s>",
+        "num_new_tokens": 610,
+        "speed": 35.06135044947903,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "99%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 2,
+        "model_output": " First, we need to find the likelihood function for the parameters $a$ and $b$. Since $X_1, X_2, ..., X_n$ are independent and uniformly distributed on the interval $(a,b)$, the likelihood function is given by:\n\n$$L(a,b|X_1,X_2,...X_n) = \\prod_{i=1}^{n} \\frac{1}{b-a}$$\n\nNow, we want to find the maximum likelihood estimate for $a$. To do this, we need to find the values of $a$ and $b$ that maximize the likelihood function. Since the likelihood function does not depend on the specific values of $a$ and $b$, but only on their difference $b-a$, we can rewrite the likelihood function in terms of $b-a$:\n\n$$L(a,b|X_1,X_2,...X_n) = \\frac{1}{(b-a)^n}$$\n\nNow, we can see that the likelihood function is maximized when $b-a$ is minimized, since the denominator is in the denominator. Since $a$ and $b$ are the endpoints of the interval $(a,b)$, the smallest possible value for $b-a$ is $b-a = \\min(X_1,X_2,...X_n) - a$. Therefore, the maximum likelihood estimate for $a$ is given by:\n\n$$\\boxed{a = \\min(X_1,X_2,...X_n)}$$\n\nI am very confident in this answer, as it follows directly from the properties of the uniform distribution and the definition of maximum likelihood estimation. Therefore, my confidence level is 95%.</s>",
+        "num_new_tokens": 387,
+        "speed": 34.987391895685214,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 3,
+        "model_output": " To find the maximum likelihood estimate of $a$ for a set of independent and uniformly distributed random variables $X_1,X_2,... X_n$ on the interval $(a,b)$, we proceed as follows:\n\n1. **Formulate the Likelihood Function**: Given that each $X_i$ is uniformly distributed on $(a,b)$, the probability density function (pdf) for each $X_i$ is $\\frac{1}{b-a}$ for $a \\le x \\le b$, and $0$ otherwise. Since the $X_i$s are independent, the likelihood function $L(a; X)$ for the set of observations $X_1, X_2, ..., X_n$ is the product of the pdfs for each $X_i$. Therefore, we have:\n\\[L(a; X) = \\left( \\frac{1}{b-a} \\right)^n \\prod_{i=1}^n I(a \\le X_i \\le b),\\]\nwhere $I(\\cdot)$ is the indicator function.\n\n2. **Find the Gradient of the Likelihood Function**: To find the maximum likelihood estimate of $a$, we need to differentiate the likelihood function with respect to $a$ and set the derivative equal to zero. The derivative of $L(a; X)$ with respect to $a$ is:\n\\[\\frac{\\partial}{\\partial a} L(a; X) = -n (b-a)^{-2} \\prod_{i=1}^n I(a \\le X_i \\le b) + \\left( \\frac{1}{b-a} \\right)^n \\sum_{i=1}^n \\frac{\\partial}{\\partial a} I(a \\le X_i \\le b).\\]\nThe derivative of the indicator function $I(a \\le X_i \\le b)$ with respect to $a$ is $0$ when $a < X_i$ or $a > b$, and is $-\\infty$ when $a = X_i$. Thus, the derivative simplifies to:\n\\[\\frac{\\partial}{\\partial a} L(a; X) = -n (b-a)^{-2} \\prod_{i=1}^n I(a \\le X_i \\le b).\\]\n\n3. **Solve for $a$**: Setting the derivative equal to zero gives us:\n\\[\\frac{\\partial}{\\partial a} L(a; X) = 0 \\implies -n (b-a)^{-2} \\prod_{i=1}^n I(a \\le X_i \\le b) = 0.\\]\nSince $\\prod_{i=1}^n I(a \\le X_i \\le b) = 1$ (because $a \\le X_i \\le b$ for all $i$ by definition), we have:\n\\[-n (b-a)^{-2} = 0 \\implies (b-a)^2 = \\infty \\implies b-a = \\infty.\\]\nHowever, this does not provide a finite value for $a$. The correct interpretation is that the derivative being zero indicates a stationary point of the likelihood function, but it does not directly solve for $a$. Instead, we consider the behavior of the likelihood function itself.\n\n4. **Analyze the Behavior of the Likelihood Function**: The likelihood function $L(a; X)$ is constant for $a \\le \\min(X_1, X_2, ..., X_n)$ and decreases as $a$ increases beyond $\\min(X_1, X_2, ..., X_n)$ towards $b$. This behavior suggests that the maximum likelihood estimate of $a$ is at the smallest observed value among $X_1, X_2, ..., X_n$.\n\nTherefore, the maximum likelihood estimate of $a$ is $\\boxed{\\min(X_1, X_2, ..., X_n)}$.\n\n**Confidence Level**: $\\boxed{100\\%}$. This is because the steps lead directly to the conclusion without requiring any additional assumptions or information.</s>",
+        "num_new_tokens": 912,
+        "speed": 34.997866507293566,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

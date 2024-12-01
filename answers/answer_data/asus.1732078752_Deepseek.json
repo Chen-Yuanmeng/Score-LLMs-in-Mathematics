@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732078752",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "已知a,b为实数，求矩阵$\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$的特征向量.",
+        "question_in_English": "Given that a and b are real numbers, find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$. ",
+        "answer": "[1,-i],[1,i],不唯一",
+        "occurrence": 1,
+        "model_output": " To find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$, we first need to find its eigenvalues. \n\nThe eigenvalues are the roots of the characteristic equation, which is given by the determinant of the matrix minus the eigenvalues times the identity matrix. In this case, the characteristic equation is:\n\n$\\begin{vmatrix}a-\\lambda  &-b \\\\ b &a-\\lambda\\end{vmatrix} = (a-\\lambda)^2 - b^2 = 0$\n\nExpanding this, we get a quadratic equation:\n\n$\\lambda^2 - 2a\\lambda + a^2 - b^2 = 0$\n\nUsing the quadratic formula, we find that the eigenvalues are:\n\n$\\lambda = a \\pm \\sqrt{a^2 - b^2}$\n\nNow, we can find the eigenvectors corresponding to each eigenvalue. \n\nLet's first find the eigenvector corresponding to the eigenvalue $a + \\sqrt{a^2 - b^2}$. \n\nSubstitute this eigenvalue into the equation $(\\mathbf{A} - \\lambda\\mathbf{I})\\mathbf{v} = 0$:\n\n$\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix} \\begin{bmatrix}x \\\\ y\\end{bmatrix} = (a + \\sqrt{a^2 - b^2})\\begin{bmatrix}x \\\\ y\\end{bmatrix}$\n\nThis simplifies to:\n\n$ax - by = (a + \\sqrt{a^2 - b^2})x$\n\n$bx + ay = (a + \\sqrt{a^2 - b^2})y$\n\nFrom the first equation, we get:\n\n$by = (a - \\sqrt{a^2 - b^2})x$\n\nSo, the eigenvector corresponding to the eigenvalue $a + \\sqrt{a^2 - b^2}$ is:\n\n$\\mathbf{v} = \\begin{bmatrix}1 \\\\ \\frac{a - \\sqrt{a^2 - b^2}}{b}\\end{bmatrix}$\n\nSimilarly, we can find the eigenvector corresponding to the eigenvalue $a - \\sqrt{a^2 - b^2}$. \n\nSubstitute this eigenvalue into the equation $(\\mathbf{A} - \\lambda\\mathbf{I})\\mathbf{v} = 0$:\n\n$\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix} \\begin{bmatrix}x \\\\ y\\end{bmatrix} = (a - \\sqrt{a^2 - b^2})\\begin{bmatrix}x \\\\ y\\end{bmatrix}$\n\nThis simplifies to:\n\n$ax - by = (a - \\sqrt{a^2 - b^2})x$\n\n$bx + ay = (a - \\sqrt{a^2 - b^2})y$\n\nFrom the first equation, we get:\n\n$by = (a + \\sqrt{a^2 - b^2})x$\n\nSo, the eigenvector corresponding to the eigenvalue $a - \\sqrt{a^2 - b^2}$ is:\n\n$\\mathbf{v} = \\begin{bmatrix}1 \\\\ \\frac{a + \\sqrt{a^2 - b^2}}{b}\\end{bmatrix}$\n\nTherefore, the answer is $\\boxed{\\begin{bmatrix}1 \\\\ \\frac{a - \\sqrt{a^2 - b^2}}{b}\\end{bmatrix}}$ and $\\begin{bmatrix}1 \\\\ \\frac{a + \\sqrt{a^2 - b^2}}{b}\\end{bmatrix}$, and my confidence in the answer is $\\boxed{100\\%}$.",
+        "num_new_tokens": 809,
+        "speed": 43.81495402563114,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732078752",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "已知a,b为实数，求矩阵$\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$的特征向量.",
+        "question_in_English": "Given that a and b are real numbers, find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$. ",
+        "answer": "[1,-i],[1,i],不唯一",
+        "occurrence": 2,
+        "model_output": " To find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$, we need to find the non-zero vectors $\\mathbf{v}$ such that $A\\mathbf{v}=\\lambda\\mathbf{v}$, where $A$ is the given matrix and $\\lambda$ is the eigenvalue.\n\nLet $\\mathbf{v}=\\begin{bmatrix}x \\\\ y\\end{bmatrix}$. Then, we have:\n\n$$A\\mathbf{v}=\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}\\begin{bmatrix}x \\\\ y\\end{bmatrix}=\\begin{bmatrix}ax-by \\\\ bx+ay\\end{bmatrix}.$$\n\nSetting this equal to $\\lambda\\mathbf{v}$, we get:\n\n$$\\begin{bmatrix}ax-by \\\\ bx+ay\\end{bmatrix}=\\lambda\\begin{bmatrix}x \\\\ y\\end{bmatrix}=\\begin{bmatrix}\\lambda x \\\\ \\lambda y\\end{bmatrix}.$$\n\nEquating the corresponding entries, we have:\n\n1) $ax-by=\\lambda x$\n\n2) $bx+ay=\\lambda y$\n\nFrom equation (1), we can express $x$ in terms of $y$ and $\\lambda$:\n\n$$x=\\frac{\\lambda+b}{\\lambda-a}y.$$\n\nSubstituting this into equation (2), we get:\n\n$$b\\left(\\frac{\\lambda+b}{\\lambda-a}y\\right)+ay=\\lambda y.$$\n\nSimplifying, we get:\n\n$$b\\left(\\frac{\\lambda+b}{\\lambda-a}\\right)+a=\\lambda.$$\n\nSolving this for $\\lambda$, we find that $\\lambda=a+b$ or $\\lambda=a-b$.\n\nNow, we find the eigenvectors corresponding to these eigenvalues:\n\nFor $\\lambda=a+b$, we have:\n\n$$x=\\frac{a+2b}{a-b}y \\Rightarrow \\begin{bmatrix}x \\\\ y\\end{bmatrix}=\\begin{bmatrix}\\frac{a+2b}{a-b}y \\\\ y\\end{bmatrix}=\\begin{bmatrix}\\frac{a+2b}{a-b} \\\\ 1\\end{bmatrix}y.$$\n\nSo, the eigenvector corresponding to $\\lambda=a+b$ is $\\mathbf{v_1}=\\begin{bmatrix}\\frac{a+2b}{a-b} \\\\ 1\\end{bmatrix}$.\n\nFor $\\lambda=a-b$, we have:\n\n$$x=\\frac{2b}{a+b}y \\Rightarrow \\begin{bmatrix}x \\\\ y\\end{bmatrix}=\\begin{bmatrix}\\frac{2b}{a+b}y \\\\ y\\end{bmatrix}=\\begin{bmatrix}\\frac{2b}{a+b} \\\\ 1\\end{bmatrix}y.$$\n\nSo, the eigenvector corresponding to $\\lambda=a-b$ is $\\mathbf{v_2}=\\begin{bmatrix}\\frac{2b}{a+b} \\\\ 1\\end{bmatrix}$.\n\nTherefore, the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$ are $\\mathbf{v_1}=\\begin{bmatrix}\\frac{a+2b}{a-b} \\\\ 1\\end{bmatrix}$ and $\\mathbf{v_2}=\\begin{bmatrix}\\frac{2b}{a+b} \\\\ 1\\end{bmatrix}$.\n\nI am $\\boxed{100\\%}$ confident in my answer.",
+        "num_new_tokens": 774,
+        "speed": 43.76274939940642,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732078752",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "已知a,b为实数，求矩阵$\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$的特征向量.",
+        "question_in_English": "Given that a and b are real numbers, find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$. ",
+        "answer": "[1,-i],[1,i],不唯一",
+        "occurrence": 3,
+        "model_output": " To find the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$, we need to solve the characteristic equation, which is given by the determinant of $(A - \\lambda I)$, where $A$ is the matrix and $\\lambda$ is the eigenvalue. \n\nSo, we have:\n\n$\\begin{vmatrix}a - \\lambda  &-b \\\\ b &a - \\lambda\\end{vmatrix} = (a - \\lambda)^2 - (-b)(b) = \\lambda^2 - 2a\\lambda + a^2 + b^2 = 0$\n\nThis is a quadratic equation in $\\lambda$, and we can find its roots using the quadratic formula:\n\n$\\lambda = \\frac{-(-2a) \\pm \\sqrt{(-2a)^2 - 4(1)(a^2 + b^2)}}{2(1)} = \\frac{2a \\pm \\sqrt{4a^2 - 4a^2 - 4b^2}}{2} = a \\pm \\sqrt{a^2 - b^2}$\n\nLet's denote these eigenvalues as $\\lambda_1 = a + \\sqrt{a^2 - b^2}$ and $\\lambda_2 = a - \\sqrt{a^2 - b^2}$.\n\nNow, we need to find the eigenvectors corresponding to these eigenvalues. We do this by solving the equation $(A - \\lambda I)v = 0$, where $v$ is the eigenvector.\n\nFor $\\lambda_1 = a + \\sqrt{a^2 - b^2}$:\n\n$(A - \\lambda_1 I) = \\begin{bmatrix}a - (a + \\sqrt{a^2 - b^2})  &-b \\\\ b &a - (a + \\sqrt{a^2 - b^2})\\end{bmatrix} = \\begin{bmatrix}-\\sqrt{a^2 - b^2}  &-b \\\\ b &-\\sqrt{a^2 - b^2}\\end{bmatrix}$\n\nWe can rewrite this as:\n\n$\\begin{bmatrix}\\sqrt{a^2 - b^2}  &b \\\\ b &\\sqrt{a^2 - b^2}\\end{bmatrix}v = 0$\n\nThe eigenvector $v$ can be any scalar multiple of the vector $\\begin{bmatrix}b \\\\ \\sqrt{a^2 - b^2}\\end{bmatrix}$, so we can choose $v = \\begin{bmatrix}b \\\\ a + \\sqrt{a^2 - b^2}\\end{bmatrix}$.\n\nFor $\\lambda_2 = a - \\sqrt{a^2 - b^2}$:\n\n$(A - \\lambda_2 I) = \\begin{bmatrix}a - (a - \\sqrt{a^2 - b^2})  &-b \\\\ b &a - (a - \\sqrt{a^2 - b^2})\\end{bmatrix} = \\begin{bmatrix}\\sqrt{a^2 - b^2}  &-b \\\\ b &\\sqrt{a^2 - b^2}\\end{bmatrix}$\n\nWe can rewrite this as:\n\n$\\begin{bmatrix}\\sqrt{a^2 - b^2}  &b \\\\ b &\\sqrt{a^2 - b^2}\\end{bmatrix}v = 0$\n\nThe eigenvector $v$ can be any scalar multiple of the vector $\\begin{bmatrix}b \\\\ -\\sqrt{a^2 - b^2}\\end{bmatrix}$, so we can choose $v = \\begin{bmatrix}b \\\\ a - \\sqrt{a^2 - b^2}\\end{bmatrix}$.\n\nTherefore, the eigenvectors of the matrix $\\begin{bmatrix}a  &-b \\\\ b &a\\end{bmatrix}$ are $\\begin{bmatrix}b \\\\ a + \\sqrt{a^2 - b^2}\\end{bmatrix}$ and $\\begin{bmatrix}b \\\\ a - \\sqrt{a^2 - b^2}\\end{bmatrix}$.\n\nI am 100% confident in this answer.",
+        "num_new_tokens": 890,
+        "speed": 43.62836348448655,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

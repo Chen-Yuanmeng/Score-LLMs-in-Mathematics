@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732119541",
+        "category": "Mathematics",
+        "sub_category": "Differential Equation Solving",
+        "question_in_Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "question_in_English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C",
+        "occurrence": 1,
+        "model_output": " First, we rewrite the given differential equation in the standard form:\n\n$\\frac{\\mathrm{d}y}{\\mathrm{d}x} = \\frac{x^{3} (y^{2} - 3)}{(x - 4) y^{4}}$\n\nNow, we can use the method of integrating factors. The integrating factor is given by the exponential of the integral of the coefficient of $y$ with respect to $x$. In this case, the coefficient of $y$ is:\n\n$P(x) = \\frac{x^{3}}{x - 4}$\n\nTaking the integral of $P(x)$ with respect to $x$ gives:\n\n$\\int P(x) \\mathrm{d}x = \\int \\frac{x^{3}}{x - 4} \\mathrm{d}x$\n\nThis integral is not straightforward to evaluate, so we can use the substitution $u = x - 4$, which gives $\\mathrm{d}u = \\mathrm{d}x$. The integral becomes:\n\n$\\int \\frac{(u + 4)^{3}}{u} \\mathrm{d}u = \\int \\frac{u^{3} + 12u^{2} + 48u + 64}{u} \\mathrm{d}u$\n\nNow, we can integrate each term separately:\n\n$\\int u^{2} \\mathrm{d}u + 12 \\int u \\mathrm{d}u + 48 \\int \\mathrm{d}u + 64 \\int \\frac{1}{u} \\mathrm{d}u$\n\nThis gives:\n\n$\\frac{1}{3}u^{3} + 6u^{2} + 48u + 64 \\ln |u| + C$\n\nSubstituting $u = x - 4$ back in, we get:\n\n$\\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C$\n\nSo, the integrating factor is:\n\n$e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C }$\n\nMultiplying the differential equation by the integrating factor, we get:\n\n$e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } \\frac{\\mathrm{d}y}{\\mathrm{d}x} = e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } \\frac{x^{3} (y^{2} - 3)}{(x - 4) y^{4}}$\n\nNow, we can integrate both sides with respect to $x$:\n\n$\\int e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } \\frac{\\mathrm{d}y}{\\mathrm{d}x} \\mathrm{d}x = \\int e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } \\frac{x^{3} (y^{2} - 3)}{(x - 4) y^{4}} \\mathrm{d}x$\n\nThe left side of this equation is equal to:\n\n$\\int e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } \\frac{\\mathrm{d}y}{\\mathrm{d}x} \\mathrm{d}x = e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } y + D$\n\nThe right side of this equation is not straightforward to evaluate. However, we can make some observations:\n\n1. The integrating factor depends only on $x$, so the left side of the equation is a function of $y$ only.\n2. The right side of the equation is a function of both $x$ and $y$.\n\nSince the left side of the equation is a function of $y$ only, and the right side is a function of both $x$ and $y$, we can conclude that the general solution of the differential equation is given by:\n\n$e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } y = F(x)$\n\nwhere $F(x)$ is an arbitrary function of $x$.\n\nSo, the general solution of the given differential equation is:\n\n$\\boxed{e^{ \\frac{1}{3}(x - 4)^{3} + 6(x - 4)^{2} + 48(x - 4) + 64 \\ln |x - 4| + C } y = F(x)}$\n\nI am $100\\%$ confident in this answer.",
+        "num_new_tokens": 1306,
+        "speed": 42.8859456374455,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732119541",
+        "category": "Mathematics",
+        "sub_category": "Differential Equation Solving",
+        "question_in_Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "question_in_English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C",
+        "occurrence": 2,
+        "model_output": " We can rewrite the given differential equation as:\n$\\frac{dy}{dx} = \\frac{x^3(y^2 - 3)}{(x - 4)y^4}$\nThis is a homogeneous equation, so we can use the substitution $v = y/x$ to simplify it. \nDifferentiating $v$ with respect to $x$, we get:\n$\\frac{dv}{dx} = \\frac{1}{x} - \\frac{y}{x^2}\\frac{dy}{dx}$\nSubstituting $y = xv$ and $\\frac{dy}{dx} = x\\frac{dv}{dx} + v$ into the above equation, we get:\n$\\frac{dv}{dx} = \\frac{1}{x} - \\frac{v}{x}\\left(x\\frac{dv}{dx} + v\\right)$\nSimplifying and rearranging, we get:\n$\\frac{dv}{dx} + \\frac{v}{x} = \\frac{1}{x^2}$\nThis is a first-order linear differential equation. We can solve it using an integrating factor. The integrating factor is given by $e^{\\int \\frac{1}{x} dx} = x$. Multiplying both sides of the equation by the integrating factor, we get:\n$x\\frac{dv}{dx} + v = \\frac{1}{x}$\nNow, we can integrate both sides with respect to $x$:\n$\\int x\\frac{dv}{dx} dx + \\int v dx = \\int \\frac{1}{x} dx$\n$x v + C_1 = \\ln|x| + C_2$\n$v = \\frac{\\ln|x| + C}{x}$, where $C = C_2 - C_1$\nSubstituting $v = y/x$ back into the equation, we get:\n$y = x\\left(\\frac{\\ln|x| + C}{x}\\right)$\n$y = \\ln|x| + C$\nThis is the general solution of the given differential equation.\nThe answer is $\\boxed{True}$.\nWith 100% confidence, the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$ is $\\boxed{y = \\ln|x| + C}$.",
+        "num_new_tokens": 537,
+        "speed": 43.8696675387526,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732119541",
+        "category": "Mathematics",
+        "sub_category": "Differential Equation Solving",
+        "question_in_Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "question_in_English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C",
+        "occurrence": 3,
+        "model_output": " This equation can be separated, because we can rewrite it as\n\\[\\frac{dy}{y^{2}-3} = \\frac{dx}{(x-4)x^{3}}.\\]Integrating both sides, we get\n\\[\\int \\frac{dy}{y^{2}-3} = \\int \\frac{dx}{(x-4)x^{3}}.\\]The left side is a standard integral, which evaluates to\n\\[\\int \\frac{dy}{y^{2}-3} = \\frac{1}{2\\sqrt{3}} \\ln \\left|\\frac{y-\\sqrt{3}}{y+\\sqrt{3}}\\right| + C_{1}.\\]The right side is a bit trickier. We can break it up into two separate integrals:\n\\[\\int \\frac{dx}{(x-4)x^{3}} = \\int \\frac{dx}{x^{3}} - 4\\int \\frac{dx}{x^{4}}.\\]The first integral evaluates to $-\\frac{1}{2x^{2}}$, and the second integral evaluates to $\\frac{1}{3x^{3}}$. Therefore, we have\n\\[\\int \\frac{dx}{(x-4)x^{3}} = -\\frac{1}{2x^{2}} + \\frac{1}{3x^{3}} + C_{2}.\\]Putting it all together, we have\n\\[\\frac{1}{2\\sqrt{3}} \\ln \\left|\\frac{y-\\sqrt{3}}{y+\\sqrt{3}}\\right| = -\\frac{1}{2x^{2}} + \\frac{1}{3x^{3}} + C,\\]where $C$ is the constant $C_{1} - C_{2}$.\n\nThis is the general solution of the differential equation.\nThe answer is $\\boxed{100\\%}$.",
+        "num_new_tokens": 387,
+        "speed": 44.20620463197405,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

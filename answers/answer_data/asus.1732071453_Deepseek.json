@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732071453",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "question_in_English": "Calculate $\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "answer": "22",
+        "occurrence": 1,
+        "model_output": " First, we calculate $6+2$ to get $8$.\nThen, we multiply $8$ by $4$ to get $32$.\nFinally, we subtract $10$ from $32$ to get $22$.\nSo, $\\left ( 6+2 \\right ) \\times 4- 10$ equals $22$.\nMy confidence in this answer is $\\boxed{100\\%}$.",
+        "num_new_tokens": 95,
+        "speed": 44.97694312826434,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732071453",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "question_in_English": "Calculate $\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "answer": "22",
+        "occurrence": 2,
+        "model_output": " To solve this problem, we need to follow the order of operations, which is often remembered by the acronym PEMDAS: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).\n\nFirst, we calculate the operation inside the parentheses: $6 + 2 = 8$.\n\nThen, we substitute this result back into the expression: $8 \\times 4 - 10$.\n\nNext, we perform the multiplication operation: $8 \\times 4 = 32$.\n\nSubstitute this result back into the expression: $32 - 10$.\n\nFinally, we perform the subtraction operation: $32 - 10 = 22$.\n\nSo, the final answer is $\\boxed{22}$.\n\nNow, let's calculate the confidence level regarding our answer.\n\nConfidence level = (Number of correct answers) / (Total number of questions) * 100%\n\nSince we have only one question, the total number of questions is 1.\n\nConfidence level = 1 / 1 * 100% = 100%\n\nSo, our confidence level is $\\boxed{100\\%}$.",
+        "num_new_tokens": 273,
+        "speed": 44.53378737083862,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732071453",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算$\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "question_in_English": "Calculate $\\left ( 6+2 \\right ) \\times 4- 10$.",
+        "answer": "22",
+        "occurrence": 3,
+        "model_output": " First, we need to calculate the expression inside the brackets, which is $6+2$. This equals $8$.\n\nNext, we multiply $8$ by $4$, which gives $32$.\n\nFinally, we subtract $10$ from $32$, which gives $22$.\n\nSo, $\\left ( 6+2 \\right ) \\times 4- 10 = \\boxed{22}$.\n\nNow, let's calculate our confidence in the answer. We used basic arithmetic operations, so we are very confident in our answer. Our confidence level is $\\boxed{95\\%}$.",
+        "num_new_tokens": 134,
+        "speed": 44.856818413270624,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 1,
+        "model_output": " When two lines are parallel, their corresponding angles are equal.\nThis means that the angles that are in the same position on each line are equal.\nFor example, if line A is parallel to line B, then angle 1 on line A is equal to angle 1 on line B.\nSimilarly, angle 2 on line A is equal to angle 2 on line B.\nTherefore, the relationship between the isotopic angles is that they are equal.\nThe answer is $\\boxed{90}$.\nI am confident in my answer to be $\\boxed{90\\%}$.",
+        "num_new_tokens": 122,
+        "speed": 44.93570648643152,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "90%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 2,
+        "model_output": " The answer is $\\boxed{the same}$. With a confidence of $\\boxed{100\\%}$.",
+        "num_new_tokens": 22,
+        "speed": 44.695706339860955,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 3,
+        "model_output": " In geometry, parallel lines are lines that never intersect, i.e., they always maintain the same distance apart. \n\nWhen two lines are parallel, the isotopic angles are equal. This is because the angles formed by the lines with a transversal line (a line that intersects the two parallel lines) are equal. This is known as the Corresponding Angles Postulate.\n\nThe corresponding angles postulate states that if a transversal line intersects two parallel lines, then the pairs of corresponding angles are congruent (equal in measure). \n\nIn other words, if line A is parallel to line B, and line T intersects both lines A and B, then the angles formed at the points of intersection are equal.\n\nSo, if we have two parallel lines, say line A and line B, and a transversal line T intersects them at points P and Q respectively, then the corresponding angles will be equal. That is, angle 1 = angle 2, angle 3 = angle 4, and angle 5 = angle 6.\n\nTherefore, the relationship between the isotopic angles of two parallel lines is that they are equal.\n\nThe answer is $\\boxed{Equal}$. And I am $\\boxed{100\\%}$ confident in this answer.",
+        "num_new_tokens": 263,
+        "speed": 44.573354313334164,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

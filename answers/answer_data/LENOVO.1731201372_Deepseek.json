@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 1,
+        "model_output": " To find the maximum likelihood estimate of $a$, we first need to find the likelihood function, which is the probability of observing the given data $X_1, X_2, ..., X_n$ given the parameter $a$. Since the $X_i$'s are independent and uniformly distributed on the interval $(a, b)$, the likelihood function is given by:\n\n$$L(a) = \\prod_{i=1}^n f(X_i; a)$$\n\nwhere $f(X_i; a)$ is the probability density function of the uniform distribution on the interval $(a, b)$. The probability density function of the uniform distribution is given by:\n\n$$f(x; a, b) = \\frac{1}{b-a}$$\n\nfor $a < x < b$, and $0$ otherwise. \n\nSubstituting this into the likelihood function, we get:\n\n$$L(a) = \\prod_{i=1}^n \\frac{1}{b-a} = \\frac{1}{(b-a)^n}$$\n\nTo find the maximum likelihood estimate of $a$, we need to find the value of $a$ that maximizes the likelihood function $L(a)$. Taking the natural logarithm of the likelihood function, we get:\n\n$$\\log L(a) = -n \\log(b-a)$$\n\nTo maximize the likelihood function, we need to minimize $\\log L(a)$. Taking the derivative of $\\log L(a)$ with respect to $a$, we get:\n\n$$\\frac{d}{da} \\log L(a) = -\\frac{n}{b-a}$$\n\nSetting this equal to zero, we find that the maximum occurs at $a = b - \\frac{1}{n} \\sum_{i=1}^n X_i$. However, since $a$ is the lower bound of the interval, it must be less than or equal to the minimum of the $X_i$'s. Therefore, the maximum likelihood estimate of $a$ is:\n\n$$\\hat{a} = \\min_{i=1}^n X_i$$\n\nTherefore, the answer is $\\boxed{a = \\min_{i=1}^n X_i}$. We are 95% confident in our answer.",
+        "num_new_tokens": 492,
+        "speed": 44.068285935347376,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 2,
+        "model_output": " To find the maximum likelihood estimate of $a$, we first need to find the likelihood function, which is the joint probability distribution of the observed data. \n\nGiven that $X_1, X_2, ..., X_n$ are independent and uniformly distributed on the interval $(a, b)$, the probability density function of each $X_i$ is:\n\n$f(x_i; a, b) = \\frac{1}{b - a}$ for $a < x_i < b$\n\nSince the $X_i$'s are independent, the likelihood function is the product of the probability density functions of each $X_i$:\n\n$L(a; x_1, x_2, ..., x_n) = \\prod_{i=1}^n f(x_i; a, b) = \\prod_{i=1}^n \\frac{1}{b - a}$ for $a < x_i < b$\n\nTo find the maximum likelihood estimate of $a$, we need to maximize the likelihood function. Since the likelihood function is a constant with respect to $a$, we can maximize it by minimizing the denominator $(b - a)$. \n\nHowever, since $b$ is not given, we can't directly find the minimum value of $(b - a)$. Instead, we can use the property that $a$ is less than all $x_i$'s, and set $a$ to be the minimum of the observed data:\n\n$\\hat{a} = \\min\\{x_1, x_2, ..., x_n\\}$\n\nSo the maximum likelihood estimate of $a$ is $\\boxed{\\hat{a} = \\min\\{x_1, x_2, ..., x_n\\}}$.\n\nAs for the confidence level, the maximum likelihood estimate is a method used to estimate the parameter of a statistical model, and it does not have a confidence level associated with it directly. However, if we have a specific confidence level in mind, we can construct a confidence interval for $a$ using other methods, such as the pivotal method or the bootstrap method.",
+        "num_new_tokens": 452,
+        "speed": 44.155426134910606,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "don't provide",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201372",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "令$X_1,X_2,...,X_n$相互独立且均服从区间$(a,b)$上的均匀分布，求$a$的最大似然估计。",
+        "question_in_English": "Let $X_1,X_2,... X_n$ are independent and uniformly distributed on the interval $(a,b)$, find the maximum likelihood estimate of $a$.",
+        "answer": "X(1)  (各X中的最小值)",
+        "occurrence": 3,
+        "model_output": " To find the maximum likelihood estimate of $a$, we first need to find the likelihood function. The likelihood function is given by the product of the probability density functions of the random variables $X_1, X_2, ..., X_n$. Since each $X_i$ is uniformly distributed on the interval $(a, b)$, the probability density function of each $X_i$ is given by:\n\n$$f(x_i) = \\frac{1}{b - a}$$\n\nfor $a < x_i < b$, and $f(x_i) = 0$ otherwise.\n\nThe likelihood function $L(a, b)$ is then given by:\n\n$$L(a, b) = \\prod_{i=1}^n f(x_i) = \\prod_{i=1}^n \\frac{1}{b - a}$$\n\nTo find the maximum likelihood estimate of $a$, we need to maximize the likelihood function with respect to $a$. To do this, we can take the natural logarithm of the likelihood function and then maximize with respect to $a$:\n\n$$\\ell(a, b) = \\ln L(a, b) = n \\ln \\frac{1}{b - a}$$\n\nTo maximize $\\ell(a, b)$ with respect to $a$, we take the derivative with respect to $a$ and set it equal to zero:\n\n$$\\frac{d\\ell(a, b)}{da} = -\\frac{n}{b - a}$$\n\nSetting this equal to zero, we find that $b - a = \\frac{n}{\\sum_{i=1}^n x_i}$. \n\nSince $b - a$ is the length of the interval $(a, b)$, and we know that $a < x_i < b$ for all $i$, we have that $b - a > 0$. Therefore, the maximum likelihood estimate of $a$ is given by:\n\n$$\\hat{a} = b - \\frac{n}{\\sum_{i=1}^n x_i}$$\n\nThe answer is $\\boxed{\\hat{a} = b - \\frac{n}{\\sum_{i=1}^n x_i}}$. However, we cannot provide a confidence level for this estimate, as the confidence level depends on the distribution of the data and the specific problem at hand. In general, confidence levels can be calculated using methods such as the Delta Method or bootstrap methods, but these methods depend on the specific distribution of the data.",
+        "num_new_tokens": 539,
+        "speed": 44.06485515665827,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "don't provide",
+        "additional_info": ""
+    }
+]

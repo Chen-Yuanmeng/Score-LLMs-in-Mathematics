@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731201115",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "question_in_English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "answer": "X1X2...Xn(从X1至Xn累乘)",
+        "occurrence": 1,
+        "model_output": "To find the sufficient statistic, we can use the Factorization Theorem.\n\nGiven that $X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi,\\lambda )$, we know the probability density function (pdf) of a single Gamma random variable is:\n\n$f(x; \\xi, \\lambda) = \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x^{\\xi-1} e^{-\\lambda x}$\n\nSince the random variables are independent and identically distributed (iid), the joint pdf is:\n\n$f(x_1,x_2,...,x_n; \\xi, \\lambda) = \\prod_{i=1}^{n} f(x_i; \\xi, \\lambda)$\n\nSubstituting the pdf of a single Gamma random variable, we get:\n\n$f(x_1,x_2,...,x_n; \\xi, \\lambda) = \\prod_{i=1}^{n} \\frac{\\lambda^\\xi}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}$\n\nSimplifying the expression, we get:\n\n$f(x_1,x_2,...,x_n; \\xi, \\lambda) = \\frac{\\lambda^{n\\xi}}{\\Gamma(\\xi)^n} \\prod_{i=1}^{n} x_i^{\\xi-1} e^{-\\lambda \\sum_{i=1}^{n} x_i}$\n\nLet's define the following:\n\n$\\sum_{i=1}^{n} x_i = T$\n$\\prod_{i=1}^{n} x_i = P$\n$\\prod_{i=1}^{n} (\\xi - 1) = (\\xi - 1)^n$\n\nHowever, P is not a sufficient statistic as the product is not present in the joint pdf, hence we can ignore it for now.\n\nWe are left with:\n\n$f(x_1,x_2,...,x_n; \\xi, \\lambda) = \\frac{\\lambda^{n\\xi}}{\\Gamma(\\xi)^n} P T^{\\xi - 1} e^{-\\lambda T}$\n\nFrom the joint pdf, we can see that the term $\\sum_{i=1}^{n} x_i = T$ is present in the joint pdf. According to the Factorization Theorem, if the joint pdf can be factored into two separate functions, one depending on the parameter(s) and the statistic(s), and the other not depending on the parameter(s), then the statistic(s) is sufficient for the parameter(s).\n\nTherefore, the sufficient statistic for $\\xi$ is $\\sum_{i=1}^{n} x_i = T$.\n\n\\boxed{T}\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 574,
+        "speed": 38.84027076044657,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201115",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "question_in_English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "answer": "X1X2...Xn(从X1至Xn累乘)",
+        "occurrence": 2,
+        "model_output": "To find the sufficient statistic for the parameters $\\xi$ and $\\lambda$ given that the random variables $X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi,\\lambda )$, we can use the factorization theorem.\n\nThe joint probability density function (pdf) of $X_1,X_2,...,X_n$ is given by\n\n$f(x_1,x_2,...,x_n|\\xi,\\lambda) = \\prod_{i=1}^{n}f(x_i|\\xi,\\lambda)$\n$f(x_1,x_2,...,x_n|\\xi,\\lambda) = \\prod_{i=1}^{n}\\frac{1}{\\Gamma(\\xi)\\lambda^\\xi} x_i^{\\xi-1}e^{-\\frac{x_i}{\\lambda}}$\n$f(x_1,x_2,...,x_n|\\xi,\\lambda) = \\frac{1}{\\Gamma^n(\\xi)\\lambda^{n\\xi}} \\left( \\prod_{i=1}^{n}x_i \\right)^{\\xi-1} e^{-\\frac{\\sum_{i=1}^{n}x_i}{\\lambda}}$\n\nWe can see that this can be factored into two parts, one involving the parameter $\\xi$ and the other involving the parameters $\\lambda$ and the sample values $x_1,x_2,...,x_n$.\n\nThe term involving the parameter $\\lambda$ is a function of the sum of the sample values $\\sum_{i=1}^{n}x_i$. However, this is not enough to make the whole expression a function of the sample values only.\n\nUpon closer inspection of the expression involving $\\xi$, we can rewrite it as $\\left( \\prod_{i=1}^{n}x_i \\right)^{\\xi-1}$. This can be rewritten as $\\exp \\left( (\\xi-1) \\log \\left( \\prod_{i=1}^{n}x_i \\right) \\right)$, which is a function of the sample values $x_1,x_2,...,x_n$.\n\nHowever, we are given that the random variables $X_1,X_2,...,X_n$ are iid, so we can take the logarithm of the product and use the logarithm property, $\\log \\prod = \\sum \\log$. This gives\n\n$f(x_1,x_2,...,x_n|\\xi,\\lambda) = \\frac{1}{\\Gamma^n(\\xi)\\lambda^{n\\xi}} \\exp \\left( (\\xi-1) \\sum_{i=1}^{n} \\log x_i \\right) e^{-\\frac{\\sum_{i=1}^{n}x_i}{\\lambda}}$\n\nThis expression can now be factored into two parts, one involving the parameter $\\xi$ and the other involving the parameters $\\lambda$ and the sample values $x_1,x_2,...,x_n$.\n\nHence, we can conclude that the sufficient statistic for $\\xi$ is $\\sum_{i=1}^{n} \\log x_i$.\n\nBut in most cases, we find that $\\sum_{i=1}^{n} x_i$ is a more convenient sufficient statistic for the Gamma distribution.<|eot_id|>",
+        "num_new_tokens": 689,
+        "speed": 38.75706679403137,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "NOT GIVEN",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731201115",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "随机变量$X_1,X_2,...,X_n\\,iid\\sim Gamma(\\xi ,\\lambda  )$,其中$\\xi > 0$ 未知，$\\lambda $已知，求充分统计量。",
+        "question_in_English": "The random variables $X_1,X_2,... ,X_n\\,iid\\sim Gamma(\\xi ,\\lambda )$, where $\\xi > 0$ is unknown and $\\lambda $ is known, find the sufficient statistic.",
+        "answer": "X1X2...Xn(从X1至Xn累乘)",
+        "occurrence": 3,
+        "model_output": "To find the sufficient statistic for the unknown parameter $\\xi$, we can use the Factorization Theorem.\n\nFirst, let's find the joint probability density function (pdf) of $X_1,X_2,...,X_n$, since they are independent and identically distributed (iid):\n\n$f(x_1, x_2,...,x_n) = \\prod_{i=1}^{n} f(x_i) = \\prod_{i=1}^{n} \\frac{\\lambda^{\\xi}}{\\Gamma(\\xi)} x_i^{\\xi-1} e^{-\\lambda x_i}$\n\nCombine like terms:\n\n$f(x_1, x_2,...,x_n) = \\left(\\frac{\\lambda^{\\xi}}{\\Gamma(\\xi)}\\right)^n \\left(\\prod_{i=1}^{n} x_i\\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^{n} x_i}$\n\nNow, we can apply the Factorization Theorem, which states that a statistic $T(x_1, x_2,...,x_n)$ is sufficient for a parameter $\\xi$ if and only if the joint pdf can be factored into two functions, one depending on $x_1, x_2,...,x_n$ and $\\xi$, and the other depending only on $x_1, x_2,...,x_n$:\n\n$f(x_1, x_2,...,x_n) = g(x_1, x_2,...,x_n, \\xi) \\cdot h(x_1, x_2,...,x_n)$\n\nIn our case, we can write:\n\n$f(x_1, x_2,...,x_n) = \\left(\\frac{\\lambda^{\\xi}}{\\Gamma(\\xi)}\\right)^n \\left(\\prod_{i=1}^{n} x_i\\right)^{\\xi-1} e^{-\\lambda \\sum_{i=1}^{n} x_i} = g\\left(\\sum_{i=1}^{n} x_i, \\xi\\right) \\cdot h(x_1, x_2,...,x_n)$\n\nwhere $g\\left(\\sum_{i=1}^{n} x_i, \\xi\\right) = \\left(\\frac{\\lambda^{\\xi}}{\\Gamma(\\xi)}\\right)^n \\left(\\prod_{i=1}^{n} x_i\\right)^{\\xi-1}$ and $h(x_1, x_2,...,x_n) = e^{-\\lambda \\sum_{i=1}^{n} x_i}$.\n\nThe sufficient statistic is the part of the function $g$ that depends on the data, which is $\\sum_{i=1}^{n} x_i$.\n\nTherefore, the sufficient statistic is $\\sum_{i=1}^{n} x_i$.\n\nConfidence level: 100%<|eot_id|>",
+        "num_new_tokens": 621,
+        "speed": 38.830539639806005,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    }
+]

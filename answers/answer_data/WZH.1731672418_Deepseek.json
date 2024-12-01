@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731672418",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "三角形ABC中，a=b=c，求角A的大小。",
+        "question_in_English": "In triangle ABC, a=b=c, find the magnitude of the angle A.",
+        "answer": "60",
+        "occurrence": 1,
+        "model_output": " Since a = b = c, triangle ABC is an equilateral triangle.\nIn an equilateral triangle, all angles are equal.\nTherefore, the magnitude of angle A is $\\boxed{60}$ degrees.\nI am $\\boxed{100\\%}$ confident in this answer.\nThe answer is $\\boxed{60}$.\n100\\%}$.",
+        "num_new_tokens": 77,
+        "speed": 44.750457014959665,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672418",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "三角形ABC中，a=b=c，求角A的大小。",
+        "question_in_English": "In triangle ABC, a=b=c, find the magnitude of the angle A.",
+        "answer": "60",
+        "occurrence": 2,
+        "model_output": " Since triangle ABC is an equilateral triangle (a=b=c), all of its angles are equal. Therefore, the magnitude of angle A is the same as the magnitude of angle B and angle C. \n\nThe sum of the angles in a triangle is 180 degrees. So, the magnitude of each angle in an equilateral triangle is 180/3 = 60 degrees. \n\nSo, the magnitude of angle A is $\\boxed{60}$ degrees.\n\nMy confidence in this answer is $\\boxed{100\\%}$.",
+        "num_new_tokens": 121,
+        "speed": 44.92725692480302,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672418",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "三角形ABC中，a=b=c，求角A的大小。",
+        "question_in_English": "In triangle ABC, a=b=c, find the magnitude of the angle A.",
+        "answer": "60",
+        "occurrence": 3,
+        "model_output": " Since all sides of the triangle are equal, we have an equilateral triangle.\nIn an equilateral triangle, all angles are equal.\nTherefore, the magnitude of angle A is $\\boxed{60^\\circ}$.\nI am $\\boxed{100\\%}$ confident in my answer.\nThe answer is $\\boxed{60}$.",
+        "num_new_tokens": 72,
+        "speed": 44.45841695942239,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

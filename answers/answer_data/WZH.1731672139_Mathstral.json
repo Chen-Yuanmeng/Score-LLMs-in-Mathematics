@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 1,
+        "model_output": " The isotropic angle of a line is the angle between the line and a reference direction. When two lines are parallel, they have the same direction, and therefore, their isotropic angles are equal.\n\nSo, the relationship between their isotropic angles is that they are equal.\n\nConfidence level: 90%</s>",
+        "num_new_tokens": 71,
+        "speed": 34.761678661452414,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "90%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 2,
+        "model_output": " When two straight lines are parallel, their corresponding angles are equal, but their isotopic angles are supplementary (adding up to 180 degrees).\n\nHere's the reasoning step by step:\n\n1. Two straight lines are parallel. This means they never meet and are always the same distance apart.\n\n2. Corresponding angles are angles that are in the same position relative to the two parallel lines. When two parallel lines are cut by a transversal (a line that intersects them), corresponding angles are congruent (equal in measure).\n\n3. Isotopic angles, also known as alternate interior angles, are angles that are on the inner side of each of the two parallel lines, but on opposite sides of the transversal. These angles are supplementary, meaning they add up to 180 degrees.\n\nSo, when two straight lines are parallel, their corresponding angles are equal (congruent), but their isotopic angles are supplementary.\n\nRegarding the confidence level in percentage, I'm 100% confident in the answer. This is based on the principles of geometry and the properties of parallel lines.\n\nFinal answer: Isotopic angles are supplementary.\nConfidence level: 100%</s>",
+        "num_new_tokens": 272,
+        "speed": 34.5672116507416,
+        "model": "Mathstral",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731672139",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "两直线平行，它们的同位角有什么关系？",
+        "question_in_English": "Two straight lines are parallel, what is the relationship between their isotopic angles?",
+        "answer": "equal",
+        "occurrence": 3,
+        "model_output": " When two straight lines are parallel, the relationship between their isotropic angles can be understood as follows:\n\n1. Firstly, it's important to note that the isotropic angles of a straight line are defined as the angles it makes with the vertical axis when viewed from different directions. In an isotropic medium, the properties are the same in all directions. However, in the case of straight lines, the concept of isotropy doesn't directly apply because straight lines are defined by their linearity, not by their properties in different directions.\n\n2. Nevertheless, if we consider the angles that two parallel lines make with a transversal line (a line that intersects the two parallel lines), these angles are equal due to the Alternate Interior Angles Theorem. This theorem states that the alternate interior angles formed by a transversal with two parallel lines are congruent.\n\n3. If the two parallel lines are considered to be in an isotropic medium (for example, if they are rays of light in a vacuum), then their isotropic angles would be the same. This is because in an isotropic medium, light rays travel in straight lines and the angles they make with a reference axis (like the direction of the medium's magnetic field) are the same.\n\n4. Therefore, in the case of two parallel lines in an isotropic medium, their isotropic angles would be equal.\n\nSo, the relationship between their isotropic angles would be that they are equal if the lines are in an isotropic medium.\n\nConfidence Level: 95%</s>",
+        "num_new_tokens": 342,
+        "speed": 33.261931630610135,
+        "model": "Mathstral",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]

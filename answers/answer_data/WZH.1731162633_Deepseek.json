@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731162633",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "解线性方程组x+y+z=6, x-y+2z=5, 3x-y-z=-2。",
+        "question_in_English": "Solve the system of linear equations x+y+z=6, x-y+2z=5, 3x-y-z=-2.",
+        "answer": "x=1, y=2, z=3",
+        "occurrence": 1,
+        "model_output": " We can solve this system of linear equations using the method of substitution or elimination.\nLet's use the elimination method.\nFirst, we can eliminate y by adding the first and third equations:\n(x+y+z) + (3x-y-z) = 6 + (-2)\n4x = 4\nx = 1\nNow, we can substitute the value of x into the first equation to find y:\n1 + y + z = 6\ny + z = 5\nFinally, we can substitute the values of x and y into the second equation to find z:\n1 - y + 2z = 5\n1 - (5 - z) + 2z = 5\n1 - 5 + z + 2z = 5\n2z - 4 = 5\n2z = 9\nz = 4.5\nTherefore, the solution to the system of linear equations is x = 1, y = 5 - z = 5 - 4.5 = 0.5, and z = 4.5.\nThe answer is $\\boxed{(1, 0.5, 4.5)}$.\nThe confidence in the answer is $\\boxed{100\\%}$.",
+        "num_new_tokens": 271,
+        "speed": 44.56955687957527,
+        "model": "Deepseek",
+        "mark": 30,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731162633",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "解线性方程组x+y+z=6, x-y+2z=5, 3x-y-z=-2。",
+        "question_in_English": "Solve the system of linear equations x+y+z=6, x-y+2z=5, 3x-y-z=-2.",
+        "answer": "x=1, y=2, z=3",
+        "occurrence": 2,
+        "model_output": " To solve the system of linear equations, we can use the method of substitution, elimination, or matrix. Here, we will use the method of matrix.\n\nThe given system of linear equations can be represented as AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nA = | 1  1  1 |\n    | 1 -1  2 |\n    | 3 -1 -1 |\n\nX = | x |\n    | y |\n    | z |\n\nB = | 6 |\n    | 5 |\n    |-2 |\n\nNow, we will find the inverse of matrix A and multiply it with matrix B to get the values of x, y, and z.\n\nFirst, we will find the determinant of matrix A.\n\nDeterminant(A) = 1(-1 - 2) - 1(2 + 6) + 1(1 + 3)\n                    = 1(-3) - 1(8) + 1(4)\n                    = -3 - 8 + 4\n                    = -7\n\nSince the determinant is non-zero, the inverse of matrix A exists.\n\nNow, we will find the adjugate of matrix A.\n\nAdjugate(A) = | (-1 - 2)  (1 + 6)  (-1 - 6) |\n              | (2 + 6)   (1 - 3)   (1 + 3)  |\n              | (-1 - 3)  (1 + 9)   (1 - 3)  |\n\nAdjugate(A) = | -3   7  -7 |\n              |  8  -2   4 |\n              | -4  10  -2 |\n\nNow, we will find the inverse of matrix A by dividing the adjugate of matrix A with the determinant of matrix A.\n\nInverse(A) = (1/Determinant(A)) * Adjugate(A)\n\nInverse(A) = (1/-7) * | -3   7  -7 |\n                        |  8  -2   4 |\n                        | -4  10  -2 |\n\nInverse(A) = |  3/7  -7/7  7/7 |\n            | -8/7   2/7 -4/7 |\n            |  4/7 -10/7  2/7 |\n\nNow, we will multiply the inverse of matrix A with matrix B to get the values of x, y, and z.\n\nX = Inverse(A) * B\n\n| x |   |  3/7  -7/7  7/7 |   | 6 |\n| y | = | -8/7   2/7 -4/7 | * | 5 |\n| z |   |  4/7 -10/7  2/7 |   |-2 |\n\n| x |   | (3/7)*6 + (-7/7)*5 + (7/7)*(-2) |\n| y | = | (-8/7)*6 + (2/7)*5 + (-4/7)*(-2) |\n| z |   | (4/7)*6 + (-10/7)*5 + (2/7)*(-2) |\n\n| x |   | 18/7 - 35/7 - 14/7 |\n| y | = | -48/7 + 10/7 + 8/7  |\n| z |   | 24/7 - 50/7 - 4/7  |\n\n| x |   | -23/7 |\n| y | = |   2/7  |\n| z |   | -22/7  |\n\nSo, the solution to the system of linear equations is x = -23/7, y = 2/7, and z = -22/7.\n\nNow, let's evaluate the answer. The answer is $\\boxed{\\begin{pmatrix} -23/7 & 2/7 & -22/7 \\end{pmatrix}}$ with 100% confidence.",
+        "num_new_tokens": 957,
+        "speed": 43.537859074357065,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731162633",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "解线性方程组x+y+z=6, x-y+2z=5, 3x-y-z=-2。",
+        "question_in_English": "Solve the system of linear equations x+y+z=6, x-y+2z=5, 3x-y-z=-2.",
+        "answer": "x=1, y=2, z=3",
+        "occurrence": 3,
+        "model_output": " To solve the system of linear equations, we can use the method of substitution or elimination. Here, we will use the elimination method.\n\nFirst, let's eliminate y from the first two equations. We can do this by adding the first equation to the second equation.\n\nx + y + z = 6\nx - y + 2z = 5\n\nAdding these two equations, we get:\n\n2x + 3z = 11\n\nNow, let's eliminate y from the first and third equations. We can do this by adding the first equation to the third equation.\n\nx + y + z = 6\n3x - y - z = -2\n\nAdding these two equations, we get:\n\n4x = 4\n\nSolving for x, we find x = 1.\n\nNow that we have the value of x, we can substitute it back into the equation 2x + 3z = 11 to find the value of z.\n\n2(1) + 3z = 11\n2 + 3z = 11\n3z = 9\nz = 3\n\nFinally, we can substitute the values of x and z back into the first equation to find the value of y.\n\n1 + y + 3 = 6\ny = 2\n\nSo, the solution to the system of linear equations is x = 1, y = 2, and z = 3.\n\nNow, let's give our confidence in percentage level regarding our answer. We used a methodical approach to solve the system of linear equations and found the correct solution. Therefore, we are confident in our answer at a 100% level.\n\nSo, the answer is $\\boxed{(x, y, z) = (1, 2, 3)}$ with 100% confidence.",
+        "num_new_tokens": 410,
+        "speed": 44.28653775654986,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

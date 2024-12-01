@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731162517",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "将二次型$ f\\left( {x,~y,~z} \\right) = xy + xz - 3yz $化为标准型。",
+        "question_in_English": "Convert the quadratic type $ f\\left( {x,~y,~z} \\right) = xy + xz - 3yz $ into a standard type.",
+        "answer": "$ y_{1}^{2} - \\frac{1}{4}y_{2}^{2} + 3y_{3}^{2} $",
+        "occurrence": 1,
+        "model_output": " Let's denote the variables as $u=xy$, $v=xz$, and $w=yz$. Then we can rewrite the function $f(x, y, z)$ in terms of $u$, $v$, and $w$:\n\n$$f(x, y, z) = xy + xz - 3yz = u + v - 3w.$$\n\nThis is a standard quadratic form, and we have achieved our goal of converting the given quadratic form into a standard form. \n\nTherefore, the answer is $\\boxed{u+v-3w}$. \n\nI am $\\boxed{100\\%}$ confident in this answer.",
+        "num_new_tokens": 143,
+        "speed": 44.72402357142879,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731162517",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "将二次型$ f\\left( {x,~y,~z} \\right) = xy + xz - 3yz $化为标准型。",
+        "question_in_English": "Convert the quadratic type $ f\\left( {x,~y,~z} \\right) = xy + xz - 3yz $ into a standard type.",
+        "answer": "$ y_{1}^{2} - \\frac{1}{4}y_{2}^{2} + 3y_{3}^{2} $",
+        "occurrence": 2,
+        "model_output": " To convert the given quadratic form $f(x, y, z) = xy + xz - 3yz$ into a standard form, we can use the method of completing the square. This involves expressing the quadratic form in terms of new variables, which are linear combinations of the original variables $x$, $y$, and $z$. \n\nFirst, let's rewrite the quadratic form as:\n\n$$f(x, y, z) = \\frac{1}{2}[(x+z)^2 - (x^2 + z^2)] - 3yz$$\n\nNow, let's introduce new variables $x_1 = x + z$ and $x_2 = x - z$. We can express $x$ and $z$ in terms of $x_1$ and $x_2$ as:\n\n$$x = \\frac{x_1 + x_2}{2}$$\n$$z = \\frac{x_1 - x_2}{2}$$\n\nSubstituting these expressions into the equation for $f(x, y, z)$, we get:\n\n$$f(x_1, x_2, y) = \\frac{1}{2}[(x_1 + x_2)^2 - (x_1^2 + x_2^2)] - 3y\\left(\\frac{x_1 - x_2}{2}\\right)$$\n\nSimplifying this expression, we get:\n\n$$f(x_1, x_2, y) = \\frac{1}{2}(x_1^2 + x_2^2) - 3y\\left(\\frac{x_1 - x_2}{2}\\right)$$\n\nNow, let's introduce a new variable $y_1 = \\frac{x_1^2 + x_2^2}{2}$ and $y_2 = \\frac{x_1 - x_2}{2}$. We can express $x_1^2$ and $x_2^2$ in terms of $y_1$ and $y_2$ as:\n\n$$x_1^2 = 2y_1 - 2y_2^2$$\n$$x_2^2 = 2y_1 + 2y_2^2$$\n\nSubstituting these expressions into the equation for $f(x_1, x_2, y)$, we get:\n\n$$f(y_1, y_2, y) = y_1 - 3y^2$$\n\nThis is the standard form of the quadratic form $f(x, y, z) = xy + xz - 3yz$.\n\nTherefore, the answer is $\\boxed{$f(y_1, y_2, y) = y_1 - 3y^2$}$, and I am $\\boxed{100\\%}$ confident in my answer.",
+        "num_new_tokens": 630,
+        "speed": 44.040286686616376,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731162517",
+        "category": "Mathematics",
+        "sub_category": "Linear Algebra",
+        "question_in_Chinese": "将二次型$ f\\left( {x,~y,~z} \\right) = xy + xz - 3yz $化为标准型。",
+        "question_in_English": "Convert the quadratic type $ f\\left( {x,~y,~z} \\right) = xy + xz - 3yz $ into a standard type.",
+        "answer": "$ y_{1}^{2} - \\frac{1}{4}y_{2}^{2} + 3y_{3}^{2} $",
+        "occurrence": 3,
+        "model_output": " To convert a quadratic form into a standard form, we need to diagonalize it.\nLet's start by writing the quadratic form in a matrix form:\n\\[\nf\\left( {x,~y,~z} \\right) = \\begin{pmatrix} x & y & z \\end{pmatrix}\n\\begin{pmatrix}\n0 & \\frac{1}{2} & \\frac{1}{2} \\\\\n\\frac{1}{2} & 0 & -\\frac{3}{2} \\\\\n\\frac{1}{2} & -\\frac{3}{2} & 0\n\\end{pmatrix}\n\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}.\n\\]\nTo diagonalize this matrix, we need to find its eigenvalues and eigenvectors.\nThe characteristic equation of the matrix is:\n\\[\n\\det \\left( {A - \\lambda I} \\right) = \\begin{vmatrix}\n-\\lambda & \\frac{1}{2} & \\frac{1}{2} \\\\\n\\frac{1}{2} & -\\lambda & -\\frac{3}{2} \\\\\n\\frac{1}{2} & -\\frac{3}{2} & -\\lambda\n\\end{vmatrix} = -\\lambda \\begin{vmatrix}\n-\\lambda & -\\frac{3}{2} \\\\\n-\\frac{3}{2} & -\\lambda\n\\end{vmatrix} - \\frac{1}{2} \\begin{vmatrix}\n\\frac{1}{2} & -\\frac{3}{2} \\\\\n\\frac{1}{2} & -\\lambda\n\\end{vmatrix} + \\frac{1}{2} \\begin{vmatrix}\n\\frac{1}{2} & \\frac{1}{2} \\\\\n-\\frac{3}{2} & -\\lambda\n\\end{vmatrix} = 0.\n\\]\nExpanding the determinants, we get:\n\\[\n-\\lambda \\left( {-\\lambda^2 + \\frac{9}{4}} \\right) - \\frac{1}{2} \\left( {\\frac{1}{2} \\left( {-\\lambda + \\frac{3}{2}} \\right) + \\frac{1}{2} \\left( {-\\frac{3}{2} + \\lambda} \\right)} \\right) + \\frac{1}{2} \\left( {\\frac{1}{2} \\left( {-\\lambda - \\frac{3}{2}} \\right) + \\frac{1}{2} \\left( {-\\frac{3}{2} + \\lambda} \\right)} \\right) = 0.\n\\]\nSimplifying, we get:\n\\[\n\\lambda^3 - \\frac{9}{4} \\lambda = 0.\n\\]\nThe eigenvalues are $\\lambda_1 = 0$, $\\lambda_2 = \\frac{3}{2}$, and $\\lambda_3 = -\\frac{3}{2}$.\nNow, we find the eigenvectors corresponding to these eigenvalues.\nFor $\\lambda_1 = 0$, we have the system of equations:\n\\[\n\\begin{pmatrix}\n0 & \\frac{1}{2} & \\frac{1}{2} \\\\\n\\frac{1}{2} & 0 & -\\frac{3}{2} \\\\\n\\frac{1}{2} & -\\frac{3}{2} & 0\n\\end{pmatrix}\n\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} =\n\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}.\n\\]\nThe eigenvectors corresponding to $\\lambda_1 = 0$ are of the form $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$.\nFor $\\lambda_2 = \\frac{3}{2}$, we have the system of equations:\n\\[\n\\begin{pmatrix}\n-\\frac{3}{2} & \\frac{1}{2} & \\frac{1}{2} \\\\\n\\frac{1}{2} & -\\frac{3}{2} & -\\frac{3}{2} \\\\\n\\frac{1}{2} & -\\frac{3}{2} & -\\frac{3}{2}\n\\end{pmatrix}\n\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} =\n\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}.\n\\]\nThe eigenvectors corresponding to $\\lambda_2 = \\frac{3}{2}$ are of the form $\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}$.\nFor $\\lambda_3 = -\\frac{3}{2}$, we have the system of equations:\n\\[\n\\begin{pmatrix}\n\\frac{3}{2} & \\frac{1}{2} & \\frac{1}{2} \\\\\n\\frac{1}{2} & \\frac{3}{2} & \\frac{3}{2} \\\\\n\\frac{1}{2} & \\frac{3}{2} & \\frac{3}{2}\n\\end{pmatrix}\n\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} =\n\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}.\n\\]\nThe eigenvectors corresponding to $\\lambda_3 = -\\frac{3}{2}$ are of the form $\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\end{pmatrix}$.\nNow, we can write the matrix in diagonal form:\n\\[\n\\begin{pmatrix}\n0 & \\frac{1}{2} & \\frac{1}{2} \\\\\n\\frac{1}{2} & 0 & -\\frac{3}{2} \\\\\n\\frac{1}{2} & -\\frac{3}{2} & 0\n\\end{pmatrix} = P\n\\begin{pmatrix}\n0 & 0 & 0 \\\\\n0 & \\frac{3}{2} & 0 \\\\\n0 & 0 & -\\frac{3}{2}\n\\end{pmatrix}\nP^{-1},\n\\]\nwhere $P$ is the matrix with the eigenvectors as columns:\n\\[\nP = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 1 & -1 \\\\ 1 & -1 & 0 \\end{pmatrix}.\n\\]\nFinally, we can write the quadratic form in standard form:\n\\[\nf\\left( {x,~y,~z} \\right) = \\begin{pmatrix} x & y & z \\end{pmatrix}\n\\begin{pmatrix}\n0 & 0 & 0 \\\\\n0 & \\frac{3}{2} & 0 \\\\\n0 & 0 & -\\frac{3}{2}\n\\end{pmatrix}\n\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}.\n\\]\nThus, the quadratic form is already in standard form:\n\\[\nf\\left( {x,~y,~z} \\right) = \\frac{3}{2} y^2 - \\frac{3}{2} z^2.\n\\]\nThe answer is $\\boxed{True}$.",
+        "num_new_tokens": 1566,
+        "speed": 42.672704553587636,
+        "model": "Deepseek",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    }
+]

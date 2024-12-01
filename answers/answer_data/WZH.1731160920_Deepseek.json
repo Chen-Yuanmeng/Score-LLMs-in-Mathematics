@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 1,
+        "model_output": " In a triangle, the center of gravity, also known as the centroid, the vertical center, also known as the orthocenter, the inner center, also known as the incenter, and the outer center, also known as the circumcenter, are always collinear. This is known as the Euler line. Therefore, the answer is $\\boxed{\\text{center of gravity, vertical center, inner center, and outer center}}$. I am $100\\%$ confident in this answer.",
+        "num_new_tokens": 99,
+        "speed": 44.965498152643946,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 2,
+        "model_output": " The center of gravity, the inner center, and the outer center of a general triangle are always collinear. This is known as the Euler line of the triangle.\n\nThe center of gravity (or centroid) of a triangle is the point where the three medians of the triangle intersect. A median of a triangle is a line segment joining a vertex to the midpoint of the opposite side. The center of gravity of a triangle divides each median in the ratio 2:1, with the center of gravity being closer to the midpoint of the side.\n\nThe inner center of a triangle is the intersection point of the three angle bisectors of the triangle. An angle bisector of a triangle is a straight line that divides one angle of the triangle into two equal angles.\n\nThe outer center of a triangle is the intersection of the circumcenter and the nine-point center of the triangle. The circumcenter of a triangle is the center of the circle that passes through all three vertices of the triangle, and the nine-point center is the center of the circle that passes through the three midpoints of the sides and the three feet of the altitudes of the triangle.\n\nTherefore, the answer is $\\boxed{Center of Gravity, Inner Center, Outer Center}$.\n\nI am 100% confident in this answer.",
+        "num_new_tokens": 272,
+        "speed": 44.4573949864434,
+        "model": "Deepseek",
+        "mark": 67,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "WZH.1731160920",
+        "category": "Mathematics",
+        "sub_category": "Geometry",
+        "question_in_Chinese": "对于一般的三角形，其重心、垂心、内心、外心之中，哪三个是始终共线的？",
+        "question_in_English": "For a general triangle, which three of its center of gravity, vertical center, inner center, and outer center are always collinear?",
+        "answer": "重心、垂心、外心",
+        "occurrence": 3,
+        "model_output": " For a general triangle, the center of gravity, the inner center, and the outer center are always collinear. Therefore, the answer is $\\boxed{\\text{Center of Gravity, Inner Center, Outer Center}}$. I am 100% confident in this answer.",
+        "num_new_tokens": 55,
+        "speed": 44.83520413339465,
+        "model": "Deepseek",
+        "mark": 33,
+        "need_rerun": false,
+        "confidence_level": "100",
+        "additional_info": ""
+    }
+]

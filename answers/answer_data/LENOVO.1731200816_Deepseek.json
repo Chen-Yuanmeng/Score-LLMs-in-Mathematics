@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 1,
+        "model_output": " Let $N$ be the total number of fish in the pond. We can model this problem using the capture-recapture method. In the first round of fishing, $800$ fish are caught, and $800/N$ of the fish are marked. In the second round of fishing, $2000$ fish are caught, and $2000/N$ of the fish are expected to be marked. We are given that $2000/N = 100/800$, so we can solve for $N$:\n\n\\begin{align*}\n\\frac{2000}{N} &= \\frac{100}{800} \\\\\n2000 \\cdot 800 &= 100 \\cdot N \\\\\nN &= \\frac{2000 \\cdot 800}{100} \\\\\nN &= 16000.\n\\end{align*}\n\nSo the maximum likelihood estimate of the total number of fish in the pond is $\\boxed{16000}$.\n\nRegarding the confidence level of the answer, since the problem involves estimation and the data provided is limited, it is difficult to determine the exact confidence level. However, based on the given information, the answer can be considered fairly reliable. The confidence level would depend on the accuracy of the information provided and the validity of the assumptions made in the model.",
+        "num_new_tokens": 308,
+        "speed": 44.35069524932189,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 2,
+        "model_output": " This problem is an example of the \"capture-recapture\" method, which is used to estimate the total population of a given group based on the number of individuals observed to be captured multiple times.\n\nIn this case, the total population of fish in the pond is represented by the unknown variable $N$. \n\nIn the first capture, 800 fish were caught and marked. So, the proportion of marked fish in the first capture is $\\frac{800}{N}$.\n\nIn the second capture, 2000 fish were caught. Among these, 100 fish were marked. Therefore, the proportion of marked fish in the second capture is $\\frac{100}{2000} = \\frac{1}{20}$.\n\nWe can set up the equation based on the assumption that the proportion of marked fish is the same in both captures:\n\n$\\frac{800}{N} = \\frac{1}{20}$\n\nTo solve for $N$, we multiply both sides by $N$ and then multiply both sides by 20:\n\n$800 * 20 = N$\n\n$N = 16000$\n\nSo, the maximum likelihood estimate of the total number of fish in the pond is $\\boxed{16000}$.\n\nHowever, this is just an estimation based on the given information, and the actual total number of fish in the pond may be different.\n\nThe confidence level regarding this estimation would depend on the accuracy of the assumptions made, the reliability of the data collected, and other factors specific to the situation. Generally, the capture-recapture method is considered to be a reliable estimation technique, but the confidence level cannot be determined without more information. Therefore, I cannot provide a specific confidence level for this answer.",
+        "num_new_tokens": 389,
+        "speed": 44.323880731750975,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200816",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": " 从池塘中随机捕捞800条鱼，做好标记后放回池塘，一段时间后再从池塘中随机捕捞2000条鱼，其中100条鱼带标记，求池塘中鱼总数的最大似然估计。",
+        "question_in_English": "800 fish are randomly caught from the pond, marked and returned to the pond, and then 2000 fish are randomly caught from the pond some time later, 100 of which are marked, find the maximum likelihood estimate of the total number of fish in the pond.",
+        "answer": "16000",
+        "occurrence": 3,
+        "model_output": " This problem can be solved using the method of capture-recapture. \n\nThe first step is to understand the problem. In the first catch of 800 fish, we have tagged or marked 800 fish. In the second catch of 2000 fish, we have found 100 tagged fish. \n\nThe ratio of the number of tagged fish in the second catch to the total number of fish in the second catch is the same as the ratio of the number of tagged fish in the first catch to the total number of fish in the first catch. This is because the proportion of tagged fish in the pond has not changed since the first catch.\n\nSo, we can set up the following equation:\n\n800 / Total number of fish in the first catch = 100 / 2000\n\nWe can solve this equation for the total number of fish in the first catch:\n\nTotal number of fish in the first catch = 800 * 2000 / 100 = 16000\n\nHowever, this is the total number of fish in the first catch. Since we have returned the tagged fish to the pond, the total number of fish in the pond is the same as the total number of fish in the first catch.\n\nSo, the maximum likelihood estimate of the total number of fish in the pond is 16000.\n\nThe answer is $\\boxed{16000}$. \n\nConfidence: 90%",
+        "num_new_tokens": 328,
+        "speed": 44.39176128295783,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "90%",
+        "additional_info": ""
+    }
+]

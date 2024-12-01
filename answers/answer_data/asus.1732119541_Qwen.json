@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "asus.1732119541",
+        "category": "Mathematics",
+        "sub_category": "Differential Equation Solving",
+        "question_in_Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "question_in_English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C",
+        "occurrence": 1,
+        "model_output": "To solve the differential equation \\((x-4) y^4 \\, \\mathrm{d}x - x^3 (y^2 - 3) \\, \\mathrm{d}y = 0\\), we start by rearranging the terms to separate the variables \\(x\\) and \\(y\\):\n\n\\[\n(x-4) y^4 \\, \\mathrm{d}x = x^3 (y^2 - 3) \\, \\mathrm{d}y\n\\]\n\nNext, we divide both sides by \\(x^3 y^4\\) to isolate the terms involving \\(x\\) on one side and the terms involving \\(y\\) on the other side:\n\n\\[\n\\frac{x-4}{x^3} \\, \\mathrm{d}x = \\frac{y^2 - 3}{y^4} \\, \\mathrm{d}y\n\\]\n\nWe can simplify the left-hand side and the right-hand side of the equation:\n\n\\[\n\\left( \\frac{1}{x^2} - \\frac{4}{x^3} \\right) \\, \\mathrm{d}x = \\left( \\frac{1}{y^2} - \\frac{3}{y^4} \\right) \\, \\mathrm{d}y\n\\]\n\nNow, we integrate both sides of the equation. The left-hand side integrates to:\n\n\\[\n\\int \\left( \\frac{1}{x^2} - \\frac{4}{x^3} \\right) \\, \\mathrm{d}x = \\int \\frac{1}{x^2} \\, \\mathrm{d}x - \\int \\frac{4}{x^3} \\, \\mathrm{d}x = -\\frac{1}{x} + \\frac{2}{x^2} + C_1\n\\]\n\nThe right-hand side integrates to:\n\n\\[\n\\int \\left( \\frac{1}{y^2} - \\frac{3}{y^4} \\right) \\, \\mathrm{d}y = \\int \\frac{1}{y^2} \\, \\mathrm{d}y - \\int \\frac{3}{y^4} \\, \\mathrm{d}y = -\\frac{1}{y} + \\frac{1}{y^3} + C_2\n\\]\n\nSetting the two integrals equal to each other, we get:\n\n\\[\n-\\frac{1}{x} + \\frac{2}{x^2} + C_1 = -\\frac{1}{y} + \\frac{1}{y^3} + C_2\n\\]\n\nWe can combine the constants \\(C_1\\) and \\(C_2\\) into a single constant \\(C\\):\n\n\\[\n-\\frac{1}{x} + \\frac{2}{x^2} = -\\frac{1}{y} + \\frac{1}{y^3} + C\n\\]\n\nRearranging the terms, we obtain the general solution:\n\n\\[\n\\frac{1}{y} - \\frac{1}{y^3} + \\frac{1}{x} - \\frac{2}{x^2} = C\n\\]\n\nThus, the general solution to the differential equation is:\n\n\\[\n\\boxed{\\frac{1}{y} - \\frac{1}{y^3} + \\frac{1}{x} - \\frac{2}{x^2} = C}\n\\]\n\nMy confidence level in this answer is 100%.",
+        "num_new_tokens": 760,
+        "speed": 41.50442019515601,
+        "model": "Qwen",
+        "mark": 50,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732119541",
+        "category": "Mathematics",
+        "sub_category": "Differential Equation Solving",
+        "question_in_Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "question_in_English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C",
+        "occurrence": 2,
+        "model_output": "To solve the differential equation \\((x-4) y^{4} \\mathrm{d}x - x^{3} (y^{2} - 3) \\mathrm{d}y = 0\\), we start by rearranging it to separate the variables \\(x\\) and \\(y\\).\n\nFirst, rewrite the equation as:\n\\[\n(x-4) y^{4} \\mathrm{d}x = x^{3} (y^{2} - 3) \\mathrm{d}y\n\\]\nNext, divide both sides by \\(y^4 (y^2 - 3)\\) and \\(x^3 (x-4)\\):\n\\[\n\\frac{(x-4)}{x^3} \\mathrm{d}x = \\frac{(y^2 - 3)}{y^4} \\mathrm{d}y\n\\]\nThis can be simplified to:\n\\[\n\\frac{x-4}{x^3} \\mathrm{d}x = \\left( \\frac{1}{y^2} - \\frac{3}{y^4} \\right) \\mathrm{d}y\n\\]\nNow, integrate both sides. For the left side, we have:\n\\[\n\\int \\frac{x-4}{x^3} \\mathrm{d}x = \\int \\left( \\frac{1}{x^2} - \\frac{4}{x^3} \\right) \\mathrm{d}x = \\int x^{-2} \\mathrm{d}x - 4 \\int x^{-3} \\mathrm{d}x = -\\frac{1}{x} + \\frac{2}{x^2} + C_1\n\\]\nFor the right side, we have:\n\\[\n\\int \\left( \\frac{1}{y^2} - \\frac{3}{y^4} \\right) \\mathrm{d}y = \\int y^{-2} \\mathrm{d}y - 3 \\int y^{-4} \\mathrm{d}y = -\\frac{1}{y} + \\frac{1}{y^3} + C_2\n\\]\nCombining these results, we get:\n\\[\n-\\frac{1}{x} + \\frac{2}{x^2} = -\\frac{1}{y} + \\frac{1}{y^3} + C\n\\]\nwhere \\(C = C_2 - C_1\\) is the constant of integration. Therefore, the general solution to the differential equation is:\n\\[\n\\boxed{-\\frac{1}{x} + \\frac{2}{x^2} + \\frac{1}{y} - \\frac{1}{y^3} = C}\n\\]\n\nMy confidence level in this answer is \\(100\\%\\), since the steps follow standard methods of solving separable differential equations.",
+        "num_new_tokens": 616,
+        "speed": 41.74741068472658,
+        "model": "Qwen",
+        "mark": 70,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "asus.1732119541",
+        "category": "Mathematics",
+        "sub_category": "Differential Equation Solving",
+        "question_in_Chinese": "计算微分方程的通解$\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "question_in_English": "Calculate the general solution of the differential equation $\\left ( x-4 \\right ) y^{4} \\mathrm{d}x -x^{3} \\left ( y^{2} -3 \\right ) \\mathrm{d}y =0$.",
+        "answer": "-1/x + 1/x^2 + 1/y - 1/y^3=C",
+        "occurrence": 3,
+        "model_output": "To solve the differential equation \\((x-4) y^4 \\, \\mathrm{d}x - x^3 (y^2 -3) \\, \\mathrm{d}y = 0\\), we start by rearranging it into a separable form:\n\n\\[\n(x-4) y^4 \\, \\mathrm{d}x = x^3 (y^2 - 3) \\, \\mathrm{d}y\n\\]\n\nNext, we divide both sides by \\(y^4\\) and \\(x^3\\) to separate the variables \\(x\\) and \\(y\\):\n\n\\[\n\\frac{x-4}{x^3} \\, \\mathrm{d}x = \\frac{y^2 - 3}{y^4} \\, \\mathrm{d}y\n\\]\n\nWe can rewrite the left-hand side and the right-hand side as follows:\n\n\\[\n\\left( \\frac{x}{x^3} - \\frac{4}{x^3} \\right) \\, \\mathrm{d}x = \\left( \\frac{y^2}{y^4} - \\frac{3}{y^4} \\right) \\, \\mathrm{d}y\n\\]\n\nSimplifying the fractions, we get:\n\n\\[\n\\left( \\frac{1}{x^2} - \\frac{4}{x^3} \\right) \\, \\mathrm{d}x = \\left( \\frac{1}{y^2} - \\frac{3}{y^4} \\right) \\, \\mathrm{d}y\n\\]\n\nNow, we integrate both sides with respect to their respective variables:\n\n\\[\n\\int \\left( \\frac{1}{x^2} - \\frac{4}{x^3} \\right) \\, \\mathrm{d}x = \\int \\left( \\frac{1}{y^2} - \\frac{3}{y^4} \\right) \\, \\mathrm{d}y\n\\]\n\nThe integral of \\(\\frac{1}{x^2}\\) is \\(-\\frac{1}{x}\\), the integral of \\(-\\frac{4}{x^3}\\) is \\(\\frac{2}{x^2}\\), the integral of \\(\\frac{1}{y^2}\\) is \\(-\\frac{1}{y}\\), and the integral of \\(-\\frac{3}{y^4}\\) is \\(\\frac{1}{y^3}\\). Therefore, we have:\n\n\\[\n-\\frac{1}{x} + \\frac{2}{x^2} = -\\frac{1}{y} + \\frac{1}{y^3} + C\n\\]\n\nwhere \\(C\\) is the constant of integration. To express the solution in a more compact form, we can rearrange the terms:\n\n\\[\n-\\frac{1}{x} + \\frac{2}{x^2} + \\frac{1}{y} - \\frac{1}{y^3} = C\n\\]\n\nThus, the general solution to the differential equation is:\n\n\\[\n\\boxed{-\\frac{1}{x} + \\frac{2}{x^2} + \\frac{1}{y} - \\frac{1}{y^3} = C}\n\\]\n\n My confidence level in this answer is \\(100\\%\\).",
+        "num_new_tokens": 725,
+        "speed": 41.64043408353304,
+        "model": "Qwen",
+        "mark": 70,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

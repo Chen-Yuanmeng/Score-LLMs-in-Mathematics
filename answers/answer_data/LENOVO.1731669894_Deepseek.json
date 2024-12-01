@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731669894",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$789 \\div  3 \\times 4 = $。",
+        "question_in_English": "Calculate:$789 \\div  3 \\times  4 = $.",
+        "answer": "1052",
+        "occurrence": 1,
+        "model_output": " First, we need to perform the division operation: $789 \\div 3 = 263$.\nNext, we multiply the result by 4: $263 \\times 4 = 1052$.\nSo, $789 \\div 3 \\times 4 = 1052$.\nThe answer is $\\boxed{1052}$.\nConfidence in percentage level: 100%",
+        "num_new_tokens": 97,
+        "speed": 44.67066291409554,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731669894",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$789 \\div  3 \\times 4 = $。",
+        "question_in_English": "Calculate:$789 \\div  3 \\times  4 = $.",
+        "answer": "1052",
+        "occurrence": 2,
+        "model_output": " First, we perform the division: $789 \\div 3 = 263$.\nThen, we multiply: $263 \\times 4 = 1052$.\nTherefore, $789 \\div 3 \\times 4 = \\boxed{1052}$.\nI am confident in my answer of 100% because I followed the correct order of operations and used the correct mathematical operations. The answer is $\\boxed{1052}$.",
+        "num_new_tokens": 106,
+        "speed": 45.040167640806175,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731669894",
+        "category": "Mathematics",
+        "sub_category": "Calculation",
+        "question_in_Chinese": "计算:$789 \\div  3 \\times 4 = $。",
+        "question_in_English": "Calculate:$789 \\div  3 \\times  4 = $.",
+        "answer": "1052",
+        "occurrence": 3,
+        "model_output": " First, we perform the division: $789 \\div 3 = 263$.\nThen, we multiply: $263 \\times 4 = 1052$.\nTherefore, $789 \\div 3 \\times 4 = \\boxed{1052}$.\nI am $\\boxed{100\\%}$ confident in my answer.",
+        "num_new_tokens": 83,
+        "speed": 44.84436795062327,
+        "model": "Deepseek",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "100%",
+        "additional_info": ""
+    }
+]

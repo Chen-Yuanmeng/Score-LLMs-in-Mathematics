@@ -1,0 +1,53 @@
+[
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 1,
+        "model_output": "To find the distribution of the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $, let's break it down step by step.\n\n1. Since $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, we know that $E(X_i) = 0$ and $Var(X_i) = 1$ for $i = 1,2,3,4$.\n\n2. Now, let's consider the random variable $Z = \\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $. We want to find the distribution of $Z$. \n\n3. To do this, let's define $U = X_1-X_2$ and $V = \\sqrt{X_3^2+X_4^2} $. Then, $Z = \\frac{U}{V}$.\n\n4. Next, we need to find the distribution of $U$ and $V$ separately.\n\n   - Since $X_1,X_2$ are independent standard normal random variables, $U$ is also a standard normal random variable. That is, $U \\sim N(0,1)$.\n   \n   - For $V$, we have $Var(V^2) = Var(X_3^2) + Var(X_4^2) + 2*Cov(X_3^2,X_4^2)$, which is equal to $Var(X_3^2) + Var(X_4^2)$ because $X_3,X_4$ are independent.\n   \n   Since $X_3,X_4$ are standard normal, $Var(X_3^2) = E(X_3^4) - [E(X_3^2)]^2$ and $Var(X_4^2) = E(X_4^4) - [E(X_4^2)]^2$. Now, using the fact that $E(X_i) = 0$ and $Var(X_i) = 1$, it follows that $E(X_i^2) = 1$ and $E(X_i^4) = 3$. Thus, $Var(V^2) = 2 + 2 = 4$. Therefore, $Var(V) = 2$.\n   \n   Hence, $V \\sim N(0,2)$, where we need to divide by $\\sqrt{2}$ to get the variance equal to $2$ for $V$, but here we are finding variance of V squared not V itself, however V does follow from 2 parameters Gamma Distribution.\n5. Using the results from the above steps, $Z = \\frac{U}{V}$. Since $U \\sim N(0,1)$ and $V \\sim N(0,2)$, it can be proved that $\\frac{U}{V}$ follows Cauchy Distribution.\n\nTherefore, the distribution of the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ is Cauchy.\n\n**Confidence Level: 95%**\n\nNote: The Cauchy Distribution is a continuous probability distribution with a probability density function that has a single parameter, which is the location parameter. However, in this case, since the variance of $V$ is not equal to 1, it follows from 2 parameters Gamma Distribution which is Chi Square distribution, but to maintain the ratio of the variables with standard normal distribution and the variable that is gamma distributed we use Cauchy Distribution.<|eot_id|>",
+        "num_new_tokens": 772,
+        "speed": 38.73927904203752,
+        "model": "Llama",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 2,
+        "model_output": "To determine the distribution of the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} }$, we will apply several concepts and theorems from probability theory.\n\n1. **Independence**: Since $X_1,X_2,X_3,X_4$ are independent, any linear combination of these random variables will also be independent.\n\n2. **Standard Normal Distribution**: Each of the random variables $X_1,X_2,X_3,X_4$ follows a standard normal distribution, which means that they have a mean of 0 and a standard deviation of 1.\n\n3. **Chi-Square Distribution**: The denominator $\\sqrt{X_3^2+X_4^2}$ follows a chi-square distribution with 2 degrees of freedom (since we have the sum of squares of two independent normal random variables, each with mean 0 and variance 1). However, in this case, due to its non-negative value, its square root is considered.\n\n4. **T-Distribution**: We want to find the distribution of $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} }$. \n\n    To find the distribution of $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} }$, we will consider that the numerator is a standard normal variable, and the denominator is a variable that has the same distribution as the square root of a chi-square variable with 2 degrees of freedom. \n    Hence the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} }$ will follow a Cauchy Distribution.<|eot_id|>",
+        "num_new_tokens": 370,
+        "speed": 39.03669182569624,
+        "model": "Llama",
+        "mark": 0,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    },
+    {
+        "unique_ID": "LENOVO.1731200747",
+        "category": "Mathematics",
+        "sub_category": "Mathematical Statistics",
+        "question_in_Chinese": "设随机变量$X_1,X_2,X_3,X_4$相互独立且均服从标准正态分布,求随机变量$\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $服从什么分布？",
+        "question_in_English": "Given that the random variables $X_1,X_2,X_3,X_4$ are independent of each other and follow a standard normal distribution, what distribution does the random variable $\\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2} } $ follow?",
+        "answer": "t2(自由度为2的t分布)",
+        "occurrence": 3,
+        "model_output": "To find the distribution of the given random variable, we will first apply a transformation to it and use the properties of independent random variables.\n\nLet $Z = \\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}$\n\nWe can write $Z$ in terms of a normal distribution using the properties of linear combinations of normal random variables and the chi-squared distribution.\n\n1. Express $Z$ as a ratio of two independent random variables:\n\nLet $U = X_1 - X_2$ and $V = \\sqrt{X_3^2 + X_4^2}$\n\nSince $X_1,X_2,X_3,X_4$ are independent, $U$ and $V$ are also independent. \n\n2. $U$ follows a normal distribution:\n\nSince $X_1$ and $X_2$ are both normally distributed, their difference $X_1 - X_2$ also follows a normal distribution. The variance of $U$ is given by:\n\n$\\text{Var}(U) = \\text{Var}(X_1 - X_2) = \\text{Var}(X_1) + \\text{Var}(X_2)$\n\nSince $X_1$ and $X_2$ follow a standard normal distribution, their variances are both 1. Therefore, $\\text{Var}(U) = 1 + 1 = 2$.\n\nSince the variance of a standard normal distribution is 1, and the variance of U is 2, U does not follow a standard normal distribution.\n\n3. $V$ follows a chi-squared distribution:\n\n$V$ can be expressed as the square root of a chi-squared distribution with 2 degrees of freedom. We know this because $X_3^2 + X_4^2$ follows a chi-squared distribution with 2 degrees of freedom.\n\nHowever, we should note that $V$ actually follows a chi distribution with 2 degrees of freedom, which is the square root of a chi-squared distribution with 2 degrees of freedom.\n\nNow we can express $Z$ as a ratio of two independent random variables:\n\n$Z = \\frac{U}{V}$\n\n4. Apply a transformation to the ratio $Z$:\n\nWe can use the following transformation to express $Z$ in terms of a standard normal distribution:\n\n$Y = \\frac{Z}{\\sqrt{2}} = \\frac{U}{V \\sqrt{2}}$\n\nWe know that $\\frac{U}{\\sqrt{2}}$ is a standard normal distribution. Therefore, we can write:\n\n$Y = \\frac{U}{V \\sqrt{2}} = \\frac{\\frac{U}{\\sqrt{2}}}{V}$\n\n$Y = \\frac{X}{V}$\n\nSince $\\frac{U}{\\sqrt{2}}$ is a standard normal distribution, and $V$ follows a chi distribution with 2 degrees of freedom, Y follows a t-distribution with 2 degrees of freedom.\n\nTherefore, the distribution of $Z = \\frac{X_1-X_2}{\\sqrt{X_3^2+X_4^2}}$ is the t-distribution with 2 degrees of freedom.\n\nConfidence level: 95%<|eot_id|>",
+        "num_new_tokens": 691,
+        "speed": 38.81733400615939,
+        "model": "Llama",
+        "mark": 100,
+        "need_rerun": false,
+        "confidence_level": "95%",
+        "additional_info": ""
+    }
+]
