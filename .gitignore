@@ -2,7 +2,7 @@
 endpoint/test_endpoint.py
 answers/config.ini
 *.csv
-*.xls*
+answers/*.xls*
 answers/markdown
 
 # Byte-compiled / optimized / DLL files
