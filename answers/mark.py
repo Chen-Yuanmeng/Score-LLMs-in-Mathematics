@@ -50,7 +50,10 @@ def write_information_to_file(parsed_info: dict[str, Any]):
 
 
 def main():
-    markdown_parser("a.md")
+    for i in range(1, 25):
+        filepath = 'markdown/' + str(i) + '.md'
+
+        markdown_parser(filepath)
 
 if __name__ == '__main__':
     main()
