@@ -103,3 +103,22 @@ Instance {self.occurrence}
         :return: `Answer` object
         """
         return cls(**dct)
+
+    def to_csv(self) -> list[Any]:
+        return [
+            self.unique_ID,
+            self.category,
+            self.sub_category,
+            self.question_in_Chinese,
+            self.question_in_English,
+            self.answer,
+            self.occurrence,
+            self.model_output,
+            self.num_new_tokens,
+            self.speed,
+            self.model,
+            self.mark,
+            self.need_rerun,
+            self.confidence_level,
+            self.additional_info
+        ]
