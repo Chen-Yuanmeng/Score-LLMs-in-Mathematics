@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 class EndpointHandler:
     """
-    Custom handler for `Qwen/Qwen2.5-Math-7B-Instruct`.
+    Custom handler for `mistralai/Mathstral-7B-v0.1`.
     """
     def __init__(self, path=""):
         """
