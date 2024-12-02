@@ -4,6 +4,10 @@ This repo is for the thesis "A Comparative Analysis of Large Language Models’ 
 
 This thesis is the group project for **College English IV** at UCAS (中国科学院大学, University of Chinese Academy of Sciences).
 
+## Quick Guide
+
+If you just need the original data from our paper, please download [original_data.xlsx](./original_data.xlsx). All original data has been included in it.
+
 ## Guidance for duplicating the project
 
 Follow the procedure in the `Methods` section in the thesis. All files needed have been included in the section.
