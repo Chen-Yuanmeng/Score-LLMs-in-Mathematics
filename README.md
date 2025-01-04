@@ -1,6 +1,6 @@
 # Repository for Thesis
 
-This repo is for the thesis "A Comparative Analysis of Large Language Models’ Performances in Mathematical Problem-Solving".
+This repo is for the thesis ["A Comparative Analysis of Large Language Models’ Performances in Mathematical Problem-Solving"](https://github.com/Chen-Yuanmeng/Score-LLMs-in-Mathematics/releases/tag/thesis).
 
 This thesis is the group project for **College English IV** at UCAS (中国科学院大学, University of Chinese Academy of Sciences).
 
